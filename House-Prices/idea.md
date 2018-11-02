@@ -33,6 +33,19 @@
 
 ## 第三版
 0. [学习曲线分析](https://blog.csdn.net/aliceyangxi1987/article/details/73598857)。
+	
+	当训练集和测试集的误差收敛但却很高时，为高偏差。 
+	左上角的偏差很高，训练集和验证集的准确率都很低，很可能是欠拟合。 
+	我们可以增加模型参数，比如，构建更多的特征，减小正则项。 
+	此时通过增加数据量是不起作用的。
+
+	当训练集和测试集的误差之间有大的差距时，为高方差。 
+	当训练集的准确率比其他独立数据集上的测试结果的准确率要高时，一般都是过拟合。 
+	右上角方差很高，训练集和验证集的准确率相差太多，应该是过拟合。 
+	我们可以增大训练集，降低模型复杂度，增大正则项，或者通过特征选择减少特征数。
+
+	理想情况是找到偏差和方差都很小的情况，即收敛且误差较小。
+
 1. 处理过拟合问题：关注PCA、数值cut处理、[feature selection](https://www.cnblogs.com/stevenlk/p/6543628.html#%E7%A7%BB%E9%99%A4%E4%BD%8E%E6%96%B9%E5%B7%AE%E7%9A%84%E7%89%B9%E5%BE%81-removing-features-with-low-variance)。
 
 feature selection:
@@ -41,3 +54,14 @@ feature selection:
 3. 递归特征消除 (Recursive Feature Elimination):类似PCA，指定一个所需的特征数，算法会尝试所有的特征组合来找到最小error的组合。
 4. 使用SelectFromModel选择特征 (Feature selection using SelectFromModel)。
 5. 将特征选择过程融入pipeline (Feature selection as part of a pipeline)。
+
+## 第三版实施
+0. 绘制学习曲线（针对各个算法），目测应该都是过拟合。
+1. PCA前做特征选择。
+	1. 过滤偏斜特征（针对所有枚举型特征）。
+	2. 回归问题的过滤可以选相关系数，但是我们特征中很多都不是线性关系，那么就不能选择相关系数了。
+	3. 递归特征消除，设置算法过滤特征。
+2. PCA。
+3. 绘制学习曲线观察效果。
+4. 重复1,2,3。
+5. 将确定的特征选择融入pipeline。
