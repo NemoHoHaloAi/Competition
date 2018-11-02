@@ -25,3 +25,19 @@
 3. 参考kernel可视化统计数据（例如：计算特征相关系数并绘制热图）。
 4. PCA。
 5. 绘制PCA后的热图。
+
+## 第二版实施
+1. 暂时没有做cut处理（不过目前过拟合，所以可能还是需要的）。
+2. PCA后结果过于立项，可能有问题。
+3. 目前过拟合严重。
+
+## 第三版
+0. [学习曲线分析](https://blog.csdn.net/aliceyangxi1987/article/details/73598857)。
+1. 处理过拟合问题：关注PCA、数值cut处理、[feature selection](https://www.cnblogs.com/stevenlk/p/6543628.html#%E7%A7%BB%E9%99%A4%E4%BD%8E%E6%96%B9%E5%B7%AE%E7%9A%84%E7%89%B9%E5%BE%81-removing-features-with-low-variance)。
+
+feature selection:
+1. 移除低方差的特征 (Removing features with low variance):说白了就是特征的取值偏斜很大时，取消该特征，比如90%都是a，只有10%是b的情况。
+2. 单变量特征选择 (Univariate feature selection):计算单变量的相关性，分类问题（卡方检验，f_classif, mutual_info_classif，互信息），回归问题（皮尔森相关系数，f_regression, mutual_info_regression，最大信息系数）。
+3. 递归特征消除 (Recursive Feature Elimination):类似PCA，指定一个所需的特征数，算法会尝试所有的特征组合来找到最小error的组合。
+4. 使用SelectFromModel选择特征 (Feature selection using SelectFromModel)。
+5. 5. 将特征选择过程融入pipeline (Feature selection as part of a pipeline)。
