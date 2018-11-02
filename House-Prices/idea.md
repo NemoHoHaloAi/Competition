@@ -64,4 +64,4 @@ feature selection:
 2. PCA。
 3. 绘制学习曲线观察效果。
 4. 重复1,2,3。
-5. 将确定的特征选择融入pipeline。
+5. 将确定的特征选择使用pipeline实现。
