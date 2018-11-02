@@ -40,4 +40,4 @@ feature selection:
 2. 单变量特征选择 (Univariate feature selection):计算单变量的相关性，分类问题（卡方检验，f_classif, mutual_info_classif，互信息），回归问题（皮尔森相关系数，f_regression, mutual_info_regression，最大信息系数）。
 3. 递归特征消除 (Recursive Feature Elimination):类似PCA，指定一个所需的特征数，算法会尝试所有的特征组合来找到最小error的组合。
 4. 使用SelectFromModel选择特征 (Feature selection using SelectFromModel)。
-5. 5. 将特征选择过程融入pipeline (Feature selection as part of a pipeline)。
+5. 将特征选择过程融入pipeline (Feature selection as part of a pipeline)。
