@@ -59,7 +59,7 @@ feature selection:
 0. 绘制学习曲线（针对各个算法），目测应该都是过拟合。
 1. PCA前做特征选择。
 	1. 过滤偏斜特征（针对所有枚举型特征）。
-	2. 回归问题的过滤可以选相关系数。
+	2. 回归问题的过滤可以选[相关系数](http://scikit-learn.org/stable/auto_examples/feature_selection/plot_f_test_vs_mi.html#sphx-glr-auto-examples-feature-selection-plot-f-test-vs-mi-py)。
 		1. 我们特征中很多都不是线性关系（非数值、非意义枚举型），那么就不能选择相关系数了，可以选择距离相关系数 (Distance Correlation)或者基于模型的特征排序 (Model based ranking)。
 		2. 而数值、意义枚举型依然可以通过相关系数来计算。
 	3. 递归特征消除，设置算法过滤特征。
