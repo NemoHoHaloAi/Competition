@@ -55,6 +55,8 @@ feature selection:
 4. 使用SelectFromModel选择特征 (Feature selection using SelectFromModel)。
 5. 将特征选择过程融入pipeline (Feature selection as part of a pipeline)。
 
+> 最适合的解决办法是，通过过滤法筛选出一批有潜力的特征，再通过封装法精选特征，从而构建一个预测效果良好的机器学习模型。
+
 ## 第三版实施
 0. 绘制学习曲线（针对各个算法），目测应该都是过拟合。
 1. PCA前做特征选择。
