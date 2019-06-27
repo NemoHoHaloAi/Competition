@@ -131,6 +131,7 @@ Here's a brief version of what you'll find in the data description file.
 3. 去掉了YearBuilt、YrSold、MoSold字段。
 4. 是否有其他年份等字段没有去除。
 
+## V1结果
 
 ## V2
 1. 观察是否还存在时间戳字段，一律改为时长字段。
@@ -143,6 +144,8 @@ Here's a brief version of what you'll find in the data description file.
 1. 暂时没有做cut处理（不过目前过拟合，所以可能还是需要的）。
 2. PCA后结果过于理想，说明存在过拟合问题可能。
 3. 目前过拟合严重。
+
+## V2结果
 
 ## V3
 0. [学习曲线分析](https://blog.csdn.net/aliceyangxi1987/article/details/73598857)。
@@ -184,3 +187,5 @@ feature selection:
 6. 将确定的特征选择使用[pipeline](https://www.jianshu.com/p/9c2c8c8ef42d)实现。
 
 > 最适合的[解决办法](https://www.jianshu.com/p/f485dc676e1c)是，通过过滤法筛选出一批有潜力的特征，再通过封装法精选特征，从而构建一个预测效果良好的机器学习模型。
+
+## V3结果
