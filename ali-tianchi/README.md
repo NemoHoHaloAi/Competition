@@ -4,4 +4,4 @@
 [大数据竞赛](https://tianchi.aliyun.com/competition/gameList/coupleList)
 
 ## 分享
-http://www.sohu.com/a/208181966_609569
+[7进前10](http://www.sohu.com/a/208181966_609569)
