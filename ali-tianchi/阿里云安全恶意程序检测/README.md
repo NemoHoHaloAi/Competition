@@ -90,15 +90,13 @@ index | string | 线程中API调用的顺序编号
 		1. 过抽样；
 		2. 划分数据集；
 	- 修复：
-		1. 划分数据集；
-		2. 对训练集进行过抽样；
-		3. 对测试集预测前将模型使用训练集+验证集训练；
+		1. 去除过抽样；
 - 增加logloss评价指标；
 - 预演用户商品推荐项目；
 
-### 恶意程序深度特征挖掘
+### 20190704-恶意程序深度特征挖掘
 
-特征二维组合：
+特征的二维组合：
 
 Feature|Feature_Name|DESC|
 -|-|-
@@ -107,9 +105,29 @@ File_id+Api(index)|identification,min,max,median,std|每个index对应的file+ap
 File_id+Index(api)|count,idendification|File+Index组合的数量以及其类别个数
 File_id+Index(tid)|identification,min,max,median,std|每个tid对应的file+index类别个数、最小最大值、中值、标准差
 
-特征三维组合：
+特征的三维组合：
 
 Feature|Feature_Name|DESC|
 -|-|-
 File_id+Api+Tid(index)|identification,min,max,median,std|每个tid对应的file+api+tid的类别个数、最小最大值、中值、标准差
 File_id+Tid+Api(index)|identification,min,max,median,std|每个tid对应的file+api+api的类别个数、最小最大值、中值、标准差
+
+参考代码：
+
+	def feature_combination(data_merge, data_orig, combination_feature, col1=None, col2=None, opts=None):
+	    for opt in opts:
+		# print(opt)
+		train_split = data_orig.groupby(['file_id', col1])[col2].agg(
+		    {'fileid_' + col1 + '_' + col2 + '_' + str(opt): opt}).reset_index()
+
+		train_split_ = pd.pivot_table(train_split, values='fileid_' + col1 + '_' + col2 + '_' + str(opt),
+					      index=['file_id'], columns=[col1])
+		new_cols = ['fileid_' + col1 + '_' + col2 + '_' + opt + '_' + str(col) for col in train_split_.columns]
+
+		combination_feature.append(new_cols)
+		train_split_.columns = new_cols
+
+		train_split_.reset_index(inplace=True)
+
+		data_merge = pd.merge(data_merge, train_split_, how='left', on='file_id')
+	    return data_merge, combination_feature
