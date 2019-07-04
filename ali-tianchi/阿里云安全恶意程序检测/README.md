@@ -84,14 +84,32 @@ index | string | 线程中API调用的顺序编号
 - 基于TF-IDF方法：开启；
 
 ## 工作安排
-- 20190702:
-	- 修复过抽样导致的过拟合问题：
-		- 原来的操作：
-			1. 过抽样；
-			2. 划分数据集；
-		- 修复：
-			1. 划分数据集；
-			2. 对训练集进行过抽样；
-			3. 对测试集预测前将模型使用训练集+验证集训练；
-	- 增加logloss评价指标；
-	- 预演用户商品推荐项目；
+### 20190702:
+- 修复过抽样导致的过拟合问题：
+	- 原来的操作：
+		1. 过抽样；
+		2. 划分数据集；
+	- 修复：
+		1. 划分数据集；
+		2. 对训练集进行过抽样；
+		3. 对测试集预测前将模型使用训练集+验证集训练；
+- 增加logloss评价指标；
+- 预演用户商品推荐项目；
+
+### 恶意程序深度特征挖掘
+
+特征二维组合：
+
+Feature|Feature_Name|DESC|
+-|-|-
+File_id+Api(tid)|count,identification|File+Api组合的数量以及其类别个数
+File_id+Api(index)|identification,min,max,median,std|每个index对应的file+api类别个数、最小最大值、中值、标准差
+File_id+Index(api)|count,idendification|File+Index组合的数量以及其类别个数
+File_id+Index(tid)|identification,min,max,median,std|每个tid对应的file+index类别个数、最小最大值、中值、标准差
+
+特征三维组合：
+
+Feature|Feature_Name|DESC|
+-|-|-
+File_id+Api+Tid(index)|identification,min,max,median,std|每个tid对应的file+api+tid的类别个数、最小最大值、中值、标准差
+File_id+Tid+Api(index)|identification,min,max,median,std|每个tid对应的file+api+api的类别个数、最小最大值、中值、标准差
