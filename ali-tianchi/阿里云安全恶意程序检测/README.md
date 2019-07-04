@@ -114,20 +114,22 @@ File_id+Tid+Api(index)|identification,min,max,median,std|每个tid对应的file+
 
 参考代码：
 
+	# agg:https://blog.csdn.net/u012706792/article/details/80892510
+	# col1:Api,col2:Tid/col1:Tid,col2:Api
 	def feature_combination(data_merge, data_orig, combination_feature, col1=None, col2=None, opts=None):
+	    # opts:count,min,max,median,std
 	    for opt in opts:
-		# print(opt)
+		print(opt)
+		# 根据file_id+Api分组，针对Tid进行聚合运算
 		train_split = data_orig.groupby(['file_id', col1])[col2].agg(
 		    {'fileid_' + col1 + '_' + col2 + '_' + str(opt): opt}).reset_index()
-
+		# 重塑DataFrame
 		train_split_ = pd.pivot_table(train_split, values='fileid_' + col1 + '_' + col2 + '_' + str(opt),
 					      index=['file_id'], columns=[col1])
 		new_cols = ['fileid_' + col1 + '_' + col2 + '_' + opt + '_' + str(col) for col in train_split_.columns]
-
 		combination_feature.append(new_cols)
 		train_split_.columns = new_cols
-
 		train_split_.reset_index(inplace=True)
-
+		# 合并数据到一个空DataFrame中
 		data_merge = pd.merge(data_merge, train_split_, how='left', on='file_id')
 	    return data_merge, combination_feature
