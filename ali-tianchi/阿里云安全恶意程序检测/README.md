@@ -110,7 +110,7 @@ File_id+Index(tid)|identification,min,max,median,std|每个tid对应的file+inde
 Feature|Feature_Name|DESC|
 -|-|-
 File_id+Api+Tid(index)|identification,min,max,median,std|每个tid对应的file+api+tid的类别个数、最小最大值、中值、标准差
-File_id+Tid+Api(index)|identification,min,max,median,std|每个tid对应的file+api+api的类别个数、最小最大值、中值、标准差
+File_id+Tid+Api(index)|identification,min,max,median,std|每个api对应的file+tid+api的类别个数、最小最大值、中值、标准差
 
 参考代码：
 
