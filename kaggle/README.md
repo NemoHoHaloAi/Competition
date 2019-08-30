@@ -2,6 +2,10 @@
 
 整理5个Kaggle项目，进行总结归纳，尤其是数据分析、特征工程、工作流框架设计等部分；
 
+[AI研习社的kaggle相关文章](https://ai.yanxishe.com/page/search)
+[研习社文章](https://ai.yanxishe.com/page/blogDetail/7702)
+[冠军分享](https://ai.yanxishe.com/page/blogDetail/7716)
+
 ## 享受 Kaggle 的小诀窍
 
 ### 诀窍 1：设置循序渐进的目标
