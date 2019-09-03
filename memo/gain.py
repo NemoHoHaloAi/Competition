@@ -127,28 +127,15 @@ for col in hp.columns:
     if hp[col].dtype == 'object':
         hp[col] = le.fit_transform(hp[col])
 
-print 'Pearson:'
-print hp.corrwith(hp['MSZoning'])#,method='pearson')
-print ''
-
-print 'Gain&Ratio:'
-dict_ = {}
-for col in hp.columns:
-    print 'MSZoing&'+col+':',gain(hp['MSZoning'],hp[col]),gain_ratio(hp['MSZoning'],hp[col])
-    dict_['MSZoing&'+col] = (gain(hp['MSZoning'],hp[col]),gain_ratio(hp['MSZoning'],hp[col]))
-print ''
-
-res = sorted(dict_.items(),key=lambda v:v[1][1],reverse=True)[:5]
-for r in res:
-    print r
-print '结论：与MSZoning（社区类型）相关性最强的是Alley（物业通道类型）；'
-
-for msz in hp['MSZoning'].unique():
-    print 'MSZoning&Alley',msz
-    print hp[hp['MSZoning']==msz]['Alley'].value_counts()
-    print ''
-
-for msz in hp['MSZoning'].unique():
-    print 'MSZoning&Neighborhood',msz
-    print hp[hp['MSZoning']==msz]['Neighborhood'].value_counts()
+print 'GainRatio:'
+for target in ['MSZoning','MasVnrArea','MasVnrType','LotFrontage']:
+    dict_ = {}
+    for col in hp.columns:
+        if col == target:
+            continue
+        dict_[col] = (gain(hp[target],hp[col]),gain_ratio(hp[target],hp[col]))
+    
+    res = sorted(dict_.items(),key=lambda v:v[1][1],reverse=True)[:3]
+    print '\t'+target
+    print '\t\t'+str(res)
     print ''
