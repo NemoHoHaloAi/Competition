@@ -141,3 +141,14 @@ print ''
 res = sorted(dict_.items(),key=lambda v:v[1][1],reverse=True)[:5]
 for r in res:
     print r
+print '结论：与MSZoning（社区类型）相关性最强的是Alley（物业通道类型）；'
+
+for msz in hp['MSZoning'].unique():
+    print 'MSZoning&Alley',msz
+    print hp[hp['MSZoning']==msz]['Alley'].value_counts()
+    print ''
+
+for msz in hp['MSZoning'].unique():
+    print 'MSZoning&Neighborhood',msz
+    print hp[hp['MSZoning']==msz]['Neighborhood'].value_counts()
+    print ''
