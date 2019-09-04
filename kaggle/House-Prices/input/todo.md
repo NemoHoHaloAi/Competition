@@ -14,6 +14,7 @@
 
 - [seaborn用法](http://seaborn.pydata.org/examples/index.html)
 - [seaborn多维度分析](https://www.jianshu.com/p/3ae90f227034)
+- [seaborn讲解](https://www.jianshu.com/p/95d02007bff5)
 - 当目标字段为连续值时，如何进行连续特征和离散特征的可视化；
 	- 散点图可视化连续值&连续值，同时可以在其中增加点的颜色表示另一个离散维度，比如销售价格和地下室总面积，颜色表示是否有泳池；
 - 对于离散特征的LabelEncode操作，半有序的特征的LabelEncode是否手动指定映射关系为好；
