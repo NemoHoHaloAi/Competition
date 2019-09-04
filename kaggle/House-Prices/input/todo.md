@@ -12,7 +12,6 @@
     
 ## [可视化](https://github.com/NemoHoHaloAi/something_I_should_remember/blob/master/memo/iiam/iv/da_ml/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/README.md)
 
-- 对于有序、半有序的离散化，手动指定离散化后的映射关系；
 - [seaborn用法](http://seaborn.pydata.org/examples/index.html)
 - [seaborn多维度分析](https://www.jianshu.com/p/3ae90f227034)
 - [seaborn讲解](https://www.jianshu.com/p/95d02007bff5)
@@ -26,4 +25,5 @@
 - 可视化需要得到什么样的结果算是完成；
 
 ## 处理
+- label encode（- 对于有序、半有序的离散化，手动指定离散化后的映射关系）, one-hot；
 - 标准化、归一化；
