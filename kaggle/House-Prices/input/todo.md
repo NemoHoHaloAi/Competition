@@ -41,6 +41,18 @@
 - 目前在可视化特征构建部分遇到一些困难，如何进行好的可视化来指导后续的特征工程：拆分组合、丢弃、离散化等等；
 - 考虑：第一版先不考虑太多，争取尽快提交，以结果为导向，继续优化；
 
+## 0909
+分类数据有两大类——定序（Ordinal）和定类（Nominal），定序分类的属性值则存在着一定的顺序意义或概念，比如衣服的按大小号分类，在任意定类分类数据属性中，这些属性值之间没有顺序的概念：
+- 定序分类熟悉之间存在着先后顺序。一般来说，没有通用的模块或者函数可以根据这些顺序自动将这些特征转换和映射到数值表示，可以使用自定义的编码\映射方案；
+- 定类属性转换成更具代表性的数值格式，即OneHot编码；
+
+- 考虑离散特征如何处理：
+	- 目前：
+		1. 特征对应目标均值；
+		2. 组合两个特征构建新特征；
+	- 后续：
+		1. 仍需处理的特征：['MSSubClass', 'MSZoning', 'LotShape', 'Street', 'Alley', 'LandContour', 'LandSlope', 'Utilities', 'LotConfig', 'Neighborhood', 'Condition1', 'Condition2', 'BldgType', 'HouseStyle', 'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'RoofStyle', 'RoofMatl', 'Exterior1st', 'Exterior2nd', 'MasVnrType', 'ExterQual', 'ExterCond', 'Foundation', 'BsmtQual', 'BsmtCond', 'BsmtExposure', 'BsmtFinType1', 'BsmtFinType2', 'Heating', 'CentralAir', 'Electrical', 'KitchenQual', 'Functional', 'FireplaceQu', 'GarageType', 'GarageYrBlt', 'GarageFinish', 'GarageQual', 'GarageCond', 'PavedDrive', 'PoolQC', 'Fence', 'MiscFeature', 'MoSold', 'YrSold', 'SaleType', 'SaleCondition']
+
 ## 后续
 ### 处理
 - label encode（- 对于有序、半有序的离散化，手动指定离散化后的映射关系）, one-hot；
