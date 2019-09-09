@@ -28,6 +28,15 @@
 - 可视化的目的、结果需求是什么？
 - 怎么进行后续的可视化来达到我们的需求，产出我们需要的结果？
 
+## 0906
+- 可视化过程需要考虑的四个问题：
+	1. What data do u have?
+	2. What do u want to know about data?
+	3. Which visulazation method should be use?
+	4. What do u see and is it mean something or not?
+
+> 「先总览，再缩放并筛选，然后按需寻找细节」
+
 ## 后续
 ### 处理
 - label encode（- 对于有序、半有序的离散化，手动指定离散化后的映射关系）, one-hot；
