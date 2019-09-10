@@ -14,7 +14,7 @@
 
 原因总结：重要、有难度、目前没有很好的学习路径，即时间和理论严重割裂；
 
-## 特征工程方式方法、流程框架
+## sklearn 特征工程方式方法、流程框架
 
 - [sklearn做单机特征工程](https://www.cnblogs.com/jasonfreak/p/5448385.html)
 - [sklearn优雅的做数据挖掘](https://www.cnblogs.com/jasonfreak/p/5448462.html)
