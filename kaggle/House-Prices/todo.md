@@ -55,16 +55,46 @@
 	- 后续：
 		1. 仍需处理的特征：['MSSubClass', 'MSZoning', 'LotShape', 'Street', 'Alley', 'LandContour', 'LandSlope', 'Utilities', 'LotConfig', 'Neighborhood', 'Condition1', 'Condition2', 'BldgType', 'HouseStyle', 'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'RoofStyle', 'RoofMatl', 'Exterior1st', 'Exterior2nd', 'MasVnrType', 'ExterQual', 'ExterCond', 'Foundation', 'BsmtQual', 'BsmtCond', 'BsmtExposure', 'BsmtFinType1', 'BsmtFinType2', 'Heating', 'CentralAir', 'Electrical', 'KitchenQual', 'Functional', 'FireplaceQu', 'GarageType', 'GarageYrBlt', 'GarageFinish', 'GarageQual', 'GarageCond', 'PavedDrive', 'PoolQC', 'Fence', 'MiscFeature', 'MoSold', 'YrSold', 'SaleType', 'SaleCondition']
 
-## 后续
-### 处理
-- label encode（- 对于有序、半有序的离散化，手动指定离散化后的映射关系）, one-hot；
-- 标准化、归一化；
+## 0913 - all in Sklearn
 
-### 其他
-- 函数式编程+pipe：
-	- https://www.jianshu.com/p/6bcb0f11cc1d
-	- 函数式编程：所有对与dataframe的操作都抽象为函数，尤其是特征预处理、特征工程部分；
-	- 利用pipe进行链式编程，增强可读性；
+1. Data Loading(Check):
+2. Data Info showing(Check):
+3. Data Preprocessing(Check):
+    - StandardScaler  无量纲化    标准化，基于特征矩阵的列，将特征值转换至服从标准正态分布
+    - MinMaxScaler    无量纲化    区间缩放，基于最大最小值，将特征值转换到[0, 1]区间上
+    - Normalizer    归一化      基于特征矩阵的行，将样本向量转换为“单位向量”
+    - Binarizer    二值化      基于给定阈值，将定量特征按阈值划分
+    - OneHotEncoder    哑编码      将定性数据编码为定量数据
+    - Imputer    缺失值计算    计算缺失值，缺失值可填充为均值等
+    - PolynomialFeatures  多项式数据转换    多项式数据转换
+    - FunctionTransformer  自定义单元数据转换  使用单变元的函数来转换数据
+4. Feature Selection(None):
+    1. 2 side:
+        - 特征是否发散：如果一个特征不发散，例如方差接近于0，也就是说样本在这个特征上基本上没有差异，这个特征对于样本的区分并没有什么用。
+        - 特征与目标的相关性：这点比较显见，与目标相关性高的特征，应当优选选择。除方差法外，本文介绍的其他方法均从相关性考虑。
+    2. 3 method:
+        - Filter：过滤法，按照发散性或者相关性对各个特征进行评分，设定阈值或者待选择阈值的个数，选择特征。
+        - Wrapper：包装法，根据目标函数（通常是预测效果评分），每次选择若干特征，或者排除若干特征。
+        - Embedded：嵌入法，先使用某些机器学习的算法和模型进行训练，得到各个特征的权值系数，根据系数从大到小选择特征。类似于Filter方法，但是是通过训练来确定特征的优劣。
+5. Dimension Reduction(None):
+    - PCA
+    - LDA
+6. ML Model(Check):
+    - Random Forest
+7. Correction Factor(None):
+    - Just One
+8. Build Result File and Upload(Check):
+
+## 0914 - opt
+
+1. 修改损失函数：rmse、cv_rmse；
+2. 处理异常数据点、方差过滤；
+3. 多模型测试、模型融合、校正系数；
+4. 偏斜处理-测试；
+5. 构建新特征-测试；
+6. 优化可视化部分：与目标对比、分布情况；
+7. 优化整体流程：并行流程化；
+8. 完；
 
 ## 版本特征工程记录
 1. v0.1：
