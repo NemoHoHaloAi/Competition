@@ -6,6 +6,12 @@
 [研习社文章](https://ai.yanxishe.com/page/blogDetail/7702)
 [冠军分享](https://ai.yanxishe.com/page/blogDetail/7716)
 
+一个项目流程：
+1. 完成Kaggle项目；
+2. 分享至Kaggle Kernel；
+3. 更新Github简介、对应项目目录名；
+4. 更新至博客；
+
 ## 享受 Kaggle 的小诀窍
 
 ### 诀窍 1：设置循序渐进的目标
