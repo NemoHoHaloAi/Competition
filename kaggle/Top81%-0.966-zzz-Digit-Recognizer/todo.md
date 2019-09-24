@@ -14,3 +14,4 @@
 6. 流程性
 	1. pipeline流程化
 	2. featureunion并行化
+	3. 具体参考memo中的相关部分
