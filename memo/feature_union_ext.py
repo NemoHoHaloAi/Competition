@@ -5,8 +5,14 @@ from sklearn.externals.joblib import Parallel, delayed
 from scipy import sparse
 import numpy as np
 
+import warnings
+warnings.filterwarnings("ignore")
+
 #部分并行处理，继承FeatureUnion
 class FeatureUnionExt(FeatureUnion):
+    '''
+    目前对与X的处理修改为了仅支持DataFrame，后续分别支持pandas和numpy两种类型数据
+    '''
     #相比FeatureUnion，多了idx_list参数，其表示每个并行工作需要读取的特征矩阵的列
     def __init__(self, transformer_list, idx_list, n_jobs=1, transformer_weights=None):
         self.idx_list = idx_list
@@ -17,7 +23,7 @@ class FeatureUnionExt(FeatureUnion):
         transformer_idx_list = map(lambda trans, idx:(trans[0], trans[1], idx), self.transformer_list, self.idx_list)
         transformers = Parallel(n_jobs=self.n_jobs)(
             #从特征矩阵中提取部分输入fit方法
-            delayed(_fit_one_transformer)(trans, X[:,idx], y)
+            delayed(_fit_one_transformer)(trans, X.ix[:,idx], y)
             for name, trans, idx in transformer_idx_list)
         self._update_transformer_list(transformers)
         return self
@@ -25,11 +31,9 @@ class FeatureUnionExt(FeatureUnion):
     #由于只部分读取特征矩阵，方法fit_transform需要重构
     def fit_transform(self, X, y=None, **fit_params):
         transformer_idx_list = map(lambda trans, idx:(trans[0], trans[1], idx), self.transformer_list, self.idx_list)
-        result = Parallel(n_jobs=self.n_jobs)(
-            #从特征矩阵中提取部分输入fit_transform方法
-            delayed(_fit_transform_one)(trans, name, X[:,idx], y,
-                                        self.transformer_weights, **fit_params)
-            for name, trans, idx in transformer_idx_list)
+
+        #并行执行从特征矩阵中提取部分输入fit_transform方法
+        result = Parallel(n_jobs=self.n_jobs)(delayed(_fit_transform_one)(trans, self.transformer_weights, X.ix[:, idx], y, **fit_params)for name, trans, idx in transformer_idx_list)
 
         Xs, transformers = zip(*result)
         self._update_transformer_list(transformers)
@@ -44,7 +48,7 @@ class FeatureUnionExt(FeatureUnion):
         transformer_idx_list = map(lambda trans, idx:(trans[0], trans[1], idx), self.transformer_list, self.idx_list)
         Xs = Parallel(n_jobs=self.n_jobs)(
             #从特征矩阵中提取部分输入transform方法
-            delayed(_transform_one)(trans, name, X[:,idx], self.transformer_weights)
+            delayed(_transform_one)(trans, self.transformer_weights, X.ix[:,idx])
             for name, trans, idx in transformer_idx_list)
         if any(sparse.issparse(f) for f in Xs):
             Xs = sparse.hstack(Xs).tocsr()
