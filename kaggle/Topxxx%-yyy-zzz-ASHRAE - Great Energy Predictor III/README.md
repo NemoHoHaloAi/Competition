@@ -1,5 +1,7 @@
 # README
 
+https://www.kaggle.com/c/ashrae-energy-prediction/data
+
 ## DESC
 
 - 项目简单描述：通过对各种能源（冷水、电、天然气、热水和蒸汽表）消耗的预测达到节约能源的目的（未采取措施 vs 采取措施），数据来源于1000栋建筑3年的数据；
@@ -14,7 +16,7 @@
 
 - train.csv:
   - building_id：建筑表的外键；
-  - meter：资源代码{0: electricity, 1: chilledwater, 2: steam, hotwater: 3}，PS：不是所有建筑都有所有资源消耗的数据；
+  - meter：资源代码{0: electricity, 1: chilledwater, 2: steam, 3: hotwater}，PS：不是所有建筑都有所有资源消耗的数据；
   - timestamp：读数时间；
   - meter_reading - 千瓦时的真实读数，注意这个是带有误差的真实数据；
   - test.csv：多一个row_id，少meter_reading；
@@ -37,13 +39,14 @@
   - wind_speed - 风速，米每秒；
   - 间隔是1小时；
 
-注意：
-- 预测的是仪表读数，这个是累积的；
-- weather信息颗粒度是低于building信息的，比如site_id为0，对应接近100个building_id，可以理解为某一个区域的天气信息，而不是针对某栋楼，因此风向等也是重要信息；
-- 数据存在一定的缺失、误差；
-
 文件描述：
 - weather.csv:各个site每小时的天气信息，7M；
 - building.csv:每个建筑的元信息, 40+K；
 - train.csv:每个建筑每小时的读数信息，600+M；
 - 测试文件大于训练文件；
+
+注意：
+- 预测的是仪表读数，这个是累积的；
+- weather信息颗粒度是低于building信息的，比如site_id为0，对应接近100个building_id，可以理解为某一个区域的天气信息，而不是针对某栋楼，因此风向等也是重要信息；
+- 数据存在一定的缺失、误差；
+- 预测能源类型与各个特征字段应该是有不同含义的，比如温度可能主要影响用电、建筑类型影响用水等，这里是否要区分来建模预测呢？
