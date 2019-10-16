@@ -1,0 +1,1450 @@
+site_id,building_id,primary_use,square_feet,year_built,floor_count
+0,0,Education,7432,2008,
+0,1,Education,2720,2004,
+0,2,Education,5376,1991,
+0,3,Education,23685,2002,
+0,4,Education,116607,1975,
+0,5,Education,8000,2000,
+0,6,Lodging/residential,27926,1981,
+0,7,Education,121074,1989,
+0,8,Education,60809,2003,
+0,9,Office,27000,2010,
+0,10,Entertainment/public assembly,370773,1991,
+0,11,Education,49073,1968,
+0,12,Lodging/residential,37100,1999,
+0,13,Education,99380,2000,
+0,14,Education,86250,2013,
+0,15,Office,83957,1974,
+0,16,Education,54644,1996,
+0,17,Office,15250,1980,
+0,18,Education,111891,1996,
+0,19,Office,18717,2004,
+0,20,Education,110272,1977,
+0,21,Office,7043,1990,
+0,22,Education,3569,1996,
+0,23,Education,130885,1985,
+0,24,Education,105545,2001,
+0,25,Office,103286,1969,
+0,26,Office,26953,2005,
+0,27,Lodging/residential,59200,1999,
+0,28,Office,52957,2016,
+0,29,Education,113866,2006,
+0,30,Education,93897,1999,
+0,31,Education,61904,2001,
+0,32,Office,48392,2005,
+0,33,Lodging/residential,38686,2002,
+0,34,Lodging/residential,42731,2002,
+0,35,Lodging/residential,41617,2002,
+0,36,Lodging/residential,53130,2002,
+0,37,Lodging/residential,53130,2002,
+0,38,Office,12769,2013,
+0,39,Office,64619,1969,
+0,40,Entertainment/public assembly,26944,2001,
+0,41,Office,93860,1968,
+0,42,Other,226506,1968,
+0,43,Retail,59071,1980,
+0,44,Retail, 283,1985,
+0,45,Retail,15304,2016,
+0,46,Retail,9045,2016,
+0,47,Retail,31666,2008,
+0,48,Other,9569,1989,
+0,49,Lodging/residential,24456,1968,
+0,50,Other,4698,1981,
+0,51,Parking,387638,2014,
+0,52,Education,106523,1970,
+0,53,Office,87742,1971,
+0,54,Education,7867,2011,
+0,55,Office,16726,2011,
+0,56,Lodging/residential,60088,2013,
+0,57,Lodging/residential,65359,2013,
+0,58,Lodging/residential,83379,2013,
+0,59,Entertainment/public assembly,81337,2005,
+0,60,Education,81576,1997,
+0,61,Lodging/residential,38686,2001,
+0,62,Lodging/residential,42731,2001,
+0,63,Lodging/residential,41617,2001,
+0,64,Lodging/residential,53130,2001,
+0,65,Lodging/residential,53130,2001,
+0,66,Lodging/residential,37241,1981,
+0,67,Lodging/residential,24456,1968,
+0,68,Parking,487433,2007,
+0,69,Parking,387638,2000,
+0,70,Parking,387638,2007,
+0,71,Parking,387638,1998,
+0,72,Parking,387638,2002,
+0,73,Parking,387638,2008,
+0,74,Parking,387638,1997,
+0,75,Education,80942,2010,
+0,76,Education,128887,2009,
+0,77,Lodging/residential,24456,1968,
+0,78,Education,76257,2007,
+0,79,Office,36240,2010,
+0,80,Office,156111,2001,
+0,81,Other,3025,1979,
+0,82,Office,10743,1974,
+0,83,Other,2070,1996,
+0,84,Office,4038,1986,
+0,85,Lodging/residential,37241,1981,
+0,86,Education,10932,1986,
+0,87,Entertainment/public assembly,6412,2006,
+0,88,Entertainment/public assembly,76527,2007,
+0,89,Retail,161755,1996,
+0,90,Lodging/residential,59200,1999,
+0,91,Education,68094,2003,
+0,92,Office,10779,1970,
+0,93,Office,33370,1982,
+0,94,Education,29469,1968,
+0,95,Lodging/residential,200933,2006,
+0,96,Lodging/residential,200933,2006,
+0,97,Lodging/residential,187647,2007,
+0,98,Lodging/residential,200933,2007,
+0,99,Office,2260,2016,
+0,100,Lodging/residential,24456,1968,
+0,101,Office,18860,1986,
+0,102,Office,15876,1983,
+0,103,Education,21657,2016,
+0,104,Office,45330,2003,
+1,105,Education,50623,,   5
+1,106,Education,5374,,   4
+1,107,Education,97532,2005,  10
+1,108,Education,81580,1913,   5
+1,109,Education,56995,1953,   6
+1,110,Education,27814,2006,   8
+1,111,Education,118338,1909,   7
+1,112,Education,32206,,   6
+1,113,Education,100481,1958,   9
+1,114,Education,139683,1958,  13
+1,115,Education,129716,1968,   6
+1,116,Education,37265,,   5
+1,117,Education,15489,2004,   4
+1,118,Education,138316,1960,   8
+1,119,Education,91149,2007,   7
+1,120,Education,68211,1976,   7
+1,121,Education,150318,1906,   9
+1,122,Education,83043,1991,   6
+1,123,Education,61204,1989,   6
+1,124,Education,38319,1900,   6
+1,125,Education,16802,1995,   6
+1,126,Education,21539,2004,   5
+1,127,Lodging/residential,27071,,   6
+1,128,Lodging/residential,102774,1956,   7
+1,129,Lodging/residential,102957,1968,   7
+1,130,Lodging/residential,62893,1960,  16
+1,131,Lodging/residential,66661,1930,   7
+1,132,Lodging/residential,83108,1995,   8
+1,133,Lodging/residential,64723,1960,   8
+1,134,Lodging/residential,49589,1998,   8
+1,135,Lodging/residential,66532,1967,  10
+1,136,Lodging/residential,56467,1960,   9
+1,137,Entertainment/public assembly,64024,1967,   6
+1,138,Public services,118231,,   6
+1,139,Public services,56629,1900,   6
+1,140,Office,50020,,  11
+1,141,Office,44789,1919,   5
+1,142,Office,45348,,   4
+1,143,Office,40085,,   4
+1,144,Office,57673,,   5
+1,145,Office,14219,,   4
+1,146,Office,31614,1956,   8
+1,147,Office,82548,1977,   7
+1,148,Office,174601,1960,  12
+1,149,Office,81881,1960,   8
+1,150,Office,65657,1955,   8
+1,151,Office,30495,1997,   8
+1,152,Office,10301,1970,   2
+1,153,Office,16092,1965,   3
+1,154,Office,34455,1907,   8
+1,155,Office,51688,1930,   8
+2,156,Public services,43681,2007,
+2,157,Office,5258,,
+2,158,Office,10135,,
+2,159,Education,9788,,
+2,160,Entertainment/public assembly,15786,,
+2,161,Education,11329,,
+2,162,Education,98829,1968,
+2,163,Education,72102,1970,
+2,164,Warehouse/storage,12908,1979,
+2,165,Warehouse/storage,3877,1975,
+2,166,Lodging/residential,553210,2009,
+2,167,Lodging/residential,86323,1956,
+2,168,Education,183460,2005,
+2,169,Education,179559,2006,
+2,170,Retail,45224,1982,
+2,171,Office,131797,1968,
+2,172,Office,121440,1983,
+2,173,Education,90903,,
+2,174,Education,90900,,
+2,175,Education,111635,1989,
+2,176,Education,62238,1970,
+2,177,Entertainment/public assembly,167066,1989,
+2,178,Office,23392,,
+2,179,Food sales and service,24867,2012,
+2,180,Education,24586,,
+2,181,Education,148829,2014,
+2,182,Entertainment/public assembly,1022,,
+2,183,Education,132518,1992,
+2,184,Education,34171,,
+2,185,Education,84300,,
+2,186,Religious worship,1629,1948,
+2,187,Education,44203,1950,
+2,188,Office,23549,1941,
+2,189,Education,7481,1969,
+2,190,Education,137040,1957,
+2,191,Education,78268,1964,
+2,192,Education,151637,1983,
+2,193,Office,6203,1999,
+2,194,Office,155682,,
+2,195,Office,9703,1940,
+2,196,Entertainment/public assembly,40531,,
+2,197,Public services,102856,,
+2,198,Office,163959,2004,
+2,199,Parking,405083,2004,
+2,200,Entertainment/public assembly,143093,1964,
+2,201,Education,219608,1992,
+2,202,Lodging/residential,74682,2006,
+2,203,Lodging/residential,63348,2007,
+2,204,Lodging/residential,30949,1951,
+2,205,Lodging/residential,60086,2001,
+2,206,Public services,345837,1966,
+2,207,Public services,99700,,
+2,208,Healthcare,36904,1934,
+2,209,Education,193294,2006,
+2,210,Education,71248,2004,
+2,211,Education,48411,,
+2,212,Education,327256,2012,
+2,213,Education,49662,1964,
+2,214,Education,91273,1951,
+2,215,Lodging/residential,36406,1940,
+2,216,Education,137065,1964,
+2,217,Education,282946,2003,
+2,218,Public services,16411,,
+2,219,Education,96124,1959,
+2,220,Education,122592,1971,
+2,221,Education,204349,1993,
+2,222,Entertainment/public assembly,11935,1939,
+2,223,Education,261188,,
+2,224,Education,272278,1955,
+2,225,Lodging/residential,216526,1967,
+2,226,Office,74180,1930,
+2,227,Entertainment/public assembly,17132,1918,
+2,228,Lodging/residential,49108,1951,
+2,229,Education,140092,,
+2,230,Education,10334,,
+2,231,Education,33739,1939,
+2,232,Entertainment/public assembly,24345,1981,
+2,233,Education,25139,1970,
+2,234,Education,179167,1971,
+2,235,Education,9309,1970,
+2,236,Entertainment/public assembly,144086,1989,
+2,237,Public services,101262,1982,
+2,238,Office,45017,,
+2,239,Lodging/residential,106440,1963,
+2,240,Lodging/residential,111304,1964,
+2,241,Entertainment/public assembly,51999,1974,
+2,242,Parking,157113,1987,
+2,243,Parking,557217,2004,
+2,244,Education,95717,,
+2,245,Education,88486,,
+2,246,Office,202435,1967,
+2,247,Education,64560,1965,
+2,248,Education,24643,1982,
+2,249,Entertainment/public assembly,179449,1976,
+2,250,Education,131710,1991,
+2,251,Education,12773,,
+2,252,Education,4314,1907,
+2,253,Education,65907,1964,
+2,254,Entertainment/public assembly,254766,1989,
+2,255,Education,49078,1914,
+2,256,Education,16744,,
+2,257,Education,75650,,
+2,258,Education,71224,,
+2,259,Education,77469,,
+2,260,Education,126985,1979,
+2,261,Education,89770,,
+2,262,Entertainment/public assembly,20804,1999,
+2,263,Education,87673,1960,
+2,264,Office,83660,1973,
+2,265,Office,118966,1988,
+2,266,Education,30543,,
+2,267,Entertainment/public assembly,72193,2013,
+2,268,Entertainment/public assembly,77844,,
+2,269,Entertainment/public assembly,809530,1958,
+2,270,Office,29778,,
+2,271,Education,71421,,
+2,272,Education,4583,,
+2,273,Office,140345,,
+2,274,Office,42214,1985,
+2,275,Office,70832,2014,
+2,276,Office,70837,2014,
+2,277,Education,12761,1909,
+2,278,Office,148101,,
+2,279,Education,49384,1967,
+2,280,Entertainment/public assembly,105505,2008,
+2,281,Food sales and service,28862,,
+2,282,Office,28750,,
+2,283,Entertainment/public assembly,51920,,
+2,284,Entertainment/public assembly,230259,1975,
+2,285,Utility,21958,,
+2,286,Lodging/residential,32841,1935,
+2,287,Office,33713,1956,
+2,288,Entertainment/public assembly,10733,2005,
+2,289,Entertainment/public assembly,9666,2005,
+2,290,Office,51732,1966,
+3,291,Public services,90635,2011,
+3,292,Public services,33743,,
+3,293,Office,408000,2010,
+3,294,Entertainment/public assembly,14913,,
+3,295,Education,83400,1942,
+3,296,Public services,22000,,
+3,297,Education,66200,1950,
+3,298,Entertainment/public assembly,39541,,
+3,299,Education,356000,2014,
+3,300,Education,62800,2014,
+3,301,Public services,51176,,
+3,302,Education,57100,2015,
+3,303,Entertainment/public assembly,15950,,
+3,304,Entertainment/public assembly,194300,1900,
+3,305,Office,8637,,
+3,306,Education,51500,1931,
+3,307,Public services,10873,,
+3,308,Public services,5033,,
+3,309,Entertainment/public assembly,2067,,
+3,310,Public services,22000,,
+3,311,Education,50000,1928,
+3,312,Entertainment/public assembly,6625,,
+3,313,Education,103800,,
+3,314,Education,225000,,
+3,315,Entertainment/public assembly,20644,,
+3,316,Public services,78550,,
+3,317,Office,16098,,
+3,318,Office,105000,,
+3,319,Public services,13100,1929,
+3,320,Education,105500,,
+3,321,Public services,15913,,
+3,322,Education,37083,1908,
+3,323,Education,282200,1928,
+3,324,Entertainment/public assembly,11910,,
+3,325,Education,59200,1959,
+3,326,Entertainment/public assembly,45548,,
+3,327,Education,99325,1927,
+3,328,Education,47200,1935,
+3,329,Entertainment/public assembly,3133,,
+3,330,Education,65000,,
+3,331,Education,288800,1923,
+3,332,Education,90400,,
+3,333,Education,59900,1962,
+3,334,Education,57100,1960,
+3,335,Office,229000,2010,
+3,336,Education,43000,1923,
+3,337,Entertainment/public assembly,22334,1977,
+3,338,Entertainment/public assembly,23803,1969,
+3,339,Education,71100,,
+3,340,Entertainment/public assembly,1843,,
+3,341,Education,158000,1959,
+3,342,Lodging/residential,15420,,
+3,343,Public services,22000,,
+3,344,Education,77500,1942,
+3,345,Lodging/residential,7250,,
+3,346,Entertainment/public assembly,17709,,
+3,347,Education,75900,1974,
+3,348,Public services,10577,1969,
+3,349,Public services,45098,,
+3,350,Education,83800,1944,
+3,351,Education,58908,1910,
+3,352,Education,144900,,
+3,353,Education,99700,1955,
+3,354,Education,77500,,
+3,355,Education,182500,1970,
+3,356,Public services,4336,,
+3,357,Lodging/residential,2000,,
+3,358,Education,77700,,
+3,359,Public services,4925,,
+3,360,Education,69600,1949,
+3,361,Public services,13224,1965,
+3,362,Public services,21368,,
+3,363,Education,69300,2017,
+3,364,Education,83800,,
+3,365,Healthcare,819577,1922,
+3,366,Public services,9941,1963,
+3,367,Entertainment/public assembly,20584,,
+3,368,Retail,16500,,
+3,369,Public services,6431,,
+3,370,Entertainment/public assembly,15960,2005,
+3,371,Entertainment/public assembly,5554,,
+3,372,Education,49100,1911,
+3,373,Education,46484,1932,
+3,374,Lodging/residential,350000,1949,
+3,375,Office,850354,1989,
+3,376,Office,585955,1942,
+3,377,Public services,12506,,
+3,378,Public services,35241,1978,
+3,379,Entertainment/public assembly,7675,,
+3,380,Education,95100,1927,
+3,381,Entertainment/public assembly,1858,,
+3,382,Education,47984,2002,
+3,383,Warehouse/storage,27318,,
+3,384,Office,13728,,
+3,385,Public services,18432,1973,
+3,386,Entertainment/public assembly,17262,2003,
+3,387,Education,104200,2009,
+3,388,Public services,30810,,
+3,389,Education,57165,2014,
+3,390,Office,34400,,
+3,391,Education,87107,,
+3,392,Education,53000,1912,
+3,393,Education,59400,1900,
+3,394,Entertainment/public assembly,3545,2000,
+3,395,Public services,8925,1912,
+3,396,Public services,16768,1980,
+3,397,Public services,54061,2006,
+3,398,Education,62200,,
+3,399,Education,180000,1939,
+3,400,Public services,19315,,
+3,401,Entertainment/public assembly,12660,,
+3,402,Public services,2818,,
+3,403,Education,49500,1962,
+3,404,Public services,5783,,
+3,405,Education,82200,1916,
+3,406,Entertainment/public assembly,2347,,
+3,407,Education,325217,2006,
+3,408,Entertainment/public assembly,16098,1929,
+3,409,Education,38500,2016,
+3,410,Education,64113,1924,
+3,411,Entertainment/public assembly,6139,,
+3,412,Education,110000,,
+3,413,Warehouse/storage,14839,2005,
+3,414,Entertainment/public assembly,36387,,
+3,415,Education,41329,,
+3,416,Public services,7079,,
+3,417,Education,69600,1978,
+3,418,Entertainment/public assembly,86120,1926,
+3,419,Education,271300,1940,
+3,420,Public services,81397,2004,
+3,421,Entertainment/public assembly,11274,,
+3,422,Public services,8726,,
+3,423,Entertainment/public assembly, 969,,
+3,424,Public services,32527,,
+3,425,Warehouse/storage,202829,1983,
+3,426,Education,101400,1930,
+3,427,Public services,14269,,
+3,428,Entertainment/public assembly,1396,,
+3,429,Public services,11934,1930,
+3,430,Public services,23918,,
+3,431,Parking,1760,,
+3,432,Public services,103200,,
+3,433,Entertainment/public assembly,23055,,
+3,434,Education,39500,,
+3,435,Office,29916,2002,
+3,436,Lodging/residential,15574,,
+3,437,Entertainment/public assembly,11651,,
+3,438,Public services,36562,,
+3,439,Office,62205,,
+3,440,Public services,35033,1962,
+3,441,Public services,3267,,
+3,442,Education,70800,1964,
+3,443,Education,109000,1940,
+3,444,Public services,12945,1960,
+3,445,Education,40950,1910,
+3,446,Public services,43992,,
+3,447,Public services,21472,2011,
+3,448,Office,328760,1904,
+3,449,Lodging/residential,18340,1900,
+3,450,Education,116872,1931,
+3,451,Entertainment/public assembly,5013,,
+3,452,Education,155100,1931,
+3,453,Public services,24875,1984,
+3,454,Public services,16576,1932,
+3,455,Healthcare,29192,2014,
+3,456,Public services,14125,,
+3,457,Education,79700,1932,
+3,458,Entertainment/public assembly,4589,,
+3,459,Entertainment/public assembly,36744,2004,
+3,460,Public services,17927,,
+3,461,Education,69400,1959,
+3,462,Public services,9226,,
+3,463,Public services,25000,,
+3,464,Public services,9816,,
+3,465,Office,6400,,
+3,466,Public services,22500,,
+3,467,Public services,47439,,
+3,468,Office,40000,,
+3,469,Public services,13044,1913,
+3,470,Public services,24618,,
+3,471,Education,170000,1956,
+3,472,Education,69400,1911,
+3,473,Public services,46007,1950,
+3,474,Public services,10151,1966,
+3,475,Office,474680,1986,
+3,476,Entertainment/public assembly,1102,,
+3,477,Public services,21600,,
+3,478,Lodging/residential,31283,1935,
+3,479,Public services,43955,1978,
+3,480,Office,30000,,
+3,481,Education,104294,1976,
+3,482,Education,394000,2013,
+3,483,Education,207000,1935,
+3,484,Public services,18000,,
+3,485,Public services,22000,2007,
+3,486,Education,86375,1903,
+3,487,Education,66600,1959,
+3,488,Education,69600,1908,
+3,489,Education,85039,1925,
+3,490,Education,98900,1961,
+3,491,Education,66600,1970,
+3,492,Education,193800,,
+3,493,Education,283000,2014,
+3,494,Education,72800,1959,
+3,495,Education,47500,1968,
+3,496,Public services,16200,,
+3,497,Public services,7732,,
+3,498,Entertainment/public assembly,14842,,
+3,499,Education,376507,2011,
+3,500,Education,99975,1968,
+3,501,Education,66404,,
+3,502,Public services,6010,,
+3,503,Other,10762,,
+3,504,Warehouse/storage,112536,,
+3,505,Warehouse/storage,51622,1975,
+3,506,Other,34400,,
+3,507,Education,61151,,
+3,508,Other,112283,,
+3,509,Other,10578,,
+3,510,Public services,4581,,
+3,511,Public services,12316,,
+3,512,Lodging/residential,5000,2010,
+3,513,Public services,112283,,
+3,514,Public services,12750,,
+3,515,Education,63900,1921,
+3,516,Public services,9000,,
+3,517,Lodging/residential,2210,,
+3,518,Public services,555243,1941,
+3,519,Public services,461647,1976,
+3,520,Office,27600,,
+3,521,Public services,12000,,
+3,522,Office,8000,,
+3,523,Entertainment/public assembly,9726,,
+3,524,Public services,134114,,
+3,525,Public services,9062,,
+3,526,Public services,7636,,
+3,527,Public services,9392,,
+3,528,Public services,11143,,
+3,529,Public services,14519,1908,
+3,530,Public services,144000,,
+3,531,Public services,68203,,
+3,532,Entertainment/public assembly,7133,,
+3,533,Lodging/residential,11900,,
+3,534,Entertainment/public assembly, 898,,
+3,535,Healthcare,15000,2010,
+3,536,Entertainment/public assembly,1962,,
+3,537,Education,73200,1959,
+3,538,Religious worship,10000,2010,
+3,539,Entertainment/public assembly,1473,,
+3,540,Education,88300,1909,
+3,541,Lodging/residential,2582,,
+3,542,Education,66900,1969,
+3,543,Entertainment/public assembly, 801,,
+3,544,Public services,110800,1972,
+3,545,Education,21903,1931,
+3,546,Public services,400000,1971,
+3,547,Healthcare,23903,,
+3,548,Healthcare,9813,2010,
+3,549,Public services,12754,1968,
+3,550,Public services,16000,2014,
+3,551,Office,30525,,
+3,552,Public services,20110,1936,
+3,553,Education,37800,,
+3,554,Entertainment/public assembly,26187,,
+3,555,Education,22400,,
+3,556,Healthcare,450000,2012,
+3,557,Public services,19000,,
+3,558,Office,89315,,
+3,559,Education,48994,2015,
+3,560,Office,340000,2010,
+3,561,Office,295000,,
+3,562,Education,235000,2013,
+3,563,Office,31346,,
+3,564,Public services,89315,,
+4,565,Education,15326,1954,   2
+4,566,Education,2010,1957,   1
+4,567,Entertainment/public assembly,82670,2016,   4
+4,568,Education,14150,1974,   2
+4,569,Education,86091,1964,   8
+4,570,Education,193202,1964,  10
+4,571,Education,47954,1980,   3
+4,572,Education,94175,1964,   9
+4,573,Education,23815,1914,   4
+4,574,Education,56343,1905,   4
+4,575,Technology/science,33167,1963,   4
+4,576,Education,86465,2014,   7
+4,577,Education,113589,1958,   3
+4,578,Lodging/residential,71994,2004,   4
+4,579,Education,7781,1910,   4
+4,580,Education,104016,1960,   4
+4,581,Lodging/residential,23012,1930,   3
+4,582,Education,14542,1920,   4
+4,583,Education,206054,1950,   9
+4,584,Education,137806,1967,   8
+4,585,Public services,132394,1949,   7
+4,586,Public services,166514,1917,   5
+4,587,Technology/science,53234,1942,   5
+4,588,Education,21866,1911,   4
+4,589,Education,305268,1952,   8
+4,590,Education,8516,1920,   2
+4,591,Entertainment/public assembly,59326,1932,   1
+4,592,Education,120694,2012,   7
+4,593,Education,66203,2015,   6
+4,594,Education,177281,1964,   7
+4,595,Education,270413,1971,  14
+4,596,Education,18474,1923,   4
+4,597,Public services,189425,1994,   4
+4,598,Public services,68701,1930,   4
+4,599,Education,25996,1954,   4
+4,600,Education,44182,1917,   5
+4,601,Entertainment/public assembly,11910,1903,   2
+4,602,Entertainment/public assembly,238065,1933,   6
+4,603,Public services,29063,2004,   3
+4,604,Education,8463,,   3
+4,605,Education,51020,1924,   5
+4,606,Utility,23432,1999,   2
+4,607,Education,34825,1999,   2
+4,608,Entertainment/public assembly,124197,1927,   3
+4,609,Education,141461,1907,   6
+4,610,Entertainment/public assembly,30160,1958,   4
+4,611,Education,128126,1966,   7
+4,612,Education,77055,1917,   4
+4,613,Entertainment/public assembly,1305,1995,   1
+4,614,Lodging/residential,185200,1930,   8
+4,615,Education,153700,1990,   7
+4,616,Education,117814,1959,   6
+4,617,Education,182943,1963,  11
+4,618,Education,148032,1924,   5
+4,619,Education,68146,1948,   6
+4,620,Education,220703,2011,   9
+4,621,Parking, 387,1955,   1
+4,622,Education,123612,1961,   7
+4,623,Education,49388,1931,   6
+4,624,Education,46204,1941,   5
+4,625,Education,55516,1978,   5
+4,626,Public services,130581,1970,   5
+4,627,Education,56637,1953,   5
+4,628,Education,40706,1958,   3
+4,629,Education,40835,1931,   6
+4,630,Education,93420,1948,   5
+4,631,Education,23533,1906,   3
+4,632,Education,41297,1959,   6
+4,633,Parking,98539,1989,   2
+4,634,Education,4000,1910,   4
+4,635,Education,7122,1909,   3
+4,636,Education,6564,1909,   3
+4,637,Education,4189,1929,   3
+4,638,Education,7900,1923,   4
+4,639,Education,14524,1964,   2
+4,640,Entertainment/public assembly,36180,1966,   9
+4,641,Education,109588,1994,   8
+4,642,Education,30401,,   4
+4,643,Education,110919,1941,   6
+4,644,Entertainment/public assembly,261091,1923,   3
+4,645,Education,304333,2006,  12
+4,646,Education,58733,1923,   6
+4,647,Lodging/residential,86959,1942,   5
+4,648,Education,154706,2009,  11
+4,649,Education,116121,1996,  10
+4,650,Education,75228,1993,   4
+4,651,Parking,306140,2007,   5
+4,652,Education,150887,1959,   9
+4,653,Education,420885,1930,   8
+4,654,Education,43910,1912,   5
+4,655,Education,222434,1964,  11
+5,656,Other,5769,1976,   1
+5,657,Education,109071,1966,   3
+5,658,Entertainment/public assembly,31075,1976,   2
+5,659,Entertainment/public assembly,15306,1976,   2
+5,660,Entertainment/public assembly,5447,1976,   1
+5,661,Entertainment/public assembly,7427,1976,   2
+5,662,Entertainment/public assembly,12777,1976,   2
+5,663,Entertainment/public assembly,57189,1976,   2
+5,664,Entertainment/public assembly,49492,1976,   2
+5,665,Entertainment/public assembly,8773,1966,   1
+5,666,Entertainment/public assembly,12045,1976,   1
+5,667,Entertainment/public assembly,15715,1966,   2
+5,668,Entertainment/public assembly,47275,1976,   2
+5,669,Entertainment/public assembly,4768,1976,   1
+5,670,Healthcare,18471,1966,   1
+5,671,Lodging/residential,7589,1976,   3
+5,672,Manufacturing/industrial,6329,1919,   2
+5,673,Entertainment/public assembly,36307,1976,   2
+5,674,Entertainment/public assembly,149704,1976,   8
+5,675,Manufacturing/industrial,3853,1976,   1
+5,676,Manufacturing/industrial,90697,1976,   2
+5,677,Public services,7072,1919,   2
+5,678,Public services,60977,1976,   6
+5,679,Public services,43400,1976,   3
+5,680,Public services,9849,1976,   2
+5,681,Public services,41861,1919,   3
+5,682,Entertainment/public assembly,64153,,   5
+5,683,Office,4650,1976,   2
+5,684,Office,152471,1919,   3
+5,685,Office,270034,1976,   5
+5,686,Office,12206,1976,   2
+5,687,Office,36221,1976,   4
+5,688,Office,52302,1966,   2
+5,689,Office,11442,1976,   1
+5,690,Office,19429,1945,   2
+5,691,Office,42647,1976,   1
+5,692,Office,7416,1976,   2
+5,693,Office,57436,1976,   3
+5,694,Education,30613,1976,   4
+5,695,Education,121062,1976,   3
+5,696,Education,19041,1976,   2
+5,697,Education,18697,1919,   2
+5,698,Education,13939,1976,   1
+5,699,Education,93764,1945,   3
+5,700,Education,11464,1976,   1
+5,701,Education,128682,1966,   4
+5,702,Education,24251,1966,   2
+5,703,Education,34563,1966,   1
+5,704,Education,17050,1966,   1
+5,705,Education,23605,1976,   1
+5,706,Education,27685,1919,   2
+5,707,Education,11270,1976,   1
+5,708,Education,102429,1945,   4
+5,709,Education,23067,1976,   2
+5,710,Education,12088,1919,   4
+5,711,Education,15414,1976,   1
+5,712,Education,22949,1976,   1
+5,713,Education,14973,1976,   2
+5,714,Education,8730,1976,   1
+5,715,Education,23153,1976,   2
+5,716,Education,37265,1919,   3
+5,717,Education,28826,1976,   2
+5,718,Education,25866,1919,   2
+5,719,Education,28363,1919,   2
+5,720,Education,18202,1919,   2
+5,721,Education,121471,1966,   3
+5,722,Education,31635,1966,   3
+5,723,Education,160038,1966,   4
+5,724,Education,88856,1976,   2
+5,725,Education,13789,1919,   1
+5,726,Education,120566,1945,   2
+5,727,Education,139113,1976,   3
+5,728,Education,30300,1966,   2
+5,729,Education,17190,1919,   2
+5,730,Education,126045,1966,   4
+5,731,Education,29149,1919,   2
+5,732,Education,66187,1976,   1
+5,733,Education,96929,1966,   3
+5,734,Education,28191,1919,   1
+5,735,Education,155807,2013,   2
+5,736,Education,94658,1976,   3
+5,737,Education,14790,1976,   1
+5,738,Education,95433,1966,   4
+5,739,Education,137046,1966,   2
+5,740,Education,37975,1976,   1
+5,741,Education,14025,1966,   1
+5,742,Entertainment/public assembly,31829,1976,   2
+5,743,Entertainment/public assembly,12185,1976,   2
+5,744,Entertainment/public assembly,48642,1919,   5
+6,745,Education,13512,,
+6,746,Office,17879,,
+6,747,Education,30531,,
+6,748,Office,32766,,
+6,749,Lodging/residential,35936,,
+6,750,Education,35990,,
+6,751,Office,37485,,
+6,752,Public services,38671,,
+6,753,Education,39558,,
+6,754,Office,41337,,
+6,755,Office,42129,,
+6,756,Lodging/residential,44352,,
+6,757,Education,46813,,
+6,758,Lodging/residential,47007,,
+6,759,Lodging/residential,48519,,
+6,760,Office,49990,,
+6,761,Entertainment/public assembly,52534,,
+6,762,Education,53651,,
+6,763,Office,54597,,
+6,764,Education,58307,,
+6,765,Entertainment/public assembly,58562,,
+6,766,Office,64818,,
+6,767,Office,70042,,
+6,768,Education,75929,,
+6,769,Education,77263,,
+6,770,Education,80325,,
+6,771,Lodging/residential,82911,,
+6,772,Lodging/residential,87661,,
+6,773,Lodging/residential,93313,,
+6,774,Lodging/residential,93500,,
+6,775,Office,104355,,
+6,776,Office,104667,,
+6,777,Lodging/residential,105791,,
+6,778,Entertainment/public assembly,108339,,
+6,779,Lodging/residential,113000,,
+6,780,Education,120836,,
+6,781,Lodging/residential,128044,,
+6,782,Education,129344,,
+6,783,Entertainment/public assembly,143110,,
+6,784,Education,190817,,
+6,785,Education,250000,,
+6,786,Education,257000,,
+6,787,Lodging/residential,278795,,
+6,788,Public services,401753,,
+7,789,Education,64583,1923,   1
+7,790,Education,86111,1911,   8
+7,791,Education,150695,,   5
+7,792,Education,333681,1938,   3
+7,793,Education,150695,1964,   6
+7,794,Education,731945,1969,  11
+7,795,Education,387500,1960,   6
+7,796,Education,226042,1965,   2
+7,797,Education,764237,1979,  13
+7,798,Education,409028,1970,  21
+7,799,Education,527431,1976,  26
+7,800,Education,64583,1955,   2
+7,801,Education,484376,1952,   5
+7,802,Education,290625,1995,  19
+7,803,Education,182986,1962,   3
+8,804,Office,175618,,   1
+8,805,Entertainment/public assembly,3200,,   1
+8,806,Other,28693,,   2
+8,807,Entertainment/public assembly,3000,,   1
+8,808,Other,9357,,   1
+8,809,Entertainment/public assembly, 520,,   1
+8,810,Entertainment/public assembly,3729,,   1
+8,811,Public services,4848,,   1
+8,812,Entertainment/public assembly,9894,,   1
+8,813,Public services,5630,,   1
+8,814,Public services,4371,,   1
+8,815,Entertainment/public assembly, 666,,   1
+8,816,Entertainment/public assembly, 356,,   1
+8,817,Entertainment/public assembly, 984,,   1
+8,818,Public services,3648,,   1
+8,819,Public services,6351,,   1
+8,820,Entertainment/public assembly, 648,,   1
+8,821,Other,2555,,   1
+8,822,Entertainment/public assembly, 366,,   1
+8,823,Public services,35253,,   1
+8,824,Public services,7820,,   1
+8,825,Public services,3592,,   1
+8,826,Public services,19446,,   1
+8,827,Office,5839,,   1
+8,828,Other,102994,,   1
+8,829,Warehouse/storage,15879,,   1
+8,830,Warehouse/storage,15120,,   1
+8,831,Entertainment/public assembly,4065,,   1
+8,832,Public services,26507,,   1
+8,833,Public services,6392,,   1
+8,834,Public services,4934,,   1
+8,835,Entertainment/public assembly,17220,,   1
+8,836,Public services,8168,,   1
+8,837,Public services,33246,,   1
+8,838,Public services,18414,,   1
+8,839,Office,14150,,   1
+8,840,Other,41861,,   1
+8,841,Office,5680,,   1
+8,842,Public services,7292,,   1
+8,843,Entertainment/public assembly,5380,,   1
+8,844,Entertainment/public assembly,6944,,   1
+8,845,Entertainment/public assembly, 860,,   1
+8,846,Entertainment/public assembly, 481,,   1
+8,847,Entertainment/public assembly,9303,,   1
+8,848,Office,8552,,   1
+8,849,Public services,6448,,   1
+8,850,Public services,28590,,   1
+8,851,Public services,16682,,   1
+8,852,Public services,10800,,   1
+8,853,Entertainment/public assembly,26495,,   1
+8,854,Entertainment/public assembly,92288,,   1
+8,855,Office,48300,,   1
+8,856,Entertainment/public assembly,2956,,   1
+8,857,Entertainment/public assembly,4000,,   1
+8,858,Other,1566,,   1
+8,859,Public services,4000,,   1
+8,860,Other,12259,,   1
+8,861,Other,4276,,   1
+8,862,Other,27640,,   1
+8,863,Public services,19823,,   1
+8,864,Public services,16584,,   1
+8,865,Public services,10174,,   1
+8,866,Public services,10174,,   1
+8,867,Public services,65913,,   1
+8,868,Public services,60000,,   1
+8,869,Entertainment/public assembly,875000,,   1
+8,870,Entertainment/public assembly, 755,,   1
+8,871,Entertainment/public assembly,1536,,   1
+8,872,Public services,3627,,   1
+8,873,Office,40142,,   1
+9,874,Office,181805,,
+9,875,Lodging/residential,177708,,
+9,876,Education,55240,,
+9,877,Office,8004,,
+9,878,Lodging/residential,41241,,
+9,879,Education,110235,,
+9,880,Education,157723,,
+9,881,Entertainment/public assembly,344798,,
+9,882,Education,39143,,
+9,883,Education,399331,,
+9,884,Education,38598,,
+9,885,Lodging/residential,40697,,
+9,886,Education,69799,,
+9,887,Lodging/residential,69754,,
+9,888,Entertainment/public assembly,137522,,
+9,889,Education,126077,,
+9,890,Education,202937,,
+9,891,Education,50846,,
+9,892,Services,481999,,
+9,893,Education,47191,,
+9,894,Education,101555,,
+9,895,Education,55087,,
+9,896,Education,245637,,
+9,897,Education,37775,,
+9,898,Public services,64749,,
+9,899,Education,225014,,
+9,900,Education,111623,,
+9,901,Education,107730,,
+9,902,Education,14561,,
+9,903,Education,275793,,
+9,904,Education,29961,,
+9,905,Lodging/residential,39648,,
+9,906,Lodging/residential,39649,,
+9,907,Entertainment/public assembly,44564,,
+9,908,Education,91254,,
+9,909,Entertainment/public assembly,66121,,
+9,910,Office,60096,,
+9,911,Education,239638,,
+9,912,Education,52559,,
+9,913,Entertainment/public assembly,503634,,
+9,914,Education,229973,,
+9,915,Education,205141,,
+9,916,Education,51778,,
+9,917,Education,237702,,
+9,918,Education,60621,,
+9,919,Education,31233,,
+9,920,Education,85623,,
+9,921,Entertainment/public assembly,262162,,
+9,922,Education,147205,,
+9,923,Education,24992,,
+9,924,Entertainment/public assembly,252268,,
+9,925,Education,54405,,
+9,926,Education,26033,,
+9,927,Lodging/residential,745671,,
+9,928,Education,179115,,
+9,929,Education,199628,,
+9,930,Office,20917,,
+9,931,Education,216050,,
+9,932,Lodging/residential,233937,,
+9,933,Office,8525,,
+9,934,Entertainment/public assembly,170607,,
+9,935,Office,16135,,
+9,936,Lodging/residential,11350,,
+9,937,Lodging/residential,10346,,
+9,938,Lodging/residential,11227,,
+9,939,Lodging/residential,8051,,
+9,940,Lodging/residential,8079,,
+9,941,Lodging/residential,8079,,
+9,942,Lodging/residential,57334,,
+9,943,Entertainment/public assembly,5682,,
+9,944,Services,389641,,
+9,945,Office,332447,,
+9,946,Education,177216,,
+9,947,Education,91629,,
+9,948,Entertainment/public assembly,20372,,
+9,949,Lodging/residential,86786,,
+9,950,Entertainment/public assembly,16052,,
+9,951,Office,103924,,
+9,952,Education,218024,,
+9,953,Entertainment/public assembly,563782,,
+9,954,Education,305224,,
+9,955,Education,198488,,
+9,956,Office,86167,,
+9,957,Education,111195,,
+9,958,Entertainment/public assembly,234819,,
+9,959,Education,128536,,
+9,960,Education,56137,,
+9,961,Education,155882,,
+9,962,Public services,492898,,
+9,963,Lodging/residential,44784,,
+9,964,Education,130577,,
+9,965,Lodging/residential,45086,,
+9,966,Education,393530,,
+9,967,Entertainment/public assembly,119262,,
+9,968,Education,153999,,
+9,969,Education,193723,,
+9,970,Services,346056,,
+9,971,Lodging/residential,301307,,
+9,972,Education,282152,,
+9,973,Office,193960,,
+9,974,Education,186572,,
+9,975,Entertainment/public assembly,426472,,
+9,976,Education,59498,,
+9,977,Office,8837,,
+9,978,Education,258491,,
+9,979,Entertainment/public assembly,52357,,
+9,980,Entertainment/public assembly,34819,,
+9,981,Education,167055,,
+9,982,Services,373416,,
+9,983,Entertainment/public assembly,122122,,
+9,984,Services,214252,,
+9,985,Office,34758,,
+9,986,Office,34072,,
+9,987,Education,166395,,
+9,988,Office,24463,,
+9,989,Education,168696,,
+9,990,Office,82939,,
+9,991,Education,57811,,
+9,992,Office,51483,,
+9,993,Education,428647,,
+9,994,Education,108392,,
+9,995,Education,46230,,
+9,996,Education,77632,,
+9,997,Office,38173,,
+10,998,Education,173479,,   1
+10,999,Education,113580,,   2
+10,1000,Education,121146,,   2
+10,1001,Other,4482,,   1
+10,1002,Entertainment/public assembly,161969,,   1
+10,1003,Education,94751,,   3
+10,1004,Education,74886,,   2
+10,1005,Office,26325,,   1
+10,1006,Office,26948,,   1
+10,1007,Office,41933,,   2
+10,1008,Education,74420,,   2
+10,1009,Education,21892,,   2
+10,1010,Office,11419,,   1
+10,1011,Education,65144,,   4
+10,1012,Education,23112,,   2
+10,1013,Education,67377,,   3
+10,1014,Office,43094,,   3
+10,1015,Other,4607,,   1
+10,1016,Other,10103,,   1
+10,1017,Technology/science,109263,,   6
+10,1018,Education,186840,,   2
+10,1019,Entertainment/public assembly,39788,,   5
+10,1020,Entertainment/public assembly,22101,,   2
+10,1021,Entertainment/public assembly,213762,,   2
+10,1022,Education,84346,,   2
+10,1023,Education,87976,,   2
+10,1024,Education,53855,,   2
+10,1025,Lodging/residential,52034,,   2
+10,1026,Lodging/residential,88480,,   1
+10,1027,Lodging/residential,35465,,   2
+11,1028,Education,81390,,
+11,1029,Education,152559,,
+11,1030,Education,68030,,
+11,1031,Education,93206,,
+11,1032,Education,127632,,
+12,1033,Education,118489,,
+12,1034,Retail,3907,,   1
+12,1035,Office,14585,,
+12,1036,Office,54207,,
+12,1037,Education,8805,,
+12,1038,Technology/science,9838,,
+12,1039,Education,30171,,   3
+12,1040,Office,126960,,
+12,1041,Education,8073,,
+12,1042,Office,29547,,
+12,1043,Office,27889,,
+12,1044,Education,150673,,   4
+12,1045,Office,33530,,
+12,1046,Education,201350,,
+12,1047,Public services,252952,,
+12,1048,Education,275610,,
+12,1049,Education,94399,,
+12,1050,Office,50493,,   2
+12,1051,Education,28406,,   1
+12,1052,Retail,45305,,   2
+12,1053,Office,21582,,
+12,1054,Education,204998,,   4
+12,1055,Education,86714,,   4
+12,1056,Education,72958,,
+12,1057,Education,26372,,   4
+12,1058,Education,84346,,
+12,1059,Entertainment/public assembly,116186,,
+12,1060,Entertainment/public assembly,71806,,
+12,1061,Retail,44218,,
+12,1062,Education,65843,,
+12,1063,Education,58157,,
+12,1064,Education,131212,,
+12,1065,Office,12152,,
+12,1066,Education,55800,,
+12,1067,Education,125701,,
+12,1068,Education,112956,,
+13,1069,Office,20864,,
+13,1070,Lodging/residential,230747,,
+13,1071,Office,10385,,
+13,1072,Healthcare,305000,,
+13,1073,Office,194111,,
+13,1074,Office,89858,,
+13,1075,Office,72709,,
+13,1076,Lodging/residential,117054,,
+13,1077,Entertainment/public assembly,19454,,
+13,1078,Entertainment/public assembly,80438,,
+13,1079,Education,14185,,
+13,1080,Education,207115,,
+13,1081,Manufacturing/industrial,11470,,
+13,1082,Office,57394,,
+13,1083,Education,100813,,
+13,1084,Office,122922,,
+13,1085,Education,58377,,
+13,1086,Office,143973,,
+13,1087,Office,56569,,
+13,1088,Education,287594,,
+13,1089,Office,62837,,
+13,1090,Office,305047,,
+13,1091,Lodging/residential,233341,,
+13,1092,Office,105167,,
+13,1093,Office,47578,,
+13,1094,Office,70852,,
+13,1095,Education,32256,,
+13,1096,Parking,83772,,
+13,1097,Office,157545,,
+13,1098,Office,131745,,
+13,1099,Education,332884,,
+13,1100,Lodging/residential,174924,,
+13,1101,Office,71936,,
+13,1102,Office,87187,,
+13,1103,Other,23903,,
+13,1104,Public services,199722,,
+13,1105,Food sales and service,33215,,
+13,1106,Office,92099,,
+13,1107,Education,184098,,
+13,1108,Parking,679614,,
+13,1109,Office,102191,,
+13,1110,Office,27145,,
+13,1111,Office,67839,,
+13,1112,Office,190471,,
+13,1113,Office,33401,,
+13,1114,Other,64810,,
+13,1115,Services,42028,,
+13,1116,Services,11681,,
+13,1117,Office,111424,,
+13,1118,Services,26926,,
+13,1119,Office,119509,,
+13,1120,Services,70040,,
+13,1121,Education,85732,,
+13,1122,Office,84365,,
+13,1123,Office,92994,,
+13,1124,Lodging/residential,153299,,
+13,1125,Parking,271492,,
+13,1126,Education,72332,,
+13,1127,Office,87131,,
+13,1128,Office,58703,,
+13,1129,Office,133100,,
+13,1130,Education,280225,,
+13,1131,Office,25463,,
+13,1132,Office,103926,,
+13,1133,Office,82302,,
+13,1134,Office,152946,,
+13,1135,Education,150393,,
+13,1136,Office,79782,,
+13,1137,Office,27452,,
+13,1138,Education,39988,,
+13,1139,Office,336650,,
+13,1140,Education,156483,,
+13,1141,Parking,20986,,
+13,1142,Office,103718,,
+13,1143,Office,96612,,
+13,1144,Office,152312,,
+13,1145,Manufacturing/industrial,35201,,
+13,1146,Public services,83155,,
+13,1147,Entertainment/public assembly,234476,,
+13,1148,Office,861524,,
+13,1149,Office,293990,,
+13,1150,Office,196043,,
+13,1151,Office,267536,,
+13,1152,Office,118858,,
+13,1153,Technology/science,89456,,
+13,1154,Lodging/residential,262156,,
+13,1155,Warehouse/storage,19059,,
+13,1156,Education,259989,,
+13,1157,Education,37107,,
+13,1158,Public services,294812,,
+13,1159,Office,671507,,
+13,1160,Office,80205,,
+13,1161,Office,53077,,
+13,1162,Office,72958,,
+13,1163,Parking,83919,,
+13,1164,Office,249457,,
+13,1165,Office,28991,,
+13,1166,Office,63771,,
+13,1167,Office,52748,,
+13,1168,Office,577101,,
+13,1169,Education,155439,,
+13,1170,Office,59476,,
+13,1171,Manufacturing/industrial,56851,,
+13,1172,Manufacturing/industrial,63847,,
+13,1173,Manufacturing/industrial,13091,,
+13,1174,Other,27648,,
+13,1175,Manufacturing/industrial,81372,,
+13,1176,Education,142672,,
+13,1177,Office,20444,,
+13,1178,Education,133072,,
+13,1179,Entertainment/public assembly,143228,,
+13,1180,Education,95182,,
+13,1181,Education,60606,,
+13,1182,Warehouse/storage,66585,,
+13,1183,Entertainment/public assembly,166856,,
+13,1184,Lodging/residential,74584,,
+13,1185,Office,129532,,
+13,1186,Lodging/residential,157070,,
+13,1187,Office,121714,,
+13,1188,Office,37096,,
+13,1189,Office,98212,,
+13,1190,Office,39807,,
+13,1191,Education,192152,,
+13,1192,Office,43587,,
+13,1193,Office,106511,,
+13,1194,Office,35829,,
+13,1195,Office,16472,,
+13,1196,Entertainment/public assembly,57201,,
+13,1197,Services,50552,,
+13,1198,Education,85164,,
+13,1199,Warehouse/storage,10559,,
+13,1200,Entertainment/public assembly,545351,,
+13,1201,Education,73597,,
+13,1202,Office,16805,,
+13,1203,Lodging/residential,138602,,
+13,1204,Office,38382,,
+13,1205,Parking,178270,,
+13,1206,Office,99946,,
+13,1207,Healthcare,74443,,
+13,1208,Healthcare,121585,,
+13,1209,Healthcare,115788,,
+13,1210,Office,92500,,
+13,1211,Office,94988,,
+13,1212,Public services,237518,,
+13,1213,Warehouse/storage,39464,,
+13,1214,Office,195437,,
+13,1215,Parking,100328,,
+13,1216,Office,15269,,
+13,1217,Education,73044,,
+13,1218,Entertainment/public assembly,268480,,
+13,1219,Office,91316,,
+13,1220,Public services,381221,,
+13,1221,Office,29062,,
+13,1222,Lodging/residential,187174,,
+14,1223,Office,52141,,
+14,1224,Office,23481,,
+14,1225,Office,122746,,
+14,1226,Education,27995,,
+14,1227,Education,76903,,
+14,1228,Office,162549,,
+14,1229,Office,27646,,
+14,1230,Office,22524,,
+14,1231,Education,13220,,
+14,1232,Education,181328,,
+14,1233,Education,43143,,
+14,1234,Education,46037,,
+14,1235,Public services,278369,,
+14,1236,Office,61756,,
+14,1237,Office,42755,,
+14,1238,Office,129707,,
+14,1239,Office,31300,,
+14,1240,Public services,73277,,
+14,1241,Healthcare,194188,,
+14,1242,Office,23871,,
+14,1243,Healthcare,237704,,
+14,1244,Public services,95526,,
+14,1245,Healthcare,35354,,
+14,1246,Office,50327,,
+14,1247,Food sales and service,69876,,
+14,1248,Office,78002,,
+14,1249,Office,159384,,
+14,1250,Education,232139,,
+14,1251,Education,104604,,
+14,1252,Education,116249,,
+14,1253,Education,134748,,
+14,1254,Education,24979,,
+14,1255,Office,23702,,
+14,1256,Office,37917,,
+14,1257,Office,61274,,
+14,1258,Education,273234,,
+14,1259,Education,71088,,
+14,1260,Office,86455,,
+14,1261,Office,42942,,
+14,1262,Office,65000,,
+14,1263,Education,97838,,
+14,1264,Education,33012,,
+14,1265,Food sales and service,35605,,
+14,1266,Public services,13469,,
+14,1267,Education,138977,,
+14,1268,Office,43007,,
+14,1269,Healthcare,56388,,
+14,1270,Entertainment/public assembly,18551,,
+14,1271,Public services,20540,,
+14,1272,Public services,247471,,
+14,1273,Office,104089,,
+14,1274,Office,17077,,
+14,1275,Office,114166,,
+14,1276,Office,53860,,
+14,1277,Office,45240,,
+14,1278,Education,79949,,
+14,1279,Office,64743,,
+14,1280,Lodging/residential,79900,,
+14,1281,Office,103138,,
+14,1282,Healthcare,12500,,
+14,1283,Public services,76537,,
+14,1284,Education,442438,,
+14,1285,Healthcare,130067,,
+14,1286,Healthcare,205472,,
+14,1287,Education,60582,,
+14,1288,Education,164206,,
+14,1289,Education,194441,,
+14,1290,Education,200442,,
+14,1291,Office,237546,,
+14,1292,Office,58196,,
+14,1293,Office,51471,,
+14,1294,Office,15649,,
+14,1295,Office,115676,,
+14,1296,Office,8836,,
+14,1297,Office,21469,,
+14,1298,Education,171084,,
+14,1299,Education,25401,,
+14,1300,Healthcare,25609,,
+14,1301,Education,62242,,
+14,1302,Office,90411,,
+14,1303,Healthcare,200000,,
+14,1304,Office,91363,,
+14,1305,Lodging/residential,37803,,
+14,1306,Lodging/residential,54172,,
+14,1307,Lodging/residential,66013,,
+14,1308,Lodging/residential,62279,,
+14,1309,Lodging/residential,58041,,
+14,1310,Lodging/residential,57274,,
+14,1311,Lodging/residential,66794,,
+14,1312,Lodging/residential,75000,,
+14,1313,Healthcare,68637,,
+14,1314,Education,73813,,
+14,1315,Entertainment/public assembly,82789,,
+14,1316,Entertainment/public assembly,49975,,
+14,1317,Entertainment/public assembly,180806,,
+14,1318,Entertainment/public assembly,73488,,
+14,1319,Entertainment/public assembly,287419,,
+14,1320,Entertainment/public assembly,34565,,
+14,1321,Entertainment/public assembly,370024,,
+14,1322,Entertainment/public assembly,166489,,
+14,1323,Office,87200,,
+14,1324,Entertainment/public assembly,84688,,
+15,1325,Entertainment/public assembly,155177,1915,
+15,1326,Office,46981,1962,
+15,1327,Education,98125,2011,
+15,1328,Education,279840,2008,
+15,1329,Technology/science,60100,1912,
+15,1330,Education,173983,1986,
+15,1331,Education,171008,1930,
+15,1332,Education,47398,1912,
+15,1333,Office,31316,1913,
+15,1334,Office,130794,1933,
+15,1335,Public services,136817,1953,
+15,1336,Office,31053,1915,
+15,1337,Office,14744,1910,
+15,1338,Education,31415,1912,
+15,1339,Education,140488,1961,
+15,1340,Manufacturing/industrial,111518,1968,
+15,1341,Education,18342,1960,
+15,1342,Education,116854,1978,
+15,1343,Office,110380,1985,
+15,1344,Education,125507,1974,
+15,1345,Education,20889,1976,
+15,1346,Education,34875,1993,
+15,1347,Education,322341,1995,
+15,1348,Education,131271,2010,
+15,1349,Manufacturing/industrial,7919,1970,
+15,1350,Education,149762,2004,
+15,1351,Office,40611,,
+15,1352,Office,42755,,
+15,1353,Religious worship,22201,,
+15,1354,Education,23232,,
+15,1355,Education,50567,,
+15,1356,Education,91253,,
+15,1357,Office,21618,,
+15,1358,Lodging/residential,61439,1903,
+15,1359,Education,124289,1904,
+15,1360,Entertainment/public assembly,111530,1988,
+15,1361,Education,233863,1921,
+15,1362,Education,113988,1923,
+15,1363,Office,157933,1932,
+15,1364,Utility,74922,1940,
+15,1365,Lodging/residential,129664,1941,
+15,1366,Office,87977,1947,
+15,1367,Education,33695,1948,
+15,1368,Entertainment/public assembly,199037,1949,
+15,1369,Entertainment/public assembly,53194,1953,
+15,1370,Education,4773,,
+15,1371,Public services,50577,1956,
+15,1372,Education,16289,1957,
+15,1373,Education,105434,2014,
+15,1374,Office,159662,1956,
+15,1375,Office,115288,1957,
+15,1376,Public services,240026,1960,
+15,1377,Education,74599,1984,
+15,1378,Education,214505,1990,
+15,1379,Office,49553,1963,
+15,1380,Education,204029,2010,
+15,1381,Office,84615,1963,
+15,1382,Public services,243072,1965,
+15,1383,Education,105612,1967,
+15,1384,Education,56969,1967,
+15,1385,Education,124521,1967,
+15,1386,Entertainment/public assembly,82035,1975,
+15,1387,Office,187041,1973,
+15,1388,Healthcare,45465,1990,
+15,1389,Entertainment/public assembly,17104,1953,
+15,1390,Entertainment/public assembly,93608,1951,
+15,1391,Entertainment/public assembly,68693,1956,
+15,1392,Entertainment/public assembly,76153,1963,
+15,1393,Entertainment/public assembly,151900,1990,
+15,1394,Entertainment/public assembly,16351,2002,
+15,1395,Lodging/residential,98624,,
+15,1396,Lodging/residential,96336,1913,
+15,1397,Lodging/residential,19984,1914,
+15,1398,Lodging/residential,20291,1925,
+15,1399,Lodging/residential,166814,1929,
+15,1400,Lodging/residential,21168,1928,
+15,1401,Lodging/residential,168791,1946,
+15,1402,Lodging/residential,133594,1961,
+15,1403,Lodging/residential,78438,2004,
+15,1404,Lodging/residential,169290,2006,
+15,1405,Lodging/residential,142901,2007,
+15,1406,Lodging/residential,136522,2005,
+15,1407,Lodging/residential,83141,2006,
+15,1408,Entertainment/public assembly,28760,2007,
+15,1409,Lodging/residential,48881,1902,
+15,1410,Office,11524,1994,
+15,1411,Education,9111,1958,
+15,1412,Lodging/residential,39538,1953,
+15,1413,Lodging/residential,65999,1975,
+15,1414,Lodging/residential,65663,1975,
+15,1415,Lodging/residential,40492,1975,
+15,1416,Lodging/residential,41236,1975,
+15,1417,Lodging/residential,40451,1975,
+15,1418,Lodging/residential,41302,1975,
+15,1419,Lodging/residential,40629,1975,
+15,1420,Entertainment/public assembly,95079,1975,
+15,1421,Education,47934,,
+15,1422,Lodging/residential,19876,1932,
+15,1423,Lodging/residential,18277,1965,
+15,1424,Lodging/residential,24103,1964,
+15,1425,Utility,4071,1990,
+15,1426,Entertainment/public assembly,15450,1948,
+15,1427,Education,180625,1933,
+15,1428,Education,28432,1933,
+15,1429,Education,40461,2002,
+15,1430,Office,53303,1981,
+15,1431,Public services,111360,2000,
+15,1432,Education,160673,1968,
+15,1433,Education,28084,1913,
+15,1434,Education,33148,1967,
+15,1435,Education,9552,1961,
+15,1436,Manufacturing/industrial,11302,1937,
+15,1437,Education,111518,1968,
+15,1438,Education,108971,1990,
+15,1439,Education,56497,1957,
+15,1440,Lodging/residential,150294,1987,
+15,1441,Education,30143,1951,
+15,1442,Public services,99541,1993,
+15,1443,Education,40311,1913,
+15,1444,Entertainment/public assembly,19619,1914,
+15,1445,Education,4298,,
+15,1446,Entertainment/public assembly,11265,1997,
+15,1447,Lodging/residential,29775,2001,
+15,1448,Office,92271,2001,
