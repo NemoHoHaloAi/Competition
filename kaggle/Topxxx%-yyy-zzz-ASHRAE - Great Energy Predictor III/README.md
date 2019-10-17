@@ -49,6 +49,7 @@ https://www.kaggle.com/c/ashrae-energy-prediction/data
 ## TIPS
 
 - 问题转换：不预测读数，预测增量；
+- 记录每个表的NaN值，转换后；
 - 预测的是仪表读数，这个是累积的；
 - weather信息颗粒度是低于building信息的，比如site_id为0，对应接近100个building_id，可以理解为某一个区域的天气信息，而不是针对某栋楼，因此风向等也是重要信息；
 - 数据存在一定的缺失、误差；
