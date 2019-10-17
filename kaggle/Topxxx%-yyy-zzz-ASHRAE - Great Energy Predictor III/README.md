@@ -12,7 +12,14 @@ https://www.kaggle.com/c/ashrae-energy-prediction/data
 - 评估函数：RMSLE(Root Mean Squared Logarithmic Error)；
 - TIMELINE：2019年12月12日；
 
-## FEATURE INFO
+## FILE
+
+- weather.csv:各个site每小时的天气信息，7M；
+- building.csv:每个建筑的元信息, 40+K；
+- train.csv:每个建筑每小时的读数信息，600+M；
+- 测试文件大于训练文件；
+
+## FEATURE DESC
 
 - train.csv:
   - building_id：建筑表的外键；
@@ -39,13 +46,8 @@ https://www.kaggle.com/c/ashrae-energy-prediction/data
   - wind_speed - 风速，米每秒；
   - 间隔是1小时；
 
-文件描述：
-- weather.csv:各个site每小时的天气信息，7M；
-- building.csv:每个建筑的元信息, 40+K；
-- train.csv:每个建筑每小时的读数信息，600+M；
-- 测试文件大于训练文件；
+## TIPS
 
-注意：
 - 预测的是仪表读数，这个是累积的；
 - weather信息颗粒度是低于building信息的，比如site_id为0，对应接近100个building_id，可以理解为某一个区域的天气信息，而不是针对某栋楼，因此风向等也是重要信息；
 - 数据存在一定的缺失、误差；
