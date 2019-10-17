@@ -11,6 +11,10 @@ ps              Please be pythonic.
 '''
 
 import sys,os
+import gc
+
+sys.path.append('../../')
+from toolbox.memory_tool import MemoryTool
 
 import pandas as pd, numpy as np, matplotlib.pyplot as plt, seaborn as sns, sklearn
 
@@ -29,27 +33,79 @@ def main():
     """
     enviroment_init()
 
+    global building_data, weather_train_data
+
     print '='*50+'建筑信息'+'='*50
-    print building_data.info()
+    print building_data.info(memory_usage='deep')
+    MemoryTool.memory_info_part(building_data)
     print ''
     print '='*50+'5个样本'+'='*50
     print building_data.sample(5)
     print ''
-    print '='*50+'建筑用途所有取值'+'='*50
-    print building_data.primary_use.unique()
+    print '='*50+'非数值特征描述'+'='*50
+    print building_data.select_dtypes(include=['object']).describe()
     print ''
     print '='*50+'数值特征描述'+'='*50
-    print building_data.describe()
+    print building_data.select_dtypes(include=['int','float']).describe()
     print ''
 
     print '='*50+'天气(训练)信息'+'='*50
-    print weather_train_data.info()
+    print weather_train_data.info(memory_usage='deep')
+    MemoryTool.memory_info_part(weather_train_data)
     print ''
     print '='*50+'5个样本'+'='*50
     print weather_train_data.sample(5)
     print ''
+    print '='*50+'非数值特征描述'+'='*50
+    print weather_train_data.select_dtypes(include=['object']).describe()
+    print ''
     print '='*50+'数值特征描述'+'='*50
-    print weather_train_data.describe()
+    print weather_train_data.select_dtypes(include=['int','float']).describe()
+    print ''
+
+    print '='*50+'内存情况'+'='*50
+
+    gc.collect()
+    memory_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/building_metadata.csv')
+    MemoryTool.memory_info_part(memory_data)
+    print '-'*100
+    memory_data[['building_id','site_id','square_feet','floor_count','year_built']] = memory_data[['building_id','site_id','square_feet','floor_count','year_built']].apply(pd.to_numeric,downcast='unsigned')
+    memory_data.primary_use = memory_data.primary_use.astype('category')
+    MemoryTool.memory_info_part(memory_data)
+    del memory_data 
+    gc.collect()
+    print ''
+
+    gc.collect()
+    memory_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/weather_train.csv')
+    MemoryTool.memory_info_part(memory_data)
+    print '-'*100
+    memory_data[['site_id','cloud_coverage','sea_level_pressure','wind_direction','wind_speed']] = memory_data[['site_id','cloud_coverage','sea_level_pressure','wind_direction','wind_speed']].apply(pd.to_numeric,downcast='unsigned')
+    memory_data[['air_temperature','dew_temperature','precip_depth_1_hr']] = memory_data[['air_temperature','dew_temperature','precip_depth_1_hr']].apply(pd.to_numeric,downcast='float')
+
+    MemoryTool.memory_info_part(memory_data)
+    del memory_data 
+    gc.collect()
+    print ''
+
+    gc.collect()
+    memory_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/train.csv')
+    MemoryTool.memory_info_part(memory_data)
+    print '-'*100
+    memory_data[['building_id','meter','meter_reading']] = memory_data[['building_id','meter','meter_reading']].apply(pd.to_numeric,downcast='unsigned')
+    MemoryTool.memory_info_part(memory_data)
+    del memory_data 
+    gc.collect()
+    print ''
+
+    gc.collect()
+    memory_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/test.csv')
+    MemoryTool.memory_info_part(memory_data)
+    print '-'*100
+    memory_data[['building_id','meter']] = memory_data[['building_id','meter']].apply(pd.to_numeric,downcast='unsigned')
+    MemoryTool.memory_info_part(memory_data)
+    del memory_data 
+    gc.collect()
     print ''
 
 if __name__ == '__main__':
