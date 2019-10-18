@@ -49,7 +49,31 @@ https://www.kaggle.com/c/ashrae-energy-prediction/data
 ## TIPS
 
 - 问题转换：不预测读数，预测增量；
+- 查看年份、楼层对读数的影响，如果不大，则不进行填充，直接丢弃；
+- 查看楼层和面积的关系，如果相关性很强，那么楼层也可以舍弃，直接用面积即可；
 - 表合并前，做一些异常处理、数据转换等工作，避免合并后太大，操作会内存溢出的问题；
+	- 建筑表1449：
+		- 缺失：
+			- 年份：675，平均值中位数、耗能情况、楼层；
+			- 楼层：355，面积、年份、耗能情况；
+		- onehot：
+			- primary_use
+		- 数据转换：
+			- 暂无；
+	- 天气表：
+		- 缺失：
+			- air_temperature       139718，前后填充；
+			- cloud_coverage        70600，前后填充；
+			- dew_temperature       139660，前后填充；
+			- precip_depth_1_hr     89484，前后填充；
+			- sea_level_pressure    129155，前后填充；
+			- wind_direction        133505，前后填充；
+			- wind_speed            139469，前后填充；
+		- 数据转换：
+			- 数值型考虑进行boxcox转换等；
+	- 读数表：
+		- 数据转换：
+			- meter_reading：考虑做boxcox；
 - 预测的是仪表读数，这个是累积的；
 - weather信息颗粒度是低于building信息的，比如site_id为0，对应接近100个building_id，可以理解为某一个区域的天气信息，而不是针对某栋楼，因此风向等也是重要信息；
 - 数据存在一定的缺失、误差；
