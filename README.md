@@ -1,3 +1,3 @@
 # Competitions
 
-![MLProcess](http://assets.processon.com/chart_image/5d7f09cde4b04a195021c1a4.png?_=1568687350126)
+![MLProcess](https://www.processon.com/view/link/5d804433e4b03461a3a9a3d0)
