@@ -54,8 +54,8 @@ print ''
 
 ### 读数数据
 print '读数数据'
-# train_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/train.csv', dtype={'building_id':'uint16','meter':'category','meter_reading':'float32'}, parse_dates=['timestamp'], infer_datetime_format=True)
-train_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/test.csv', dtype={'building_id':'uint16','meter':'category'}, parse_dates=['timestamp'], infer_datetime_format=True)
+train_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/train.csv', dtype={'building_id':'uint16','meter':'category','meter_reading':'float32'}, parse_dates=['timestamp'], infer_datetime_format=True)
+# train_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/test.csv', dtype={'building_id':'uint16','meter':'category'}, parse_dates=['timestamp'], infer_datetime_format=True)
 train_data.info(memory_usage='deep')
 print ''
 
@@ -74,8 +74,8 @@ right:ACD
 print '连接后的全量数据'
 all_data = pd.merge(pd.merge(train_data, building_data, how='left'), weather_train_data, how='left')
 del train_data, building_data, weather_train_data
-# all_data[['building_id','meter_reading','site_id','square_feet']] = all_data[['building_id','meter_reading','site_id','square_feet']].apply(pd.to_numeric, downcast='unsigned')
-all_data[['building_id','site_id','square_feet']] = all_data[['building_id','site_id','square_feet']].apply(pd.to_numeric, downcast='unsigned')
+all_data[['building_id','meter_reading','site_id','square_feet']] = all_data[['building_id','meter_reading','site_id','square_feet']].apply(pd.to_numeric, downcast='unsigned')
+# all_data[['building_id','site_id','square_feet']] = all_data[['building_id','site_id','square_feet']].apply(pd.to_numeric, downcast='unsigned')
 all_data.info(memory_usage='deep')
 print ''
 
@@ -90,4 +90,12 @@ print '='*50+'类别特征描述'+'='*50
 print all_data.select_dtypes(include=['category']).describe()
 print ''
 # all_data.to_csv('/home/helong/下载/1014/all_train.csv', index=False)
-all_data.to_csv('/home/helong/下载/1014/all_test.csv', index=False)
+# all_data.to_csv('/home/helong/下载/1014/all_test.csv', index=False)
+
+### 清理内存
+gc.collect()
+
+#################日期时间转换###################
+print '日期时间转换'
+all_data['Month'] = all_data.apply(lambda x:x.month).astype('uint8')
+print all_data['Month']

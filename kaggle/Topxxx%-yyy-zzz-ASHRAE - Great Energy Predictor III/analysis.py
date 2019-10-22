@@ -101,8 +101,8 @@ def main():
     del memory_data 
     gc.collect()
     print ''
-    1/0
 
+    1/0
     memory_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/test.csv')
     memory_data.info()
     MemoryTool.memory_info_part(memory_data)

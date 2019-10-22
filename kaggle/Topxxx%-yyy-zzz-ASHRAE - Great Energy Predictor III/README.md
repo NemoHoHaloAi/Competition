@@ -109,6 +109,7 @@ https://www.kaggle.com/c/ashrae-energy-prediction/data
 	- https://nbviewer.jupyter.org/github/NemoHoHaloAi/Competition/blob/master/kaggle/Top40%25-0.12847-zzz-House-Prices/House-Prices.ipynb
 	- EDA：
 		- 类别特征分布可视化优化：柱形图展示（sns.catplot(x="site_id", col="meter", col_wrap=2, data=all_train_data, kind="count")）；
+			- checked
 		- 相关性、离散型计算（组合成df输出）；
 			- 相关：直接corr，关注下连续性、离散型、线性相关与否等；
 			- 离散：从分布图上观察；
