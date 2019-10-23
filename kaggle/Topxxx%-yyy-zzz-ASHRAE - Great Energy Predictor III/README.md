@@ -107,9 +107,18 @@ https://www.kaggle.com/c/ashrae-energy-prediction/data
 	- 展示连续、类别特征与目标特征关系图、分布图；
 - TODO
 	- https://nbviewer.jupyter.org/github/NemoHoHaloAi/Competition/blob/master/kaggle/Top40%25-0.12847-zzz-House-Prices/House-Prices.ipynb
+	- 是否要转移到kaggle kernel，目前本机内存不太够用；
+		- 在kernel上测试下全连接训练数据下的日期转换速度；
 	- EDA：
-		- 类别特征分布可视化优化：柱形图展示（sns.catplot(x="site_id", col="meter", col_wrap=2, data=all_train_data, kind="count")）；
-			- checked
+		- 类别特征分布可视化优化：
+			- CHECKED-柱形图展示（sns.catplot(x="site_id", col="meter", col_wrap=2, data=all_train_data, kind="count")）；
+			- 增加堆叠图查看占比
+				- res = bd.groupby(['site_id','primary_use']).building_id.count()
+				- res_unstack = res.unstack(level=-1).fillna(0).astype('int')
+				- labels = list(res_unstack)
+				- plt.stackplot(bd.site_id.unique(), list(res_unstack.values), labels=labels)
+				- res_unstack_ratio = res_unstack.apply(lambda x:[xx*1./x.sum() for xx in x], axis=0)
+				- plt.stackplot(bd.site_id.unique(), list(res_unstack_ratio.values), labels=labels)
 		- 相关性、离散型计算（组合成df输出）；
 			- 相关：直接corr，关注下连续性、离散型、线性相关与否等；
 			- 离散：从分布图上观察；
@@ -120,6 +129,9 @@ https://www.kaggle.com/c/ashrae-energy-prediction/data
 			- 星期几：x.weekday()；
 			- 时间段4小时一个段：x.hour/4；
 			- 类型全部uint8
+			- rolling添加新特征
+			- 周期性：利用同一日、同一星期几、同一时间段分析；
+			- prophet https://blog.csdn.net/anshuai_aw1/article/details/83412058 https://facebook.github.io/prophet/docs/quick_start.html
 		- year_built：重组为建筑年限字段，观察关系图；
 		- 楼层和面积的关系；
 	- 预处理：
@@ -134,6 +146,7 @@ https://www.kaggle.com/c/ashrae-energy-prediction/data
 				- precip_depth_1_hr：缺失一半不到，不知道什么含义，暂时不处理，丢弃；
 				- 海平面压力：缺失1/12，填充方式类似；
 				- 风向风速：缺失不多，填充类似；
+				- wtd.fillna(method='ffill')
 		- 异常处理；
 	- 特征工程：
 		- 根据上述EDA过程增删特征；

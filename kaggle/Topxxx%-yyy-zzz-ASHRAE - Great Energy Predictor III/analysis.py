@@ -98,6 +98,7 @@ def main():
     memory_data[['building_id','meter','meter_reading']] = memory_data[['building_id','meter','meter_reading']].apply(pd.to_numeric,downcast='unsigned')
     memory_data.info()
     MemoryTool.memory_info_part(memory_data)
+
     del memory_data 
     gc.collect()
     print ''
