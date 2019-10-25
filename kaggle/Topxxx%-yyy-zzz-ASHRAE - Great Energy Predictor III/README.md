@@ -121,7 +121,6 @@ https://www.kaggle.com/c/ashrae-energy-prediction/data
 				- plt.stackplot(bd.site_id.unique(), list(res_unstack_ratio.values), labels=labels)
 		- 相关性、离散型计算（组合成df输出）；
 			- 相关：直接corr，关注下连续性、离散型、线性相关与否等；
-			- 离散：从分布图上观察；
 		- 时间特征拆分为多个特征后删除，拆分后特征downcast；
 			- 月份：x.month；
 			- 第几周：x.week；
@@ -150,7 +149,7 @@ https://www.kaggle.com/c/ashrae-energy-prediction/data
 		- 异常处理；
 	- 特征工程：
 		- 根据上述EDA过程增删特征；
-			- 删掉关系不大的：
+			- 删掉相关性低的：方法参考House Price Predict项目
 			- 删掉有重复信息的：
 			- 删掉缺失太多，且无法很好填充的：年份、楼层
 			- 删掉不知道如何使用的：云层覆盖、precip

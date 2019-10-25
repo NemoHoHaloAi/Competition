@@ -19,26 +19,10 @@ from toolbox.memory_tool import MemoryTool
 
 import pandas as pd, numpy as np, matplotlib.pyplot as plt, seaborn as sns, sklearn
 
-### 堆叠图展示类别数据分布
-# x = [1, 2, 3, 4, 5]
-# y1 = [1, 1, 2, 3, 5]
-# y2 = [0, 4, 2, 6, 8]
-# y3 = [1, 3, 5, 7, 9]
-# 
-# y = np.vstack([y1, y2, y3])
-# 
-# labels = ["Fibonacci ", "Evens", "Odds"]
-# plt.stackplot(x, y1, y2, y3, labels=labels)
-# plt.show()
-
 ### 建筑数据
 print '建筑数据'
 building_data = pd.read_csv('./input/building_metadata.csv', dtype={'site_id':'uint8','building_id':'uint16','primary_use':'category','square_feet':'uint32','year_built':'float32','floor_count':'float32'})
 building_data.info(memory_usage='deep')
-
-plt.stackplot(x, y1, y2, y3, labels=labels)
-plt.show()
-1/0
 
 # print '优化year_built和floor_count这两个带NaN的列，年份用0填充表示缺失，楼层同样'
 # building_data.year_built = building_data.year_built.fillna(0)
@@ -111,17 +95,7 @@ print ''
 ### 清理内存
 gc.collect()
 
-### 堆叠图展示类别数据分布
-x = [1, 2, 3, 4, 5]
-y1 = [1, 1, 2, 3, 5]
-y2 = [0, 4, 2, 6, 8]
-y3 = [1, 3, 5, 7, 9]
-
-y = np.vstack([y1, y2, y3])
-
-labels = ["Fibonacci ", "Evens", "Odds"]
-plt.stackplot(x, y1, y2, y3, labels=labels)
-plt.show()
+print all_data.corr()
 
 #################日期时间转换###################
 # print '日期时间转换'
