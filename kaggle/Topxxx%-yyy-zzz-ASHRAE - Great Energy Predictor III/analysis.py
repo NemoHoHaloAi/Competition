@@ -91,6 +91,7 @@ def main():
     gc.collect()
     print ''
 
+    print '训练数据'
     memory_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/train.csv')
     memory_data.info()
     MemoryTool.memory_info_part(memory_data)
