@@ -90,7 +90,6 @@ def main():
     del memory_data 
     gc.collect()
     print ''
-    1/0
 
     memory_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/train.csv')
     memory_data.info()
@@ -99,10 +98,12 @@ def main():
     memory_data[['building_id','meter','meter_reading']] = memory_data[['building_id','meter','meter_reading']].apply(pd.to_numeric,downcast='unsigned')
     memory_data.info()
     MemoryTool.memory_info_part(memory_data)
+
     del memory_data 
     gc.collect()
     print ''
 
+    1/0
     memory_data = pd.read_csv('/home/helong/下载/1014/ashrae-energy-prediction/test.csv')
     memory_data.info()
     MemoryTool.memory_info_part(memory_data)
