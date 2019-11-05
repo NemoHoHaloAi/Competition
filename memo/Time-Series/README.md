@@ -12,3 +12,4 @@
 
 - [everything u can do with Time-Series data](https://www.kaggle.com/thebrownviking20/everything-you-can-do-with-a-time-series)
 - [ARIMA: Bitcoin Price Prediction](https://www.kaggle.com/myonin/bitcoin-price-prediction-by-arima)
+- [Prophet: S\*P 500](https://www.kaggle.com/janiobachmann/s-p-500-time-series-forecasting-with-prophet)
