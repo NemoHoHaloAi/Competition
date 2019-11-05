@@ -26,6 +26,8 @@ cycle time: from `2019-11-05` to `2019-11-30`;
 
 ## PLAN-jaguar
 
+cycle time: from `2019-12-01` to `2019-12-31`;
+
 1. Learn theoretical knowledge about ML
     1. 《统计学习方法》+台大的公开课《机器学习基石》和《机器学习技法》;
     2. MIT的线性代数公开课和微积分;
