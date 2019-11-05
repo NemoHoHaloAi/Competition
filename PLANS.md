@@ -33,4 +33,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
     2. 《机器学习基石》+[视频+链接+笔记](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
     3. 《机器学习技法》+[视频+链接+笔记](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
     4. MIT的线性代数公开课和微积分;
-    5. SPARK;
+    5. [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
