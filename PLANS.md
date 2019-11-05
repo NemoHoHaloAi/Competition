@@ -23,3 +23,10 @@ cycle time: from `2019-11-05` to `2019-11-30`;
 4. update introduction with some project, and add detail in project
     1. deathline: `2019-11-30`;
     2. target: can give it to the interviewers and show my Time-Series skills;
+
+## PLAN-jaguar
+
+1. Learn theoretical knowledge about ML
+    1. 《统计学习方法》+台大的公开课《机器学习基石》和《机器学习技法》;
+    2. MIT的线性代数公开课和微积分;
+    3. SPARK;
