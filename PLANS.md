@@ -30,6 +30,10 @@ Get a job about `Time-Series`, `Sale-Predict` and `Machine Learning`.
     - `14:00` ~ `18:00`: study;
     - `18:00` ~ `20:00`: dinner and take a shower and maybe take a walk;
     - `20:00` ~ `24:00`: study;
+    
+## DETAIL
+
+When you waiting for the code run, you best to do something else, like learn from kernels, read book, watch video, write note, etc.
 
 ## PLAN-corgi
 
