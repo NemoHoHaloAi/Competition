@@ -19,7 +19,9 @@ Get a job about `Time-Series`, `Sale-Predict` and `Machine Learning`.
 
 - work day:
     - `9:00` ~ `10:00`: relax;
-    - `10:00` ~ `19:30`: work;
+    - `10:00` ~ `12:30`: work;
+    - `12:30` ~ `14:00`: lunch and take a nap;
+    - `14:00` ~ `19:30`: work;
     - `19:30` ~ `21:00`: dinner and take a shower;
     - `21:00` ~ `24:00`: study;
 - rest day:
