@@ -1,5 +1,16 @@
 # PLANS
 
+All I done in last two years:
+- form `2017-10-25` to `2018-10-18`, 1 year, I done the ML class and ML+ class.
+- from `2018-10-19` to `2019-11-05`, 1 year, I only done 3 projects(Titanic, House-Price, DigitReconize), starting 2 projects(ASHRA, Future-Sales-Predict) in kaggle.
+
+In one and half years ago, I writed this:
+
+> **Get a job about machine learning whatever how much job-pay is!!!**<br>
+I am 26 old now, I have nothing by myself to proud. The house? my parent pay it, the job? it just so-so. I am even not better than my father on his 26 old, and I have University degree. So what I do in shenzhen from 2015 year until now. Everyone I know is working hard but me, I feel shame on myself. But good news is I still have time to find and learn how to be better. Someone will say I just follow the wind of machine learning, but I dont give a shit, it will be difficult, and job-pay will be lesser, but I will get it and do it well, I will show everyone I can do this well. Of cause first I must to finish the udacity machine learning lesson.
+    
+And now, I am 27, still do nothing, I am scare now, maybe this is a wrong way and I am not a hard-work person, maybe I should always be a software-engineering not a MLer, but I want to try last time, from now to `2020-05-01`, I will study harder and harder, follow my plan(kaggle projects, kaggle kernels, books and videos), I will give up if I can not get a ML job between `2020-03` and `2020-04`, please be harder and dont make yourself regretting.
+
 ## PLAN-corgi
 
 cycle time: from `2019-11-05` to `2019-11-30`;
