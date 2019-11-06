@@ -15,6 +15,15 @@ And now, I am 27, still do nothing, I am scare now, maybe this is a wrong way an
 
 Get a job about `Time-Series`, `Sale-Predict` and `Machine Learning`.
 
+## Timetable
+
+- work day:
+    - study: from `20:30` or `21:00` to `24:00`;
+    - play and rest: from `9:00` to `10:00`;
+- rest day:
+    - study: from `14:00` to `24:00`;
+    - play and rest: from `10:00` to `12:00`;
+
 ## PLAN-corgi
 
 cycle time: from `2019-11-05` to `2019-11-30`;
