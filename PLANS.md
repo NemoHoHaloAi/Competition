@@ -65,8 +65,8 @@ cycle time: from `2019-11-05` to `2019-11-30`;
 cycle time: from `2019-12-01` to `2019-12-31`;
 
 1. Learn theoretical knowledge about ML
-    1. 《统计学习方法》+[代码](https://github.com/WenDesi/lihang_book_algorithm)：建议边看书边手推公式然后对着GitHub一边敲代码;
-    2. 《机器学习基石》+[视频+链接+笔记](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
-    3. 《机器学习技法》+[视频+链接+笔记](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
+    1. 李航《统计学习方法》+[code](https://github.com/WenDesi/lihang_book_algorithm)：建议边看书边手推公式然后对着GitHub一边敲代码;
+    2. 林轩田《机器学习基石》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
+    3. 林轩田《机器学习技法》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
     4. [线性代数和微积分](https://github.com/wenhan-wu/OpenCourseCatalog);
     5. [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
