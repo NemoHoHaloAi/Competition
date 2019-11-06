@@ -11,6 +11,10 @@ In one and half years ago, I writed this:
     
 And now, I am 27, still do nothing, I am scare now, maybe this is a wrong way and I am not a hard-work person, maybe I should always be a software-engineer not a MLer, but I want to try last time, from now to `2020-05-01`, I will study harder and harder, follow my plan(kaggle projects, kaggle kernels, books and videos), I will give up if I can not get a ML job between `2020-03` and `2020-04`, please be harder and dont make yourself regretting.
 
+## TARGET
+
+Get a job about `Time-Series`, `Sale-Predict` and `Machine Learning`.
+
 ## PLAN-corgi
 
 cycle time: from `2019-11-05` to `2019-11-30`;
