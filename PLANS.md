@@ -18,11 +18,16 @@ Get a job about `Time-Series`, `Sale-Predict` and `Machine Learning`.
 ## Timetable
 
 - work day:
-    - study: from `20:30` or `21:00` to `24:00`;
-    - play and rest: from `9:00` to `10:00`;
+    - `9:00` ~ `10:00`: play;
+    - `10:00` ~ `19:30`: work;
+    - `19:30` ~ `21:00`: dinner and take a shower;
+    - `21:00` ~ `24:00`: study;
 - rest day:
-    - study: from `14:00` to `24:00`;
-    - play and rest: from `10:00` to `12:00`;
+    - `10:00` ~ `12:00`: play;
+    - `12:00` ~ `14:00`: breakfast and take a walk and shop for dinner;
+    - `14:00` ~ `18:00`: study;
+    - `18:00` ~ `20:00`: dinner and take a shower and maybe take a walk;
+    - `20:00` ~ `24:00`: study;
 
 ## PLAN-corgi
 
