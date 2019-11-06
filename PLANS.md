@@ -4,7 +4,7 @@
 
 cycle time: from `2019-11-05` to `2019-11-30`;
 
-1. finish future-price-predict project with the good kernel
+1. finish [future-price-predict project](https://www.kaggle.com/holoong9291/predict-future-sales) with the good kernel
     1. deathline: `2019-11-10`;
     2. now: fix and update with [the good kernel](https://www.kaggle.com/dlarionov/feature-engineering-xgboost);
 2. learn how to work with time series with TS kernels
