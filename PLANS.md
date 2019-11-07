@@ -74,3 +74,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 ## DAILY MEMO
 
 - 2019-11-06: 完成Future-Sales-Predict项目从good-kernel上借鉴部分，目前完成了预处理、特征工程部分；
+- 2019-11-07: 完成数据分割、baseline、遍历方式优化部分；
