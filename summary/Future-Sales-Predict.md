@@ -8,6 +8,7 @@
 6. 计算商品上一次最后售出、第一次售出是多久前，这个特征应该是TS的销售领域比较常用且有效的；
 7. 连续数据分布转换时，对比下对数、指数、幂函数、box-cox等转换方法，并通过偏度、峰度来决定，主要是偏度，越接近0越好，0为标准正太，峰度为3为正态；
 8. 数据转换中出现的boxcox结果skew大于原始的问题，因为测试数据中大量fill了0，导致数据正偏太严重，无法正常转换，因此这一步应该做到预处理部分；
+9. 数据转换位置很关键，目前是放在concat test前，避免被test的0干扰，同时对matrix和train的连续特征做了转换，target用的是log1p，方便恢复；
 
 
 ## 整个流程中数据结构的变化
@@ -52,7 +53,12 @@
         11. 每个月每个subtype的平均销量：matrix:增加date_subtype_avg_item_cnt_lag_1;
     3. 趋势特征：
         1. 最后6个月的商品价格趋势：
-        2. 最后一个月的商品销售额趋势：
+            - item_avg_item_price 每个商品平均价格
+            - date_item_avg_item_price 每个月每个商品的平均价格
+            - date_item_avg_item_price lag [1,2,3,4,5,6] 每个月每个商品的平均价格的lag
+            - delta_price_lag_[1,2,3,4,5,6] = (date_item_avg_item_price_lag_[1,2,3,4,5,6] - item_avg_item_price) / item_avg_item_price
+            - delta_price_lag = delta_price_lag_[1,2,3,4,5,6]中最近的有值的那个，或者0
+        2. 最后一个月的商品销售额趋势：matrix:增加delta_revenue_lag_1，表示((每月每个店总销售额 - 每个店的平均销量) / 每个店的平均销量)
     4. 其他特征：
         1. 月份天数：matrix增加month,days;
         2. 每个商店的每个商品上一次售出是几个月前：matrix增加item_shop_last_sale;
