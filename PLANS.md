@@ -78,4 +78,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-08: 数据转换后转换回来的问题、调整数据转换代码到合入test前并分别对matrix和train做转换、数据结构变化收尾；
 - 2019-11-09: 基石-chapter2，基石-chapter3；
 - 2019-11-10: 预测结果与实际结果对比、生成结果文件、计算分数(0.95)、模型堆叠、开放kernel并增加baseon和优化修改点，基石-chapter4，基石-chapter5，基石-chapter6；
-- 2019-11-11: 离线运行Future-Sales-Predict、Kernel(基于TS数据能做的所有事)、基石-chapter7；
+- 2019-11-11: 离线运行Future-Sales-Predict、Kernel(基于TS数据能做的所有事)、基石-chapter7、微积分课程(BiliBili)；
