@@ -32,6 +32,9 @@
 
 ## 金融与统计
 
+- 百分比变化：
+    - 通过`shift`、`div`实现百分比变化数据计算，例如```google.High.div(google.High.shift())```；
+
 ## TS分解与随机移动
 
 ## statsmodels建模
