@@ -33,7 +33,7 @@
 ## 金融与统计
 
 - 百分比变化：
-    - 通过`shift`、`div`实现百分比变化数据计算，例如```google.High.div(google.High.shift())```；
+    - 通过`shift`、`div`实现百分比变化数据计算，例如```google.High.div(google.High.shift())```，得到今天与前一天的百分比例，如果减去1，正数说明增长，负数说明下降；
 
 ## TS分解与随机移动
 
