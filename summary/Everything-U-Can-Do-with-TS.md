@@ -33,7 +33,37 @@
 ## 金融与统计
 
 - 百分比变化：
-    - 通过`shift`、`div`实现百分比变化数据计算，例如```google.High.div(google.High.shift())```，得到今天与前一天的百分比例，如果减去1，正数说明增长，负数说明下降；
+    - 通过`shift`、`div`实现百分比变化数据计算，例如```google.High.div(google.High.shift())```，得到今天与前一天的百分比例，如果减去1，正数说明一天内增长，负数说明一天内下降；
+    - 另一种方法，通过内置的`pct_change()`来计算百分比变化，效果一样；
+- 股票收益：
+    - 通过`Change.sub(1)`（也就是上面的百分比变化后减1），再通过`mul(100)`，计算股票今天对比昨天的收益情况，大于0涨，小于0跌，单位是百分比；
+- 绝对变化：
+    - 通过`diff()`计算当前行与前一行的绝对值差；
+- 标准化后对比多个时间序列：
+    - 通过`div`每个序列各自的第一个元素进行标准化，然后通过`mul(100)`计算整个序列的变化趋势；
+- **窗口函数**：
+    - Rolling：
+        - 理解为从当前行向前取**一定**长度，即一般用于算一段时间内的变化；
+        - 比如传入`30D`，则是取30天，后面跟一个`mean()`表示计算30D的平均值；
+        - 通常会产生NaN，可以通过指定`min_periods`来避免；
+        - 通过`agg({"amt_sum": np.sum, "amt_mean": np.mean})`可以获取多个结果，且重命名；
+    - Expanding：
+        - 计算从开始到最后的变化，对于最后一个元素，就是计算从第一个开始到最后一个的累计变化情况；
+        - 当rolling()函数的参数window=len(df)时，实现的效果与expanding()函数是一样的；
+        - 例如有三列数据时：`df.rolling(3, min_periods=1,axis=1).mean()` == `df.expanding(axis=1).mean()`；
+- OHLC、CandleStick：专门用于股票等可视化，通过绘制其Open、High、Low、Close来分析预测，可以通过`plotly.graph_objs.Ohlc`和`plotly.graph_objs.Candlestick`进行绘制；
+- [自相关(Autocorrelation)与偏自相关(Partial Autocorrelation)](http://www.atyun.com/4462.html)：
+    - 自相关：
+        - 即自身与自身lag的相关系数，超过置信区间则可以认为是统计显著的，不是意外；
+        - 测量一个序列在不同的延迟(lag)下与自身的关系；
+        - 通过`from statsmodels.graphics.tsaplots import plot_acf`引用；
+        - `plot_acf(humidity["San Diego"],lags=25,title="San Diego")`指定可视化延后的范围，此处就是1~25；
+        - 通过观察结果判断其自相关系数(是否大于置信区间)，判断其是否统计显著；
+    - 部分自相关：
+        - 偏自相关可以认为是排查了间接相关性后的直接相关系数，通常会在某个k值后急剧下降；
+        - 通过`plot_pacf(humidity["San Diego"],lags=25)`可视化结果；
+        - 注意：自相关高，不代表部分自相关也高，二者很可能是有很大差异的，比如这个kernel里；
+        
 
 ## TS分解与随机移动
 
