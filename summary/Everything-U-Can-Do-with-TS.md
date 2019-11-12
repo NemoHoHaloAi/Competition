@@ -89,9 +89,43 @@
 ## statsmodels建模
 
 - AR Models(自回归模型)：
-    - 一类随机过程的表示，它规定输出变量**线性**的依赖它自己**以前的值**和一个**随机项**，因此模型是一个**随机差分方程**的形式；
+    - 一类随机过程的表示，指定输出变量**线性**的依赖它自己**以前的值**和一个**随机项**，因此模型是一个**随机差分方程**的形式；
+    - μ：平均值，εt：噪声；
+    - 公式含义：今天的值 = 平均值 + 昨天的值(一阶，如果是二阶，则还有前天的值，以此类推) + 噪声；
     - AR(1)：
         ![AR-1](http://latex.codecogs.com/gif.latex?%5Cinline%20R_t%20%3D%20%5Cmu%20&plus;%20%5Cphi%20R_%7Bt-1%7D%20&plus;%20%5Cvarepsilon%20_t)
-- MA Models：
+        - 如果ϕ等于1，则为随机游走；
+        - 如果ϕ等于0，则为白噪声；
+        - 如果ϕ大于-1小于1，则为稳定的；
+        - 如果ϕ为-ve，则为均值回归；
+        - 如果ϕ为+ve，则为冲量（动量）；
+    - AR(2)：
+        ![AR-2](http://latex.codecogs.com/gif.latex?%5Cinline%20R_t%20%3D%20%5Cmu%20&plus;%20%5Cphi%20_1%20R_%7Bt-1%7D%20&plus;%20%5Cphi%20_2%20R_%7Bt-2%7D%20&plus;%20%5Cvarepsilon%20_t)
+    - AR(3)：
+        ![AR-3](http://latex.codecogs.com/gif.latex?%5Cinline%20R_t%20%3D%20%5Cmu%20&plus;%20%5Cphi%20_1%20R_%7Bt-1%7D%20&plus;%20%5Cphi%20_2%20R_%7Bt-2%7D%20&plus;%20%5Cphi%20_3%20R_%7Bt-3%7D%20&plus;%20%5Cvarepsilon%20_t)
+    - AR(N)：
+        ![AR-n](http://latex.codecogs.com/gif.latex?%5Cinline%20R_t%20%3D%20%5Cmu%20&plus;%20%5Cphi%20_1%20R_%7Bt-1%7D%20&plus;%20%5Cphi%20_2%20R_%7Bt-2%7D%20&plus;%20%5Cphi%20_3%20R_%7Bt-3%7D%20&plus;%20......%20&plus;%20%5Cphi%20_n%20R_%7Bt-n%7D%20&plus;%20%5Cvarepsilon%20_t)
+- MA Models(移动平均模型)：
+    - 常用的单变量时间序列建模方法，指定输出变量**线性**依赖于一个**随机项**的**当前**和**过去**的值；
+    - 公式含义：今天的值 = 平均值 + 今天的噪声 + 昨天的噪声；
+    ![MA](http://latex.codecogs.com/gif.latex?%5Cinline%20R_t%20%3D%20%5Cmu%20&plus;%20%5Cvarepsilon%20_t1%20&plus;%20%5Ctheta%20%5Cvarepsilon%20_%7Bt-1%7D)
 - ARMA Models：
+    - 顾名思义是AR和MA的融合，提供了两个多项式来对平稳随机过程进行描述，AR用于自回归，而MA用于移动平均；
+    - 公式含义：今天的值 = 平均值 + 昨天的值 + 噪声 + 昨天的噪声；
+    ![ARMA(1,1)](http://latex.codecogs.com/gif.latex?%5Cinline%20R_t%20%3D%20%5Cmu%20&plus;%20%5Cphi%20R_%7Bt-1%7D%20&plus;%20%5Cvarepsilon%20_t%20&plus;%20%5Ctheta%20%5Cvarepsilon%20_%7Bt-1%7D)
+    - 这里是ARMA(1,1)的公式，即一阶AR+一阶MA，如果是二阶AR，则加上前天的值项即可，因为ARMA考虑了更多的值与噪声因素，因此通常效果要由于AR、MA；
 - ARIMA Models：
+    - 自回归综合移动平均模型，是自回归移动平均模型的更普遍的形式，可以应用于非平稳序列，初始的diff过程可以应用一次或多次来消除非平稳性；
+    - ARIMA模型的形式是：ARIMA（p，d，q）：p是AR参数，d是微分参数，q是MA参数；
+    - ARIMA(1,0,0)公式：
+    ![ARIMA(1,0,0)](http://latex.codecogs.com/gif.latex?%5Cinline%20y_t%20%3D%20a_1y_%7Bt-1%7D%20&plus;%20%5Cvarepsilon%20_t)
+    - ARIMA(1,0,1)公式：
+    ![ARIMA(1,0,1)](http://latex.codecogs.com/gif.latex?%5Cinline%20y_t%20%3D%20a_1y_%7Bt-1%7D%20&plus;%20%5Cvarepsilon%20_t%20&plus;%20b_1%5Cvarepsilon%20_%7Bt-1%7D)
+    - ARIMA(1,1,1)公式：
+    ![ARIMA(1,1,1)](http://latex.codecogs.com/gif.latex?%5Cinline%20%5CDelta%20y_t%20%3D%20a_1%5CDelta%20y_%7Bt-1%7D%20&plus;%20%5Cvarepsilon%20_t%20&plus;%20b_1%5Cvarepsilon%20_%7Bt-1%7D%20where%20%5CDelta%20y_t%20%3D%20y_t%20-%20y_%7Bt-1%7D)
+- VAR Models(向量自回归模型)：
+    - 用于捕捉多个时间序列之间的线性相关性；
+- 状态空间方法：
+- SARIMA：
+- 未观测分量：
+- 动态分子模型：
