@@ -87,3 +87,8 @@
     - 非平稳序列在建模时，需要考虑的因素远多于平稳序列，`diff`方法可以有效的将非平稳序列（比如有上升趋势的）转换为平稳序列；
 
 ## statsmodels建模
+
+- AR Models：
+- MA Models：
+- ARMA Models：
+- ARIMA Models：
