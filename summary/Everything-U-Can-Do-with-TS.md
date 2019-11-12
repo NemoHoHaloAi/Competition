@@ -52,19 +52,22 @@
         - 当rolling()函数的参数window=len(df)时，实现的效果与expanding()函数是一样的；
         - 例如有三列数据时：`df.rolling(3, min_periods=1,axis=1).mean()` == `df.expanding(axis=1).mean()`；
 - OHLC、CandleStick：专门用于股票等可视化，通过绘制其Open、High、Low、Close来分析预测，可以通过`plotly.graph_objs.Ohlc`和`plotly.graph_objs.Candlestick`进行绘制；
-- [自相关(Autocorrelation)与偏自相关(Partial Autocorrelation)](http://www.atyun.com/4462.html)：
+- [自相关(Autocorrelation)与偏自相关(Partial Autocorrelation)](https://www.biaodianfu.com/acf-pacf.html)：
     - 自相关：
+        - 也叫序列相关，是一个信号于其自身在不同时间点的互相关，非正式地来说，它就是两次观察之间的相似度对它们之间的时间差的函数；
         - 即自身与自身lag的相关系数，超过置信区间则可以认为是统计显著的，不是意外；
         - 测量一个序列在不同的延迟(lag)下与自身的关系；
         - 通过`from statsmodels.graphics.tsaplots import plot_acf`引用；
         - `plot_acf(humidity["San Diego"],lags=25,title="San Diego")`指定可视化延后的范围，此处就是1~25；
         - 通过观察结果判断其自相关系数(是否大于置信区间)，判断其是否统计显著；
     - 部分自相关：
-        - 偏自相关可以认为是排查了间接相关性后的直接相关系数，通常会在某个k值后急剧下降；
+        - 偏自相关函数用来度量暂时调整所有其他较短滞后的项 (y_{t-1}, y_{t-2}, ..., y_{t-k-1}) 之后，时间序列中以 k 个时间单位（y_{t}和y_{t-k}）分隔的观测值之间的相关；
+        - 偏自相关简单说就是只对比当前数据与滞后k后的数据而不考虑二者之间的数据，借此排除间接关系，因此通常会在某个**较大的k值**后相关系数急剧下降；
         - 通过`plot_pacf(humidity["San Diego"],lags=25)`可视化结果；
-        - 注意：自相关高，不代表部分自相关也高，二者很可能是有很大差异的，比如这个kernel里；
-        
+        - 注意：自相关高，不代表偏自相关也高，二者很可能是有很大差异的，比如这个kernel里；
 
 ## TS分解与随机移动
+
+
 
 ## statsmodels建模
