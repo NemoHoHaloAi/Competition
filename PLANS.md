@@ -79,4 +79,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-09: 基石-chapter2，基石-chapter3；
 - 2019-11-10: 预测结果与实际结果对比、生成结果文件、计算分数(0.95)、模型堆叠、开放kernel并增加baseon和优化修改点，基石-chapter4，基石-chapter5，基石-chapter6；
 - 2019-11-11: 离线运行Future-Sales-Predict、Kernel(基于TS数据能做的所有事)；
-- 2019-11-12: 离线运行Future-Sales-Predict(分析起得分低的原因)、Kernel(基于TS数据能做的所有事)-surplus、基石-chapter7；
+- 2019-11-12: 离线运行Future-Sales-Predict(分析score低的原因)、Kernel(基于TS数据能做的所有事)-surplus、基石-chapter7；
