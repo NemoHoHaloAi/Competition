@@ -88,7 +88,8 @@
 
 ## statsmodels建模
 
-- AR Models：
-- MA Models：
+- AR Models(自回归模型)：
+    - 一类随机过程的表示，它规定输出变量**线性**的依赖它自己**以前的值**和一个**随机项**，因此模型是一个**随机差分方程**的形式；
+- MA Models：$$P = \frac{C_a^k \cdot C_b^{n-k}}{C_{a+b}^n}$$
 - ARMA Models：
 - ARIMA Models：
