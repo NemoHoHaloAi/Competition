@@ -91,7 +91,7 @@
 - AR Models(自回归模型)：
     - 一类随机过程的表示，它规定输出变量**线性**的依赖它自己**以前的值**和一个**随机项**，因此模型是一个**随机差分方程**的形式；
     - AR(1)：
-        - ![AR-1](http://latex.codecogs.com/gif.latex?%5Cinline%20R_t%20%3D%20%5Cmu%20&plus;%20%5Cphi%20R_%7Bt-1%7D%20&plus;%20%5Cvarepsilon%20_t)
+        ![AR-1](http://latex.codecogs.com/gif.latex?%5Cinline%20R_t%20%3D%20%5Cmu%20&plus;%20%5Cphi%20R_%7Bt-1%7D%20&plus;%20%5Cvarepsilon%20_t)
 - MA Models：
 - ARMA Models：
 - ARIMA Models：
