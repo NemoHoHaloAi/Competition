@@ -83,4 +83,7 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-10: 预测结果与实际结果对比、生成结果文件、计算分数(0.95)、模型堆叠、开放kernel并增加baseon和优化修改点，基石-chapter4，基石-chapter5，基石-chapter6；
 - 2019-11-11: 离线运行Future-Sales-Predict、Kernel(基于TS数据能做的所有事)；
 - 2019-11-12: Kernel(基于TS数据能做的所有事)-surplus；
-- 2019-11-13: Kernel(Bitcoin-Predict-by-ARIMA)、Future-Sales-Predict(分析score低的原因,目标进入Top20%)、基石-chapter7、基石-chapter8；
+- 2019-11-13: Kernel(Bitcoin-Predict-by-ARIMA)、基石-chapter7、基石-chapter8；
+- 2019-11-14: Kernel(TBA)、基石-chapter9、基石-chapter10；
+- 2019-11-15: Kernel(TBA)、基石-chapter11、基石-chapter12；
+- 2019-11-16: Future-Sales-Predict(分析score低的原因,目标进入Top20%)；
