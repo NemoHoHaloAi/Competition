@@ -57,9 +57,10 @@ y_pred_inv = invboxcox(y_pred,lmbda)
 
 ## 模型选择
 
-1. 先观察其自相关和偏自相关系数：
+0. 先观察其自相关和偏自相关系数：
     - 自相关`plot_acf`：lag1之后，统计不显著；
     - 偏自相关`plot_pacf`：lag1之后，统计不显著；
+1. 参数组成：时序数据、趋势参数、季节性参数；
 2. 排列组合SARIMAX的模型参数：
     - 参数说明：
         - 趋势参数：（与ARIMA模型相同）
@@ -89,3 +90,6 @@ y_pred_inv = invboxcox(y_pred,lmbda)
 - p-value：基本为0；
 
 ## 预测
+
+通过最佳模型的`best_model.predict`，传入`(start=0, end=75)`，表示预测范围为0~75个月，因为是序列自身预测自身，所以不需要分train、test等，直接后延就可以对未来进行预测，这里看效果还是不错的：
+![predict](https://www.kaggleusercontent.com/kf/1749567/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..2XgoQtcywem7BLRZNlHXhA.KJtNmFIMCG7He9MA8bhV929xd3AddgqrqDkLBxEQcPeoGPwurIPrOLmy1wTIZuukP3cvM07M66grJq13glVJPeIvdbkdHi4eNY-Brcg1bIEFBaZN_pg1eTc-K7BcLbXGCougTCl85jm7SR8XTtivFUVDe82h5_Nabi5IDtefzxkod-esgEtIWPoOmxsVbl3V._VCAHeSo7CVM4E8ymkbNlQ/__results___files/__results___28_0.png)
