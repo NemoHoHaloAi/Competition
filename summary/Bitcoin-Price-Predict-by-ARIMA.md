@@ -83,3 +83,6 @@ y_pred_inv = invboxcox(y_pred,lmbda)
 ## 残差分析
 
 通过`best_model.resid`获取模型残差，并可视化其数据、自相关系数、p-value；
+
+- 自相关系数：基本全部统计不显著；
+- p-value：基本为0；
