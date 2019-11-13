@@ -48,7 +48,7 @@ cycle time: from `2019-11-05` to `2019-11-30`;
     2. now: start with https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle ;
     3. first(common): https://www.kaggle.com/thebrownviking20/everything-you-can-do-with-a-time-series ;
     4. second(ARIMA): https://www.kaggle.com/myonin/bitcoin-price-prediction-by-arima ;
-    5. last(): waiting for makesure ;
+    5. last(ts+ml): predict time-series data with ml model(not traditional model, like ar,ma,arma,arima, etc.);
 3. [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
     1. deathline: `2019-11-13`;
     2. target: can throw into the introduction;
