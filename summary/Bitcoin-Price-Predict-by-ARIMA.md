@@ -93,3 +93,7 @@ y_pred_inv = invboxcox(y_pred,lmbda)
 
 通过最佳模型的`best_model.predict`，传入`(start=0, end=75)`，表示预测范围为0~75个月，因为是序列自身预测自身，所以不需要分train、test等，直接后延就可以对未来进行预测，这里看效果还是不错的：
 ![predict](bitcoin-predict.png)
+
+从图上看到以下几点：
+1. 从原始数据部分看，拟合的效果还是比较好的；
+2. 对未来数据的预测上，保留了趋势和季节性两个特点；
