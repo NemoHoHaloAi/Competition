@@ -86,3 +86,5 @@ y_pred_inv = invboxcox(y_pred,lmbda)
 
 - 自相关系数：基本全部统计不显著；
 - p-value：基本为0；
+
+## 预测
