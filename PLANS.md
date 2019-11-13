@@ -51,6 +51,7 @@ cycle time: from `2019-11-05` to `2019-11-30`;
     5. last(ts+ml): predict time-series data with ml model(not traditional model, like ar,ma,arma,arima, etc.);
         - [杂货店商品销售预测 - notebook](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/notebooks)
         - [网站流量预测 - blog](https://www.cnblogs.com/DjangoBlog/p/10033188.html)
+        - [Rossmann - maybe]()
 3. [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
     1. deathline: `2019-11-13`;
     2. target: can throw into the introduction;
