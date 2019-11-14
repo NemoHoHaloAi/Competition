@@ -27,6 +27,9 @@
 - 美式足球：进攻方基本目的是通过跑动、传球等尽快抵达对方半场，也就是达阵，而防守方的目的则是相反，尽全力去阻止对方的前进以及尽可能断球；
 - 球员：双方场上共22人；
 - 影响因素：带球者（四分卫?）、队友、教练、对手；
+- handoff：传球
+- snap：发球
+- [基本知识](https://www.douban.com/note/321101362/)
 
 ## Deathline
 
@@ -89,10 +92,18 @@
 
 ## Define Problem
 
+回归预测，Target是码数，但是最终结果需要转换为条件概率分布；
+
 ## Evaluation Function
 
-Continuous Ranked Probability Score (CRPS)
+Continuous Ranked Probability Score (CRPS)；
 
 ## Start from Gert\`s Kernel
 
 Kernel Link: https://www.kaggle.com/gertjac/regression-approach
+
+## WorkPlan
+
+1. Fork with [Gert\`s kernel](https://www.kaggle.com/gertjac/regression-approach);
+2. Submit by kernel as baseline;
+3. 
