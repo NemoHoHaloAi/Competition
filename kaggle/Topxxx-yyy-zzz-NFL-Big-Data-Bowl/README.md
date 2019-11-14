@@ -73,8 +73,8 @@ NFL：
 - `DefendersInTheBox` - number of defenders lined up near the line of scrimmage, spanning the width of the offensive line
 - `DefensePersonnel` - defensive team positional grouping
 - `PlayDirection` - direction the play is headed
-- `TimeHandoff` - UTC time of the handoff
-- `TimeSnap` - UTC time of the snap
+- `TimeHandoff` - UTC time of the handoff - 传球时间
+- `TimeSnap` - UTC time of the snap - 发球时间
 - `Yards` - the yardage gained on the play (you are predicting this) - **目标**
 - `PlayerHeight` - player height (ft-in) - 球员身高
 - `PlayerWeight` - player weight (lbs) - 球员体重
