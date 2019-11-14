@@ -102,6 +102,13 @@ Continuous Ranked Probability Score (CRPS)；
 
 Kernel Link: https://www.kaggle.com/gertjac/regression-approach
 
+## 4 milestone
+
+1. 直接提交Gert的kernel；
+2. 不考虑太多橄榄球相关业务情况，只进行基础处理；
+3. 加入对橄榄球的理解 - 主要指FE部分；
+4. 优化模型算法；
+
 ## WorkPlan
 
 1. Fork with [Gert\`s kernel](https://www.kaggle.com/gertjac/regression-approach);
