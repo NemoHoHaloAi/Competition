@@ -105,5 +105,15 @@ Kernel Link: https://www.kaggle.com/gertjac/regression-approach
 ## WorkPlan
 
 1. Fork with [Gert\`s kernel](https://www.kaggle.com/gertjac/regression-approach);
-2. Submit by kernel as baseline;
-3. 
+2. Submit by myself kernel as baseline;
+3. Preprocess
+    1. missing value
+    2. outlier
+    3. something else
+        1. age
+        2. time series
+        3. ....
+4. EDA
+5. FE
+6. Modeling
+7. Stack or something
