@@ -31,6 +31,9 @@
 - snap：发球
 - [基本知识](https://www.douban.com/note/321101362/)
 
+位置图：
+![位置图](https://img3.doubanio.com/view/note/large/public/p10518112.jpg)
+
 ## Deathline
 
 `2019-11-27`:停止submit；
