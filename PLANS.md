@@ -53,6 +53,7 @@ cycle time: from `2019-11-05` to `2019-11-30`;
     - [NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data)
         1. deathline: `2019-11-28`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-NFL-Big-Data-Bowl)
+        3. [start with](https://www.kaggle.com/gertjac/regression-approach)
     - [Walmart Recruiting II: Sales in Stormy Weather](https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather)
     - [Store Item Demand Forecasting Challenge](https://www.kaggle.com/c/demand-forecasting-kernels-only)
     - [Corporación Favorita Grocery Sales Forecasting](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
