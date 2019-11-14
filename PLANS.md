@@ -35,35 +35,39 @@ Get a job about `Time-Series`, `Sale-Predict` and `Machine Learning`.
 
 When you waiting for the code run, you best to do something else, like learn from kernels, read book, watch video, write note, etc.
 
-## PLAN-corgi
+## PLAN-corgi ![icon](https://img.shields.io/badge/doing-60%25-green)
 
 cycle time: from `2019-11-05` to `2019-11-30`;
 
-1. finish [future-price-predict project](https://www.kaggle.com/holoong9291/predict-future-sales) with the good kernel
+0. ![icon](https://img.shields.io/badge/todo|A-90%25-green) finish [future-price-predict project](https://www.kaggle.com/holoong9291/predict-future-sales) with the good kernel
     1. deathline: `2019-11-10`;
     2. now: fix and update with [the good kernel](https://www.kaggle.com/dlarionov/feature-engineering-xgboost);
     3. and: model stack, correct factor;
-2. learn how to work with time series with TS kernels
+    4. last: up to Top10%;
+1. ![icon](https://img.shields.io/badge/done-100%25-lightgrey) learn how to work with time series with TS kernels
     1. deathline: `2019-11-17`;
     2. now: start with https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle ;
     3. first(common): https://www.kaggle.com/thebrownviking20/everything-you-can-do-with-a-time-series ;
     4. second(ARIMA): https://www.kaggle.com/myonin/bitcoin-price-prediction-by-arima ;
-    5. last(ts+ml): predict time-series data with ml model(not traditional model, like ar,ma,arma,arima, etc.);
-        - [杂货店商品销售预测 - notebook](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/notebooks)
-        - [网站流量预测 - blog](https://www.cnblogs.com/DjangoBlog/p/10033188.html)
-        - [Rossmann - maybe]()
-3. [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
+2. ![icon](https://img.shields.io/badge/doing|S-0%25-green) another competitions
+    - [NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data)
+        1. deathline: `2019-11-28`;
+        2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-NFL-Big-Data-Bowl)
+    - [Walmart Recruiting II: Sales in Stormy Weather](https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather)
+    - [Store Item Demand Forecasting Challenge](https://www.kaggle.com/c/demand-forecasting-kernels-only)
+    - [Corporación Favorita Grocery Sales Forecasting](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
+3. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
     1. deathline: `2019-11-13`;
     2. target: can throw into the introduction;
-4. summary of time-series kernels(Time-Series projects)
+4. ![icon](https://img.shields.io/badge/done-100%25-lightgrey) summary of time-series kernels(Time-Series projects)
     1. deathline: `2019-11-20`;
-5. summary of time-series(All about Time-Series)
+5. ![icon](https://img.shields.io/badge/todo-0%25-orange) summary of time-series(All about Time-Series)
     1. deathline: `2019-11-25`;
-4. update introduction with some project, and add detail in project
+4. ![icon](https://img.shields.io/badge/todo-0%25-orange) update introduction with some project, and add detail in project
     1. deathline: `2019-11-30`;
     2. target: can give it to the interviewers and show my Time-Series skills;
 
-## PLAN-jaguar
+## PLAN-jaguar ![icon](https://img.shields.io/badge/todo-5%25-orange)
 
 cycle time: from `2019-12-01` to `2019-12-31`;
 
@@ -84,6 +88,6 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-11: 离线运行Future-Sales-Predict、Kernel(基于TS数据能做的所有事)；
 - 2019-11-12: Kernel(基于TS数据能做的所有事)-surplus；
 - 2019-11-13: Kernel(Bitcoin-Predict-by-ARIMA)；
-- 2019-11-14: Kernel(TBA)、基石-chapter7、基石-chapter8、基石-chapter9、基石-chapter10；
-- 2019-11-15: Kernel(TBA)、基石-chapter11、基石-chapter12；
-- 2019-11-16: Future-Sales-Predict(分析score低的原因,目标进入Top20%)；
+- 2019-11-14: Kernel(TBA)-delay、基石-chapter7~10-delay；
+- 2019-11-15: Kernel(TBA)-delay、基石-chapter11~12-delay；
+- 2019-11-16: Future-Sales-Predict(分析score低的原因,目标进入Top20%)-delay；
