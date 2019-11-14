@@ -31,6 +31,10 @@ NFL：
 
 <img src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike933%2C5%2C5%2C933%2C330/sign=4b109f3b17950a7b613846966bb809bc/8326cffc1e178a82be19bbadfc03738da977e892.jpg" width="500" height="700" alt="NFL"/>
 
+<center class="half">
+<img src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike933%2C5%2C5%2C933%2C330/sign=4b109f3b17950a7b613846966bb809bc/8326cffc1e178a82be19bbadfc03738da977e892.jpg" width="500" height="700" alt="NFL"/>
+</center>
+
 位置图：
 
 ![位置图](https://img3.doubanio.com/view/note/large/public/p10518112.jpg)
