@@ -113,7 +113,7 @@ Kernel Link: https://www.kaggle.com/gertjac/regression-approach
 ## 4 milestone
 
 1. 直接提交Gert的kernel - done；
-2. 不考虑太多橄榄球相关业务情况，只进行基础处理；
+2. 不考虑太多橄榄球相关业务情况，只进行基础处理：预处理、分布转换、one-hot、基础FE；
 3. 加入对橄榄球的理解 - 主要指FE部分；
 4. 优化模型算法；
 
