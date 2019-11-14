@@ -1,13 +1,5 @@
 # [NFL大数据碗](https://www.kaggle.com/c/nfl-big-data-bowl-2020/overview/timeline)
 
-0. Competition Information Clean
-1. deathline
-2. Data Description
-3. Feature Info
-4. Define Problem
-5. Evaluation Function
-6. Baseline Algorithm
-
 ## Attention
 
 1. 该竞赛数据是**实时**产生的，通常每周四、周日、周一进行，之后会更新数据，这里要注意；
@@ -30,6 +22,8 @@
 - handoff：传球
 - snap：发球
 - [基本知识](https://www.douban.com/note/321101362/)
+
+BTW: I like The Blind Side;
 
 ## 相关图片
 
