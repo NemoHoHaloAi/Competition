@@ -80,6 +80,8 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 
 ## DAILY MEMO
 
+同时进行的事：NFL、KernelLearn、基石课程；
+
 - 2019-11-06: 完成Future-Sales-Predict项目从good-kernel上借鉴部分，目前完成了预处理、特征工程部分；
 - 2019-11-07: 完成数据分割、baseline、遍历方式优化部分、数据转换（对比多种方式并分别应用到特征上）、数据转换无法降低skew的原因及处理方法、绘制整个过程中的数据结构变化；
 - 2019-11-08: 数据转换后转换回来的问题、调整数据转换代码到合入test前并分别对matrix和train做转换、数据结构变化收尾；
@@ -88,6 +90,7 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-11: 离线运行Future-Sales-Predict、Kernel(基于TS数据能做的所有事)；
 - 2019-11-12: Kernel(基于TS数据能做的所有事)-surplus；
 - 2019-11-13: Kernel(Bitcoin-Predict-by-ARIMA)；
-- 2019-11-14: Kernel(TBA)-delay、基石-chapter7~10-delay；
-- 2019-11-15: Kernel(TBA)-delay、基石-chapter11~12-delay；
-- 2019-11-16: Future-Sales-Predict(分析score低的原因,目标进入Top20%)-delay；
+- 2019-11-14: Kernel(Bert NFL started Kernel)、NFL-Big-Data-Bowl(开始、数据加载、定义问题、评价函数、Preprocess)；
+- 2019-11-15: NFL-Big-Data-Bowl(EDA、FE)；
+- 2019-11-16: NFL-Big-Data-Bowl(Baseline)；
+- 2019-11-17: NFL-Big-Data-Bowl(Opt)；
