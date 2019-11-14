@@ -23,7 +23,7 @@
 - snap：发球
 - [基本知识](https://www.douban.com/note/321101362/)
 
-BTW: I like The Blind Side;
+BTW: I like `The Blind Side`;
 
 ## 相关图片
 
