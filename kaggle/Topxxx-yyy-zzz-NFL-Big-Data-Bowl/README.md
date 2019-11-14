@@ -43,6 +43,10 @@ NFL：
 
 数据中的每一行代表某个球员在某场比赛中的信息：上下文（球场信息、天气信息、时间）、球队（主客场、球队名、赛前score）、球员（号码、角色、xy、姓名、生日、身高体重、大学）、比赛（犯规）、Target（当前码数）；
 
+一条数据的关系图：
+
+![row](http://assets.processon.com/chart_image/5dcd09c3e4b09c92ac3dc165.png)
+
 字段信息：
 - `GameId` - a unique game identifier - 比赛ID
 - `PlayId` - a unique play identifier - 
