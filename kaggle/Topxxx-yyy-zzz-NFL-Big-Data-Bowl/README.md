@@ -71,21 +71,21 @@
 - `Yards` - the yardage gained on the play (you are predicting this) - **目标**
 - `PlayerHeight` - player height (ft-in) - 球员身高
 - `PlayerWeight` - player weight (lbs) - 球员体重
-- `PlayerBirthDate` - birth date (mm/dd/yyyy)
-- `PlayerCollegeName` - where the player attended college
-- `Position` - the player's position (the specific role on the field that they typically play)
-- `HomeTeamAbbr` - home team abbreviation
-- `VisitorTeamAbbr` - visitor team abbreviation
+- `PlayerBirthDate` - birth date (mm/dd/yyyy) - 生日、岁数
+- `PlayerCollegeName` - where the player attended college - 大学
+- `Position` - the player's position (the specific role on the field that they typically play) - 场上位置
+- `HomeTeamAbbr` - home team abbreviation - 主队缩写
+- `VisitorTeamAbbr` - visitor team abbreviation - 客队缩写
 - `Week` - week into the season
-- `Stadium` - stadium where the game is being played
-- `Location` - city where the game is being player
-- `StadiumType` - description of the stadium environment
-- `Turf` - description of the field surface
-- `GameWeather` - description of the game weather
-- `Temperature` - temperature (deg F)
-- `Humidity` - humidity
-- `WindSpeed` - wind speed in miles/hour
-- `WindDirection` - wind direction
+- `Stadium` - stadium where the game is being played - 体育场
+- `Location` - city where the game is being player - 城市
+- `StadiumType` - description of the stadium environment - 体育场类型
+- `Turf` - description of the field surface - 草皮
+- `GameWeather` - description of the game weather - 比赛天气
+- `Temperature` - temperature (deg F) - 温度
+- `Humidity` - humidity - 湿度
+- `WindSpeed` - wind speed in miles/hour - 风速
+- `WindDirection` - wind direction - 风向
 
 ## Define Problem
 
