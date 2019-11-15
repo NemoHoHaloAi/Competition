@@ -92,6 +92,6 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-12: Kernel(基于TS数据能做的所有事)-surplus；
 - 2019-11-13: Kernel(Bitcoin-Predict-by-ARIMA)；
 - 2019-11-14: Kernel(Bert NFL started Kernel)、NFL-Big-Data-Bowl(开始、数据加载、定义问题、评价函数、Preprocess)；
-- 2019-11-15: NFL-Big-Data-Bowl(EDA、FE)；
-- 2019-11-16: NFL-Big-Data-Bowl(Baseline)；
+- 2019-11-15: NFL-Big-Data-Bowl(调研理解数据和问题、Preprocess)；
+- 2019-11-16: NFL-Big-Data-Bowl(EDA、FE、Baseline)；
 - 2019-11-17: NFL-Big-Data-Bowl(Opt)；
