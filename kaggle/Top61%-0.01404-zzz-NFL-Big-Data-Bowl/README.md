@@ -1,5 +1,7 @@
 # [NFL大数据碗](https://www.kaggle.com/c/nfl-big-data-bowl-2020/overview/timeline)
 
+[项目地址](https://www.kaggle.com/holoong9291/nfl-big-data-bowl)
+
 ## Attention
 
 1. 该竞赛数据是**实时**产生的，通常每周四、周日、周一进行，之后会更新数据，这里要注意；
@@ -13,7 +15,7 @@
 
 ## Competition Background
 
-通过建立更好的模型，来预测对一个达阵最重要的因素是什么？
+通过建立更好的模型，预测码数，并转换为概率分布；
 
 概念：
 - 美式足球：进攻方基本目的是通过跑动、传球等尽快抵达对方半场，也就是达阵，而防守方的目的则是相反，尽全力去阻止对方的前进以及尽可能断球；
@@ -45,7 +47,7 @@ NFL：
 
 一条数据的关系图：
 
-![row](http://assets.processon.com/chart_image/5dcd09c3e4b09c92ac3dc165.png)
+![row](http://assets.processon.com/chart_image/5dcd09c3e4b09c92ac3dc165.png?_=1573784338567)
 
 字段信息：
 - `GameId` - a unique game identifier - 比赛ID
@@ -112,23 +114,7 @@ Kernel Link: https://www.kaggle.com/gertjac/regression-approach
 
 ## 4 milestone
 
-1. 直接提交Gert的kernel - done；
-2. 不考虑太多橄榄球相关业务情况，只进行基础处理：预处理、分布转换、one-hot、基础FE；
-3. 加入对橄榄球的理解 - 主要指FE部分；
-4. 优化模型算法；
-
-## WorkPlan
-
-1. Fork with [Gert\`s kernel](https://www.kaggle.com/gertjac/regression-approach);
-2. Submit by myself kernel as baseline;
-3. Preprocess
-    1. missing value
-    2. outlier
-    3. something else
-        1. age
-        2. time series
-        3. ....
-4. EDA
-5. FE
-6. Modeling
-7. Stack or something
+1. 直接提交Gert的kernel - ![icon](https://img.shields.io/badge/done-20191114%25-lightgrey)；
+2. 不考虑太多橄榄球相关业务情况，只进行基础处理：预处理、分布转换、one-hot、基础FE - ![icon](https://img.shields.io/badge/doing-now%25-green)；
+3. 加入对橄榄球的理解 - 主要指FE部分 - ![icon](https://img.shields.io/badge/todo-20191116%25-orange)；
+4. 优化模型算法 - ![icon](https://img.shields.io/badge/todo-20191117%25-orange)；
