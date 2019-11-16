@@ -45,8 +45,8 @@ Gert的notebook是直接去掉rusher以外的数据，只保留这一条，其�
   Position - the player's position (the specific role on the field that they typically play) - 场上位置
 
 挖挖挖：
-1. XY：22个球员的XY位置
-2. S：速度 整体速度分布、rusher速度
+1. XY：22个球员的XY位置，对方在rusher路径上的人的位置、距离
+2. S：速度 整体速度分布、rusher速度，对方针对rusher的那个人的速度
 3. A：加速度 与S一致
 3. Orientation、Dir
 4. 身高体重
