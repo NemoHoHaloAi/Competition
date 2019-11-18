@@ -115,6 +115,6 @@ Kernel Link: https://www.kaggle.com/gertjac/regression-approach
 ## 4 milestone
 
 1. 直接提交Gert的kernel - ![icon](https://img.shields.io/badge/done-20191114-lightgrey)；
-2. 不考虑太多橄榄球相关业务情况，只进行基础处理：预处理、分布转换、one-hot、基础FE - ![icon](https://img.shields.io/badge/doing-now-green)；
-3. 加入对橄榄球的理解 - 主要指FE部分 - ![icon](https://img.shields.io/badge/todo-20191116-orange)；
-4. 优化模型算法 - ![icon](https://img.shields.io/badge/todo-20191117-orange)；
+2. 不考虑太多橄榄球相关业务情况，只进行基础处理：预处理、分布转换、one-hot、基础FE - ![icon](https://img.shields.io/badge/done-20191117-lightgrey)；
+3. 加入对橄榄球的理解 - 主要指FE部分 - ![icon](https://img.shields.io/badge/doing-now-green)；
+4. 优化模型算法 - ![icon](https://img.shields.io/badge/todo-20191119-orange)；
