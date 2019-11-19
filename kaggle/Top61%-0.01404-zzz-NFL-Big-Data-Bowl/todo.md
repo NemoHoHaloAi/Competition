@@ -15,8 +15,10 @@
         df_train['DistanceTouchDown'] = df_train[['YardLine','FieldPosition','PossessionTeam']].apply(lambda yfp:100-yfp['YardLine'] if(yfp['PossessionTeam']==yfp['FieldPosition']) else yfp['YardLine'], axis=1)
         df_test['DistanceTouchDown'] = df_test[['YardLine','FieldPosition','PossessionTeam']].apply(lambda yfp:100-yfp['YardLine'] if(yfp['PossessionTeam']==yfp['FieldPosition']) else yfp['YardLine'], axis=1)
         ```
+    - 根据球员位置，计算接球人接到球时的空间,NflIdRusher就是接球人；
+    - 接球人的朝向、移动方向，以及对应的周围队友的面向、移动方向，对面对手的面向、移动方向；
 - 顺序上是不是一场接一场的给出测试数据呢，以及是否跟训练数据时间上是接上的；
-- 从Kaggle的讨论、分享、往年pdf等中寻找想法；
+- 从Kaggle的[讨论](https://www.kaggle.com/c/nfl-big-data-bowl-2020/discussion/111918#latest-676813)、分享、往年pdf等中寻找想法；
 
 =============================================================================================
 DisplayNames
