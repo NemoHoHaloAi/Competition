@@ -58,8 +58,8 @@ NFL：
 - `S` - speed in yards/second - 速度，码/秒
 - `A` - acceleration in yards/second^2
 - `Dis` - distance traveled from prior time point, in yards
-- `Orientation` - orientation of player (deg)
-- `Dir` - angle of player motion (deg)
+- `Orientation` - orientation of player (deg) 球员面向
+- `Dir` - angle of player motion (deg) 球员移动方向
 - `NflId` - a unique identifier of the player - NFL球员ID
 - `DisplayName` - player's name - 球员名
 - `JerseyNumber` - jersey number - 球衣号码
