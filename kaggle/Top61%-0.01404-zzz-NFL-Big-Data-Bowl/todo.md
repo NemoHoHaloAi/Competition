@@ -16,6 +16,7 @@
         df_test['DistanceTouchDown'] = df_test[['YardLine','FieldPosition','PossessionTeam']].apply(lambda yfp:100-yfp['YardLine'] if(yfp['PossessionTeam']==yfp['FieldPosition']) else yfp['YardLine'], axis=1)
         ```
 - 顺序上是不是一场接一场的给出测试数据呢，以及是否跟训练数据时间上是接上的；
+- 从Kaggle的讨论、分享、往年pdf等中寻找想法；
 
 =============================================================================================
 DisplayNames
