@@ -69,7 +69,7 @@ NFL：
 - `GameClock` - time on the game clock - 比赛时间
 - `PossessionTeam` - team with possession - 持球方
 - `Down` - the down (1-4) - 达阵
-- `Distance` - yards needed for a first down - 距离第一次达阵所需距离
+- `Distance` - yards needed for a first down - 距离拿首攻所需距离
 - `FieldPosition` - which side of the field the play is happening on
 - `HomeScoreBeforePlay` - home team score before play started - 赛前主队分数
 - `VisitorScoreBeforePlay` - visitor team score before play started - 赛前客队分数
