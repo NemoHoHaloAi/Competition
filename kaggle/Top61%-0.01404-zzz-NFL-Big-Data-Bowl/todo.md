@@ -8,6 +8,11 @@
     - goal区：也就是码线对方半场10码或10码内，此时就处于goal区；
     - 首攻危险：down为4，且distance大于5；
     - 是否突然死亡：sudden-death；
+    - 距离达阵的码数；
+        - 距离达阵还有多少码
+        - 球场内总长为100码，通过码线、PossessionTeam、FieldPosition即可判断距离达阵的码数
+        - df_train['DistanceTouchDown'] = df_train[['YardLine','FieldPosition','PossessionTeam']].apply(lambda yfp:100-yfp['YardLine'] if(yfp['PossessionTeam']==yfp['FieldPosition']) else yfp['YardLine'], axis=1)
+        - df_test['DistanceTouchDown'] = df_test[['YardLine','FieldPosition','PossessionTeam']].apply(lambda yfp:100-yfp['YardLine'] if(yfp['PossessionTeam']==yfp['FieldPosition']) else yfp['YardLine'], axis=1)
 - 顺序上是不是一场接一场的给出测试数据呢，以及是否跟训练数据时间上是接上的；
 
 =============================================================================================
