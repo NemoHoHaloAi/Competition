@@ -95,4 +95,6 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-15: NFL-Big-Data-Bowl(调研理解数据和问题、Preprocess)；
 - 2019-11-16: NFL-Big-Data-Bowl(EDA、FE（FE部分暂时不考虑聚合的球员信息挖掘）)；
 - 2019-11-17: NFL-Big-Data-Bowl(聚合后球员信息挖掘、算法替换为性能更好的，比如xgboost、模型堆叠集成)；
-- 2019-11-18: NFL-Big-Data-Bowl(还有几个需要处理的特征：Location，PlayerCollegeName，Stadium，GameWeather，OffensePersonnel，DefensePersonnel，统一处理这一类问题，test中的类别不存在train中时如何处理、设计新的特征提交结果)
+- 2019-11-18: NFL-Big-Data-Bowl(还有几个需要处理的特征：Location，PlayerCollegeName，Stadium，GameWeather，OffensePersonnel，DefensePersonnel，统一处理这一类问题，test中的类别不存在train中时如何处理、设计新的特征提交结果)；
+- 2019-11-19: 修复一些bug，提交结果、score上看没有提升；
+- 2019-11-20: 开始在22个球员的位置、速度、角度等信息上进行挖掘；
