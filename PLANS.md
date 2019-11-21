@@ -72,6 +72,7 @@ cycle time: from `2019-11-05` to `2019-11-30`;
 
 cycle time: from `2019-12-01` to `2019-12-31`;
 
+0. [autoML](https://www.kaggle.com/practical-model-evaluation?utm_medium=email&utm_source=intercom&utm_campaign=model-evaluation-workshop)
 1. Learn theoretical knowledge about ML
     1. 李航《统计学习方法》+[code](https://github.com/WenDesi/lihang_book_algorithm)：建议边看书边手推公式然后对着GitHub一边敲代码;
     2. 林轩田《机器学习基石》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
