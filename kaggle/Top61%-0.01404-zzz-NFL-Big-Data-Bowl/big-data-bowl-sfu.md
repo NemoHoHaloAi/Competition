@@ -113,3 +113,5 @@ step by step:
 ![step_3](image/step_3.png)
 4. 0,1,2,3秒后3,5码内的队友数量；
 ![step_4](image/step_4.png)
+5. 0,1,2,3秒后3,5码内的队友-对手数量；
+![step_5](image/step_5.png)
