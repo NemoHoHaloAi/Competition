@@ -107,3 +107,4 @@ step by step:
 ![step_1](image/step_1.png)
 2. 按照目前的情况，计算在0.5s、1s后的队友平均距离、对手平均距离；
 ![step_2](image/step_2.png)
+3. xxxx
