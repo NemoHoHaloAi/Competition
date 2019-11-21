@@ -103,6 +103,8 @@
 可以使用的球员信息包括：`速度`、`加速度`、`X`、`Y`、`Orientation`、`Dir`、`YardLine`、`PlayerHeight`、`PlayerWeight`；
 
 step by step:
+0. 先看看原始的rusher的X,Y,A,S的相关性，一般模型下这四个是对结果影响最大的；
+![step_0](image/step_0.png)
 1. 目前这个思路下最简单的能够构造的`球场控制因子`：只考虑每个球员的**XY**，以持球人为原点，计算其他球员到他的距离，暂时生成两个特征，队友平均距离、对手平均距离；
 ![step_1](image/step_1.png)
 2. 按照目前的情况，计算在0.5s、1s后的队友平均距离、对手平均距离；
