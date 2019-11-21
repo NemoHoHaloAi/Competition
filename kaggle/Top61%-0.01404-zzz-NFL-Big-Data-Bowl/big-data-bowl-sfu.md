@@ -111,3 +111,4 @@ step by step:
 ![step_2](image/step_2.png)
 3. 0,1,2,3秒后3,5码内的对手数量；
 ![step_3](image/step_3.png)
+4. xxxx
