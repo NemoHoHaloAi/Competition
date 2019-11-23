@@ -19,8 +19,12 @@
 - 顺序上是不是一场接一场的给出测试数据呢，以及是否跟训练数据时间上是接上的；
 - 从Kaggle的[讨论](https://www.kaggle.com/c/nfl-big-data-bowl-2020/discussion/111918#latest-676813)、分享、往年pdf等中寻找想法；
 - 整理构建的特征，通过corr，排除一部分，避免对模型的干扰，毕竟只有500个estimate，特征还是要经历方差过滤、相关性过滤的；
-    - 目前看：构建的特征相关性不高，均低于原始的特征'A'，这里跟之前探索时不同，需要验证下；
-    - 是否从22条数据中提取简单特征：各个Position的X,Y,A,S,Height,Weight,Orientation,Dir，通过模型融合、LGBM等复杂模型来达到更优的效果呢？
+    - 目前看：构建的特征相关性不高，均低于原始的特征'A'，这里跟之前探索时不同，需要验证下（验证结果：缺失相关性很低）；
+    - 是否从22条数据中提取简单特征：各个Position的X,Y,A,S,Height,Weight,Orientation,Dir，通过模型融合、LGBM等复杂模型来达到更优的效果呢，或者说可以并行这样尝试一版，不考虑任何Position以外的离散特征，通过将22条数据简单的合并为一条，构建如下特征：
+        - 保留特征：所有连续特征、Position、PlayerHeight;
+        - 特殊处理：Height转为连续值、Position做离散化；
+        - offenser_1(1~10):_A,_S,_X,_Y,_Orientation,_Dir,_Height,_Weight；
+        - defenser_1(1~11):类似offenser；
 
 =============================================================================================
 DisplayNames
