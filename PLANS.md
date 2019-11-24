@@ -99,4 +99,5 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-18: NFL-Big-Data-Bowl(还有几个需要处理的特征：Location，PlayerCollegeName，Stadium，GameWeather，OffensePersonnel，DefensePersonnel，统一处理这一类问题，test中的类别不存在train中时如何处理、设计新的特征提交结果)；
 - 2019-11-19: 修复一些bug，提交结果、score上看没有提升；
 - 2019-11-20: 开始在22个球员的位置、速度、角度等信息上进行挖掘，得到的信息不足以提高模型的准确性；
-- 2019-11-24: 开始考虑用简单特征、复杂模型来处理，基石课程，Future-Sales-Predict提高到20%；
+- 2019-11-24: 开始考虑用简单特征、复杂模型来处理，基石-chapter7、8、9；
+- 2019-11-28: Future-Sales-Predict提高到20%；
