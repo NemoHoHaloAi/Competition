@@ -26,14 +26,30 @@
         - offenser_1(1~10):_A,_S,_X,_Y,_Orientation,_Dir,_Height,_Weight；
         - defenser_1(1~11):类似offenser；
 - 接下来做的事：
-    1. 验证目前的lag处理是否计算有误；
-    2. 验证简单特征的效果，通过初始模型；
-    3. 尝试进行模型融合，在原来的数据基础上；
-    4. 简单特征+模型融合；
-    5. 如果kernel依然会很容易重启，那么离线到电脑上跑，在验证阶段可以copy多个notebook出来分开跑；
-    6. apply group 代替 for 循环；
-    7. 构建rusher一秒内的移动距离字段；
-    8. 去除部分简单特征；
+    1. 验证目前的lag处理是否计算有误 - close；
+    2. 验证简单特征的效果，通过初始模型 - doing；
+        1. 已经优化了速度，预计训练部分在50min左右；
+        2. 转到离线去跑；
+        3. 在线跑一半训练数据；
+    3. 尝试进行模型融合，在原来的数据基础上 - doing；
+        1. 从2中copy一个简化所有流程、只针对部分数据进行两个模型的训练、结果融合；
+        2. 
+    4. 简单特征+模型融合 - todo；
+    5. 如果kernel依然会很容易重启，那么离线到电脑上跑，在验证阶段可以copy多个notebook出来分开跑 - doing；
+        1. 还是会重启，离线跑；
+        2. 离线Python2无法加载so，Python3的pandas版本问题无法跑group.apply；
+        3. python3问题用conda更新包后继续离线跑全数据训练；
+        4. 离线开始训练....15:20开始，15:56结束训练，xx:xx结束测试，总用时；
+        5. 离线python3环境配置：
+            - pip install pycryptodome
+            - conda install pandas,sklearn,matplotlib
+            - conda install pandas=0.25.3
+    6. apply group 代替 for 循环 - done；
+    7. 构建rusher一秒内的移动距离字段 - done；
+        1. 通过show frame kernel验证；
+        2. 相关性很低；
+    8. 去除部分简单特征 - done；
+    9. Scale Training Data - todo；
 
 =============================================================================================
 DisplayNames
