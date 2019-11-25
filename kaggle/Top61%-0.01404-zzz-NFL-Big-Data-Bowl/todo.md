@@ -39,10 +39,11 @@
         1. 还是会重启，离线跑；
         2. 离线Python2无法加载so，Python3的pandas版本问题无法跑group.apply；
         3. python3问题用conda更新包后继续离线跑全数据训练；
-        4. 离线开始训练....15:20开始，15:56结束训练，xx:xx结束测试，总用时；
+        4. 离线开始训练....16:30开始，15:56结束训练，xx:xx结束测试，总用时；
         5. 离线python3环境配置：
             - pip install pycryptodome
             - conda install pandas,sklearn,matplotlib
+        6. 一个问题：目前构建的简单特征用的是idx来做特征名，但这样的特征一列是否具有相同的含义呢，例如都是Offenser_1，但是可能一个是中锋，一个是跑锋的数据？？？？
             - conda install pandas=0.25.3
     6. apply group 代替 for 循环 - done；
     7. 构建rusher一秒内的移动距离字段 - done；
@@ -50,6 +51,12 @@
         2. 相关性很低；
     8. 去除部分简单特征 - done；
     9. Scale Training Data - todo；
+    10. 构建对位者的特征，即把持球人对位人员的信息提取 - doing；
+        - 对位人信息整理：
+        - 与持球人的距离；
+        - 速度、加速度、身高、体重；
+        - 等等；
+        - 终究是团队比赛；
 
 =============================================================================================
 DisplayNames
