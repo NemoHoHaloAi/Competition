@@ -9,11 +9,13 @@
 https://www.kaggle.com/holoong9291/nfl-tracking-wrangling-voronoi-and-sonars-python
 
 ## 整体的分析流程
+
 1. 基本数据操作
     1. 加载数据
     2. 构建ToLeft、IsBallCarrier特征
     3. 处理异常的球队名数据
+
 2. 绘制球员站位图
-    0. 绘制6个回合
-    1. 区分进攻、防守、持球人
-    ![球员站位图](https://www.kaggleusercontent.com/kf/21999507/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..zYETe2xt4LV4ewND0ZhaDQ.zTPx1zGWujhHtvrSfd4wLGty0kYQvYSz1o6gBu9WWHoxtZWS1fqMVBzMk3zReBGV7vfKXNfH7UzNrc5-USo20DiBWlegrQsb1BKfczvZkp3IPVmTpMbKCMQO8X1PzHBI2Ivw5NrQ6hVMvEP0EMqugtASA2orJ_g8S7wkXFPn6t-P3_7ZxVvr2XneVPPq1yiTNEfC9ZePHNdaKttiI1LCYA.ClhckRpbNGqpvVrkZy5lXQ/__results___files/__results___3_1.png)
+    1. 绘制6个回合
+    2. 区分进攻、防守、持球人
+![球员站位图](https://www.kaggleusercontent.com/kf/21999507/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..zYETe2xt4LV4ewND0ZhaDQ.zTPx1zGWujhHtvrSfd4wLGty0kYQvYSz1o6gBu9WWHoxtZWS1fqMVBzMk3zReBGV7vfKXNfH7UzNrc5-USo20DiBWlegrQsb1BKfczvZkp3IPVmTpMbKCMQO8X1PzHBI2Ivw5NrQ6hVMvEP0EMqugtASA2orJ_g8S7wkXFPn6t-P3_7ZxVvr2XneVPPq1yiTNEfC9ZePHNdaKttiI1LCYA.ClhckRpbNGqpvVrkZy5lXQ/__results___files/__results___3_1.png)
