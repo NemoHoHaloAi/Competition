@@ -69,3 +69,6 @@ https://www.kaggle.com/holoong9291/nfl-tracking-wrangling-voronoi-and-sonars-pyt
     2. 通入引入成功率的信息，表示每种选择的成功率；
     3. 成功率定义：down=1,2时，yards > distance/2，down为3,4时，yards > distance，其实就是对能否获取首攻的一个量化方式，第一二次进攻时，能够达到所需距离的一半，第三四次进攻时达到所需距离，均为成功；
     ![声呐图](./image/senor.png)
+
+## 更重要的问题
+如何将上面这些分析结果转为特征，并验证其有效性，目前更多是理论上的支持，比如空间对进攻的重要性，但是如何量化一个空间指数？？？
