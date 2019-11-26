@@ -57,9 +57,9 @@ https://www.kaggle.com/holoong9291/nfl-tracking-wrangling-voronoi-and-sonars-pyt
     ![方向图标准化2](./image/方向图标准化2.png)
     7. 两个回合中关于方向问题的分析：
         - 回合1：Mike Tolbert的14码推进；
-    ![回合1](./image/回合1.gif)
+        ![回合1](./image/回合1.gif)
         - 回合2：LeSean McCoy接过球，向右移动推进；
-    ![回合2](./image/回合2.gif)
+        ![回合2](./image/回合2.gif)
 4. 球员方向的角度图表（至此，其实基本内容我也考虑过，但是不够深入，比如对于Dir的处理没有加入，应该也影响了最终结果）
     1. 每个球员是一个箭头，箭头指向是他的移动方向，箭头的头部就是他handoff一秒后的位置，看下图；
     ![考虑角度速度的回合图](./image/考虑角度速度的回合图.png)
