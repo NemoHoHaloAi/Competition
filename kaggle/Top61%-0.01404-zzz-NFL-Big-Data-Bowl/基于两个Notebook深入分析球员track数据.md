@@ -33,7 +33,7 @@ https://www.kaggle.com/holoong9291/nfl-tracking-wrangling-voronoi-and-sonars-pyt
     ![Voronoi](./image/Voronoi.png)
     6. 对于进攻方来说，持球人（或许还有他的队友）的空间对于码数是至关重要的；
     7. 重要提示：考虑引入速度、方向后的空间影响图，看下图；
-    ![速度角度影响下的Voronoi](./image/调整后回合图.png)
+    ![速度角度影响下的Voronoi](./image/球员方向后空间图.png)
     8. 将持球人队友从Voronoi中去掉，意思是他的队友不会每一个都精准的给他提供空间帮助，另外注意力可以放到持球人上，看下图；
     ![去掉队友后的Voronoi](./image/去除队友后空间图.png)
 3. 球员的方向
