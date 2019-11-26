@@ -63,6 +63,8 @@
     - 其次由于是写入到根目录，需要root环境，配置了当前用户环境；
     - root后无法进入conda环境，因此直接到conda的python3.6目录下运行程序；
     - 此时才可以对根目录下进行读取、写入等操作，且使用conda的python3.6环境；
+- 通过两个notebook继续深入分析球员的tracking数据：
+    - 不行，需要一篇单独的文章来分析，所以，点[这里](https://github.com/NemoHoHaloAi/Competition/blob/master/kaggle/Top61%25-0.01404-zzz-NFL-Big-Data-Bowl/%E5%9F%BA%E4%BA%8E%E4%B8%A4%E4%B8%AANotebook%E6%B7%B1%E5%85%A5%E5%88%86%E6%9E%90%E7%90%83%E5%91%98track%E6%95%B0%E6%8D%AE.md)；
 
 =============================================================================================
 DisplayNames
