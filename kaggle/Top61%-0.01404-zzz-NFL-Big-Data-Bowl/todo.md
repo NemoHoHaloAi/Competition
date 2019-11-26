@@ -44,6 +44,7 @@
             - pip install pycryptodome
             - conda install pandas,sklearn,matplotlib
         6. 一个问题：目前构建的简单特征用的是idx来做特征名，但这样的特征一列是否具有相同的含义呢，例如都是Offenser_1，但是可能一个是中锋，一个是跑锋的数据？？？？
+        7. can not commit with offline file,fuck.
             - conda install pandas=0.25.3
     6. apply group 代替 for 循环 - done；
     7. 构建rusher一秒内的移动距离字段 - done；
