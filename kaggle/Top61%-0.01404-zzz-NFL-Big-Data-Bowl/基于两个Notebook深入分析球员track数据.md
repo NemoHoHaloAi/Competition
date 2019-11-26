@@ -53,6 +53,7 @@ https://www.kaggle.com/holoong9291/nfl-tracking-wrangling-voronoi-and-sonars-pyt
     ![方向图](方向图.png)
     6. 因为0度和360度其实是一个方向，所以标准化要处理这点，看处理后的；
     ![方向图标准化1](方向图标准化1.png)
+    6. 
     ![方向图标准化2](方向图标准化2.png)
     7. 两个回合中关于方向问题的分析：
         - 回合1：Mike Tolbert的14码推进；
