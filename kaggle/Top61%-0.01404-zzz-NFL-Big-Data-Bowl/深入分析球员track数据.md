@@ -73,6 +73,9 @@ https://www.kaggle.com/holoong9291/nfl-tracking-wrangling-voronoi-and-sonars-pyt
 ## 更重要的问题
 如何将上面这些分析结果转为特征，并验证其有效性，目前更多是理论上的支持，比如空间对进攻的重要性，但是如何量化一个空间指数？？？
 
+已有信息：
 1. [Voronoi](https://liaocy.net/2018/20180614-voronoi/) - [scipy.spatial.voronoi](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.Voronoi.html)
 2. Dir
 3. S
+
+类似论文中的足球影响空间热图，构建橄榄球的空间热图，模拟从handoff到1秒（之所以是1秒，可以理解为在刚开始的1秒内，防守球员处于初始移动状态下，而1秒后会根据实际持球人来调整自己的移动方向，而这时的数据我们是没有的，所以只考虑handoff以及假设1s内不改变方向、速度、加速度的1秒后，这两个时间点）后，这两个状态下的进攻方空间指数，理想情况下这应该与Yards关系很大；
