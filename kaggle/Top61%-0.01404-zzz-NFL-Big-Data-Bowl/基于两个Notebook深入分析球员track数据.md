@@ -72,3 +72,7 @@ https://www.kaggle.com/holoong9291/nfl-tracking-wrangling-voronoi-and-sonars-pyt
 
 ## 更重要的问题
 如何将上面这些分析结果转为特征，并验证其有效性，目前更多是理论上的支持，比如空间对进攻的重要性，但是如何量化一个空间指数？？？
+
+1. Voronoi
+2. Dir
+3. S
