@@ -77,7 +77,7 @@ https://www.kaggle.com/holoong9291/nfl-tracking-wrangling-voronoi-and-sonars-pyt
 如何将上面这些分析结果转为特征，并验证其有效性，目前更多是理论上的支持，比如空间对进攻的重要性，但是如何量化一个空间指数？？？
 
 已有信息：
-1. [Voronoi](https://liaocy.net/2018/20180614-voronoi/) - [scipy.spatial.voronoi](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.Voronoi.html)
+1. [Voronoi](https://liaocy.net/2018/20180614-voronoi/) - [scipy.spatial.voronoi](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.Voronoi.html) - [绘图](http://www.itkeyword.com/doc/4748983029703428x359/python-colorize-voronoi-diagram)
 2. Dir
 3. S
 
