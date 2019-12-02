@@ -9,7 +9,7 @@ In one and half years ago, I writed this:
 > **Get a job about machine learning whatever how much job-pay is!!!**<br>
 >> I am 26 old now, I have nothing by myself to proud. The house? my parent pay it, the job? it just so-so. I am even not better than my father on his 26 old, and I have University degree. So what I do in shenzhen from 2015 year until now. Everyone I know is working hard but me, I feel shame on myself. But good news is I still have time to find and learn how to be better. Someone will say I just follow the wind of machine learning, but I dont give a shit, it will be difficult, and job-pay will be lesser, but I will get it and do it well, I will show everyone I can do this well. Of cause first I must to finish the udacity machine learning lesson.
     
-And now, I am 27, still do nothing, I am scare now, maybe this is a wrong way and I am not a hard-work person, maybe I should always be a software-engineer not a MLer, but I want to try last time, from now to `2020-05-01`, I will study harder and harder, follow my plan(kaggle projects, kaggle kernels, books and videos), I will give up if I can not get a ML job between `2020-03` and `2020-04`, please be harder and dont make yourself regretting, when you feel tired, you look around your friends(xing, qi, rui), everybody work hard and get something except for you, you should work harder than them.
+And now, I am 27, still do nothing, I am scare now, maybe this is a wrong way and I am not a hard-work person, maybe I should always be a software-engineer not a MLer, but I want to try last time, from now to `2020-05-01`, I will study harder and harder, follow my plan(kaggle projects, kaggle kernels, books and videos), I will give up if I can not get a ML job between `2020-03` and `2020-04`, please be harder and dont make yourself regretting, when you feel tired, you look around your friends(xing, qi, rui), everybody work hard and get something but me, I should work harder than them.
 
 ## TARGET
 
@@ -49,11 +49,12 @@ cycle time: from `2019-11-05` to `2019-11-30`;
     2. now: start with https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle ;
     3. first(common): https://www.kaggle.com/thebrownviking20/everything-you-can-do-with-a-time-series ;
     4. second(ARIMA): https://www.kaggle.com/myonin/bitcoin-price-prediction-by-arima ;
-2. ![icon](https://img.shields.io/badge/todo|S-20%25-orange) another competitions
+2. ![icon](https://img.shields.io/badge/todo|B-20%25-orange) another competitions
     - [NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data)
         1. deathline: `2019-11-28`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-NFL-Big-Data-Bowl)
         3. [start with](https://www.kaggle.com/gertjac/regression-approach)
+        4. 等待竞赛结束后整理总结分析，学到很多，但是不得不说的是差距依然很大；
     - [Walmart Recruiting II: Sales in Stormy Weather](https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather)
     - [Store Item Demand Forecasting Challenge](https://www.kaggle.com/c/demand-forecasting-kernels-only)
     - [Corporación Favorita Grocery Sales Forecasting](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
@@ -101,4 +102,5 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-20: 开始在22个球员的位置、速度、角度等信息上进行挖掘，得到的信息不足以提高模型的准确性；
 - 2019-11-24: 开始考虑用简单特征、复杂模型来处理，基石-chapter7、8、9；
 - 2019-11-25~27: 离线运行、分kernel验证、模型融合；
-- 2019-11-28: Future-Sales-Predict提高到20%；
+- 2019-12-02: NFL暂停等待竞赛结束后总结整理、Future-Sales-Predict继续分析如何提高整理思路（期望是到Top10%）、基石-chapter10；
+- 2019-12-03: 基石-chapter11、Future-Sales-Predict优化xxxx；
