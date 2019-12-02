@@ -35,7 +35,7 @@ Get a job about `Time-Series`, `Sale-Predict` and `Machine Learning`.
 
 When you waiting for the code run, you best to do something else, like learn from kernels, read book, watch video, write note, etc.
 
-## PLAN-corgi ![icon](https://img.shields.io/badge/doing-60%25-green)
+## PLAN-corgi ![icon](https://img.shields.io/badge/doing-70%25-green)
 
 cycle time: from `2019-11-05` to `2019-11-30`;
 
@@ -49,7 +49,7 @@ cycle time: from `2019-11-05` to `2019-11-30`;
     2. now: start with https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle ;
     3. first(common): https://www.kaggle.com/thebrownviking20/everything-you-can-do-with-a-time-series ;
     4. second(ARIMA): https://www.kaggle.com/myonin/bitcoin-price-prediction-by-arima ;
-2. ![icon](https://img.shields.io/badge/doing|S-10%25-green) another competitions
+2. ![icon](https://img.shields.io/badge/todo|S-20%25-orange) another competitions
     - [NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data)
         1. deathline: `2019-11-28`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-NFL-Big-Data-Bowl)
