@@ -2,7 +2,9 @@
 
 [竞赛链接](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/rules)
 
-[GettingStart](https://www.kaggle.com/ceshine/lgbm-starter)
+[Getting Start](https://www.kaggle.com/ceshine/lgbm-starter)
+
+[EDA](https://www.kaggle.com/headsortails/shopping-for-insights-favorita-eda)
 
 ## Competition Background
 
