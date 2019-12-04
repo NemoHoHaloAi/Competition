@@ -24,3 +24,10 @@
 ## Evaluation
 
 SMAPE：对称平均绝对百分比误差（Symmetric Mean Absolute Percentage Error）；
+
+## Different Algorithm
+
+- ARIMA
+- prophet
+- xgboost
+- NN
