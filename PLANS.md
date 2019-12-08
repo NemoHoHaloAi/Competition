@@ -108,5 +108,5 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-20: 开始在22个球员的位置、速度、角度等信息上进行挖掘，得到的信息不足以提高模型的准确性；
 - 2019-11-24: 开始考虑用简单特征、复杂模型来处理，基石-chapter7、8、9；
 - 2019-11-25~27: 离线运行、分kernel验证、模型融合；
-- 2019-12-02: NFL暂停等待竞赛结束后总结整理、Future-Sales-Predict暂停、开始大型连锁杂货店销售预测（分析整理README、提交baseline）、基石-chapter10、报名autoML；
-- 2019-12-03: 基石-chapter11、Future-Sales-Predict优化xxxx；
+- 2019-12-02: NFL暂停等待竞赛结束后总结整理、Future-Sales-Predict暂停；
+- 2019-12-08: 基石-chapter10、Store-Item-Demand基础处理、提交ARIMA模型版；
