@@ -110,4 +110,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-11-25~27: 离线运行、分kernel验证、模型融合；
 - 2019-12-02: NFL暂停等待竞赛结束后总结整理、Future-Sales-Predict暂停；
 - 2019-12-08: Store-Item-Demand基础处理、ARIMA预测；
-- 2019-12-09: 基石-chapter10、Store-Item-Demandprophet预测、xgboost第一次预测；
+- 2019-12-09: 基石-chapter10、Store-Item-Demand prophet预测、ARIMA参数3噪声的移动平均确定、xgboost第一次预测；
