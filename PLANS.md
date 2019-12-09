@@ -111,3 +111,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-02: NFL暂停等待竞赛结束后总结整理、Future-Sales-Predict暂停；
 - 2019-12-08: Store-Item-Demand基础处理、ARIMA预测；
 - 2019-12-09: Store-Item-Demand prophet预测、ARIMA参数3噪声的移动平均确定，为ARIMA加入网格搜索最优参数、xgboost第一次预测（尽可能做的少，直接预测结果，看rmse）、基石-chapter10；
+- 2019-12-10: Store-Item-Demand ARIMA最优参数确定(目前只通过store==1&item==1的数据来进行网格搜索)、xgboost增加更多FE部分、基石-chapter11；
