@@ -118,4 +118,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-10: Store-Item-Demand ARIMA最优参数确定(目前只通过store==1&item==1的数据来进行网格搜索,711)、xgboost增加更多FE部分、基石-chapter11；
 - 2019-12-11: Store-Item-Demand(拆分到3个notebook，内存优化，继续XGBoost版本特征工程)；
 - 2019-12-12: Store-Item-Demand(XGBoost版本FE初版，三个版本生成对应的结果文件)、基石-12,13；
-- 2019-12-13: Store-Item-Demand(Prophet调参，XGBoost继续优化，对比这两个的实际分数)、基石-14；
+- 2019-12-13: Store-Item-Demand(提交对比实际分数，Prophet调参，XGBoost继续优化)、基石-14；
