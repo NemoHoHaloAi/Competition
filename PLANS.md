@@ -74,14 +74,14 @@ cycle time: from `2019-11-05` to `2019-11-30`;
     1. deathline: `2019-12-31`;
     2. target: can give it to the interviewers and show my Time-Series skills;
 
-## PLAN-jaguar ![icon](https://img.shields.io/badge/doing-10%25-green)
+## PLAN-jaguar ![icon](https://img.shields.io/badge/doing-15%25-green)
 
 cycle time: from `2019-12-01` to `2019-12-31`;
 
 0. [autoML](https://www.kaggle.com/practical-model-evaluation?utm_medium=email&utm_source=intercom&utm_campaign=model-evaluation-workshop)
 1. Learn theoretical knowledge about ML
     1. ![icon](https://img.shields.io/badge/todo-0%25-orange) 李航《统计学习方法》+[code](https://github.com/WenDesi/lihang_book_algorithm)：建议边看书边手推公式然后对着GitHub一边敲代码;
-    2. ![icon](https://img.shields.io/badge/doing|A-50%25-green) 林轩田《机器学习基石》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
+    2. ![icon](https://img.shields.io/badge/doing|A-80%25-green) 林轩田《机器学习基石》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
     3. ![icon](https://img.shields.io/badge/todo-0%25-orange) 林轩田《机器学习技法》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
     4. ![icon](https://img.shields.io/badge/todo-0%25-orange) [线性代数和微积分](https://github.com/NemoHoHaloAi/OpenCourseCatalog);
     5. ![icon](https://img.shields.io/badge/todo-0%25-orange) [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
