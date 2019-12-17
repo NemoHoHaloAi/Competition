@@ -119,5 +119,5 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-11: Store-Item-Demand(拆分到3个notebook，内存优化，继续XGBoost版本特征工程)；
 - 2019-12-12: Store-Item-Demand(XGBoost版本FE初版，三个版本生成对应的结果文件)；
 - 2019-12-13: Store-Item-Demand(Prophet调参(初步调试后默认参数效果最好)，XGBoost继续优化)；
-- 2019-12-16: Store-Item-Demand(提交对比实际分数，XGBoost-31.42702，XGBoost(NoFE)-25.21289，prophet-xxx）、基石-12；
+- 2019-12-16: Store-Item-Demand(提交对比实际分数，XGBoost-31.42702，XGBoost(NoFE)-25.21289，prophet-14.38283）、基石-12；
 - 2019-12-17: Store-Item-Demand(XGBoost目前提交分数30+，远高于不做FE的提交结果，应该是有bug，修复问题优化分数)、基石-13，14；
