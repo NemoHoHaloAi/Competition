@@ -63,6 +63,10 @@ cycle time: from `2019-11-05` to `2019-11-30`;
         1. deathline: `2019-12-15`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Store-Item-Demand-Forecasting-Challenge)
         3. [notebook](https://www.kaggle.com/holoong9291/store-item-demand-predict)
+    - [o2o优惠券预测](https://www.kaggle.com/c/demand-forecasting-kernels-only)
+        1. deathline: `2019-12-31`;
+        2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/ali-tianchi/o2o%E4%BC%98%E6%83%A0%E5%88%B8%E4%BD%BF%E7%94%A8%E9%A2%84%E6%B5%8B)
+        3. [notebook](xxxx)
 3. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
     1. deathline: `2019-12-20`;
     2. target: can throw into the introduction;
