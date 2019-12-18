@@ -125,4 +125,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-13: Store-Item-Demand(Prophet调参(初步调试后默认参数效果最好)，XGBoost继续优化)；
 - 2019-12-16: Store-Item-Demand(提交对比实际分数，XGBoost-31.42702，XGBoost(NoFE)-25.21289，prophet-14.38283）、基石-12；
 - 2019-12-17: Store-Item-Demand(XGBoost目前提交分数30+，远高于不做FE的提交结果，应该是有bug，修复问题优化分数，目前XGBoost-14.31967，已经在public,private上低于prophet，后续继续考虑优化(细化lag参数，目前是90,180,365，考虑细化，分析目前的模型复杂度与EinEout关系等，判断当前是欠拟合还是过拟合，验证集划分方式是否有更好的办法)，尽量到13.xxx)；
-- 2019-12-18: Store-Item-Demand(细化lag参数，分析FuturePricePredict中的处理方法(保留了很多值为0的点，这里有些差异，因为这些0只会出现在测试机上，那么就是说验证集是不存在的，那么会不会对模型产生干扰呢，另外XGBoost参数优化一下)，判断过欠拟合)，基石-13，14；
+- 2019-12-18: Store-Item-Demand(细化lag参数，分析FuturePricePredict中的处理方法(测试集、验证集都只是一个月的数据，因此计算是lag1也是有值的，从这个角度看，目前的lag90开始是没问题的，只不过因为步长过长，时间相关性没有那么强，这里要细化lag，另外XGBoost参数优化一下)，判断过欠拟合)，基石-13，14；
