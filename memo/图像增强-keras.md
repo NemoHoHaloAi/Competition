@@ -50,6 +50,8 @@ for label in range(0,11):
 #             plt.imshow(x_batch[j].reshape(28,28))
 # plt.show()
 
-ims = ims.reshape(-1,784) # ims中可能存在全为空的情况需要剔除，如果没有产生理想的batch size的话
+ims = ims.reshape(-1,784) 
+ims = ims[:idx] # ims中可能存在全为空的情况需要剔除，如果没有产生理想的batch size的话
+iml = iml[:idx]
 print(idx,ims[0],iml[0])
 ```
