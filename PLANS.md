@@ -130,4 +130,5 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-16: Store-Item-Demand(提交对比实际分数，XGBoost-31.42702，XGBoost(NoFE)-25.21289，prophet-14.38283）、基石-12；
 - 2019-12-17: Store-Item-Demand(XGBoost目前提交分数30+，远高于不做FE的提交结果，应该是有bug，修复问题优化分数，目前XGBoost-14.31967，已经在public,private上低于prophet，后续继续考虑优化(细化lag参数，目前是90,180,365，考虑细化，分析目前的模型复杂度与EinEout关系等，判断当前是欠拟合还是过拟合，验证集划分方式是否有更好的办法)，尽量到13.xxx)；
 - 2019-12-18: Store-Item-Demand(分析FuturePricePredict中的处理方法(测试集、验证集都只是一个月的数据，因此计算是lag1也是有值的，从这个角度看，目前的lag90开始是没问题的，只不过因为步长过长，时间相关性没有那么强，这里要细化lag)，XGBoost参数优化，矫正因子，判断过欠拟合，目前XGBoost-14.16492)，基石-13，14；
-- 2019-12-19：Store-Item-Demand(XGBoost调参)、基石-15、手写识别(绘制图片，增加旋转缩放等新数据hinting，018hv3v)、L1和L2正则化；
+- 2019-12-19: Store-Item-Demand(XGBoost调参)、基石-15、手写识别(绘制图片，增加旋转缩放等新数据hinting，018hv3v)、L1和L2正则化；
+- 2019-12-20: 基石-16、手写识别提交(结束)、Store-Item-Demand(继续调参)；
