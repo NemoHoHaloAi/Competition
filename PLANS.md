@@ -133,4 +133,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-19: Store-Item-Demand(XGBoost调参)、基石-15、手写识别(绘制图片，增加旋转缩放等新数据hinting，018hv3v)、L1和L2正则化；
 - 2019-12-20: 基石-16(回顾基石课程)、手写识别提交(结束)、Store-Item-Demand(继续调参)；
 - 2019-12-21: 基石-16、技法-01(linear SVM)；
-- 2019-12-22: 技法-02,03,04、Store-Item-Demand与手写识别(提交)、Online product sales(开始，提交初版)；
+- 2019-12-22: 技法-02,03,04、Store-Item-Demand与手写识别(提交)、Recruit Restaurant Visitor Forecasting(开始，提交初版)；
