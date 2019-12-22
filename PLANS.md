@@ -93,6 +93,7 @@ cycle time: from `2019-12-01` to `2019-12-31`;
     3. ![icon](https://img.shields.io/badge/doing-5%25-green) 林轩田《机器学习技法》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
     4. ![icon](https://img.shields.io/badge/todo-0%25-orange) [线性代数和微积分](https://github.com/NemoHoHaloAi/OpenCourseCatalog);
     5. ![icon](https://img.shields.io/badge/todo-0%25-orange) [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
+    6. ![icon](https://img.shields.io/badge/doing-1%25-green) 西瓜书;
 
 ## DAILY MEMO
 
