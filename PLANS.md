@@ -49,27 +49,27 @@ cycle time: from `2019-11-05` to `2019-11-30`;
     2. now: start with https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle ;
     3. first(common): https://www.kaggle.com/thebrownviking20/everything-you-can-do-with-a-time-series ;
     4. second(ARIMA): https://www.kaggle.com/myonin/bitcoin-price-prediction-by-arima ;
-2. ![icon](https://img.shields.io/badge/doing|A-35%25-green) another competitions
-    - [NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data)
+2. another competitions
+    - ![icon](https://img.shields.io/badge/done|A-100%25-lightgrey)[NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data)
         1. deathline: `2019-11-28`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-NFL-Big-Data-Bowl)
         3. [start with](https://www.kaggle.com/gertjac/regression-approach)
         4. 等待竞赛结束后整理总结分析，学到很多，但是不得不说的是差距依然很大；
-    - [Corporación Favorita Grocery Sales Forecasting](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
+    - ![icon](https://img.shields.io/badge/todo|B-0%25-orange)[Corporación Favorita Grocery Sales Forecasting](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
         1. deathline: `2019-12-15`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Large-Grocery-Chain-Predict)
         3. [start with](https://www.kaggle.com/ceshine/lgbm-starter)
-    - [Store Item Demand Forecasting](https://www.kaggle.com/c/demand-forecasting-kernels-only)
+    - ![icon](https://img.shields.io/badge/doing|A-90%25-green)[Store Item Demand Forecasting](https://www.kaggle.com/c/demand-forecasting-kernels-only)
         1. deathline: `2019-12-15`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Store-Item-Demand-Forecasting-Challenge)
         3. [notebook](https://www.kaggle.com/holoong9291/store-item-demand-predict)
-    - [Online product sales](https://www.kaggle.com/c/online-sales/data)
+    - ![icon](https://img.shields.io/badge/doing|A-5%25-green)[Recruit Restaurant Visitor Forecasting](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
         1. deathline: `2019-12-31`;
-        2. [github project link](xxxx)
+        2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Recruit-Restaurant-Visitor-Forecasting)
         3. [notebook](xxxx)
-    - [Recruit Restaurant Visitor Forecasting](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
-        1. deathline: `2020-01-15`;
-        2. [github project link](xxxx)
+    - ![icon](https://img.shields.io/badge/todo|B-5%25-orange)[Online product sales](https://www.kaggle.com/c/online-sales/data)
+        1. deathline: `2019-12-31`;
+        2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Online-Product-Sales)
         3. [notebook](xxxx)
 3. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
     1. deathline: `2019-12-20`;
