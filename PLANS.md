@@ -89,8 +89,8 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 0. [autoML](https://www.kaggle.com/practical-model-evaluation?utm_medium=email&utm_source=intercom&utm_campaign=model-evaluation-workshop)
 1. Learn theoretical knowledge about ML
     1. ![icon](https://img.shields.io/badge/todo-0%25-orange) 李航《统计学习方法》+[code](https://github.com/WenDesi/lihang_book_algorithm)：建议边看书边手推公式然后对着GitHub一边敲代码;
-    2. ![icon](https://img.shields.io/badge/doing|A-80%25-green) 林轩田《机器学习基石》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
-    3. ![icon](https://img.shields.io/badge/todo-0%25-orange) 林轩田《机器学习技法》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
+    2. ![icon](https://img.shields.io/badge/done|A-100%25-lightgrey) 林轩田《机器学习基石》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
+    3. ![icon](https://img.shields.io/badge/doing-5%25-green) 林轩田《机器学习技法》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
     4. ![icon](https://img.shields.io/badge/todo-0%25-orange) [线性代数和微积分](https://github.com/NemoHoHaloAi/OpenCourseCatalog);
     5. ![icon](https://img.shields.io/badge/todo-0%25-orange) [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
 
@@ -132,3 +132,5 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-18: Store-Item-Demand(分析FuturePricePredict中的处理方法(测试集、验证集都只是一个月的数据，因此计算是lag1也是有值的，从这个角度看，目前的lag90开始是没问题的，只不过因为步长过长，时间相关性没有那么强，这里要细化lag)，XGBoost参数优化，矫正因子，判断过欠拟合，目前XGBoost-14.16492)，基石-13，14；
 - 2019-12-19: Store-Item-Demand(XGBoost调参)、基石-15、手写识别(绘制图片，增加旋转缩放等新数据hinting，018hv3v)、L1和L2正则化；
 - 2019-12-20: 基石-16(回顾基石课程)、手写识别提交(结束)、Store-Item-Demand(继续调参)；
+- 2019-12-21: 基石-16、技法-01(linear SVM)；
+- 2019-12-22: 技法-02,03,04、Store-Item-Demand与手写识别(提交)、Online product sales(开始，提交初版)；
