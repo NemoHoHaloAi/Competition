@@ -135,4 +135,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-20: 基石-16(回顾基石课程)、手写识别提交(结束)、Store-Item-Demand(继续调参)；
 - 2019-12-21: 基石-16、技法-01(linear SVM)；
 - 2019-12-22: 技法-02(WTF),03(WTF)、Store-Item-Demand(修改参数运行(目前看应该是存在bug，对比下跟之前最好的version，目前过拟合非常严重)，该项目似乎有验证集污染问题，平均特征计算时使用了训练+验证的数据，但是这部分数据理应是不可见的)与手写识别(注意之前方式没有保留原始训练数据，导致分数偏低，现在加上，离线运行，修改验证集划分时机避免数据增强的污染)；
-- 2019-12-23: 技法-04(西瓜书的SVM章节)、Store-Item-Demand(过拟合debug)、Recruit Restaurant Visitor Forecasting(开始，提交初版)；
+- 2019-12-23: 技法-04(西瓜书的线性模型章节)、Store-Item-Demand(过拟合debug)、Recruit Restaurant Visitor Forecasting(开始，提交初版)；
