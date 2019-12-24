@@ -18,4 +18,3 @@
     - 可以通过store_id_relation表做商店的归一处理；
     - date_info提供了基本的日期信息；
     - air_visit_data没有对应的hpg数据；
-    - 数据需要做归一链接；
