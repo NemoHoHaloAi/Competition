@@ -90,10 +90,17 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 1. Learn theoretical knowledge about ML
     1. ![icon](https://img.shields.io/badge/todo-0%25-orange) 李航《统计学习方法》+[code](https://github.com/WenDesi/lihang_book_algorithm)：建议边看书边手推公式然后对着GitHub一边敲代码;
     2. ![icon](https://img.shields.io/badge/done|A-100%25-lightgrey) 林轩田《机器学习基石》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
-    3. ![icon](https://img.shields.io/badge/doing|A-5%25-green) 林轩田《机器学习技法》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
+    3. ![icon](https://img.shields.io/badge/todo|A-5%25-orange) 林轩田《机器学习技法》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
     4. ![icon](https://img.shields.io/badge/todo-0%25-orange) [线性代数和微积分](https://github.com/NemoHoHaloAi/OpenCourseCatalog);
     5. ![icon](https://img.shields.io/badge/todo-0%25-orange) [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
-    6. ![icon](https://img.shields.io/badge/doing|A-1%25-green) 西瓜书;
+    6. ![icon](https://img.shields.io/badge/todo|A-1%25-orange) 西瓜书;
+    7. ![icon](https://img.shields.io/badge/doing|S-0%25-green) [数学基础](https://www.jiqizhixin.com/articles/2018-04-12-4)：
+        1. 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
+        2. 线性代数：https://www.bilibili.com/video/av6731067
+        3. 矩阵求导
+        4. 概率论+统计：陈希儒的概率论与数理统计
+        5. 线性规划+凸优化
+        6. 数值计算、数值线代
 
 ## DAILY MEMO
 
