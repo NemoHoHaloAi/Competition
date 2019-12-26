@@ -94,13 +94,14 @@ cycle time: from `2019-12-01` to `2019-12-31`;
     4. ![icon](https://img.shields.io/badge/todo-0%25-orange) [线性代数和微积分](https://github.com/NemoHoHaloAi/OpenCourseCatalog);
     5. ![icon](https://img.shields.io/badge/todo-0%25-orange) [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
     6. ![icon](https://img.shields.io/badge/todo|A-1%25-orange) 西瓜书;
-    7. ![icon](https://img.shields.io/badge/doing|S-0%25-green) [数学基础](https://www.jiqizhixin.com/articles/2018-04-12-4)：
-        1. 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
+    7. [数学基础](https://www.jiqizhixin.com/articles/2018-04-12-4)：
+        1. ![icon](https://img.shields.io/badge/doing|S-0%25-green) 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
         2. 线性代数：https://www.bilibili.com/video/av6731067
-        3. 矩阵求导
-        4. 概率论+统计：陈希儒的概率论与数理统计
-        5. 线性规划+凸优化
-        6. 数值计算、数值线代
+        3. [另一篇文章](https://zhuanlan.zhihu.com/p/36357540):微积分、线代、概率论、最优化；
+        4. 矩阵求导
+        5. 概率论+统计：陈希儒的概率论与数理统计
+        6. 线性规划+凸优化
+        7. 数值计算、数值线代
 
 ## DAILY MEMO
 
@@ -145,3 +146,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-23: Store-Item-Demand(过拟合debug，数据污染问题关注)、Recruit Restaurant Visitor Forecasting(开始，提交初版)；
 - 2019-12-25: Store-Item-Demand(暂停)、Recruit Restaurant Visitor Forecasting(EDA+FE，由于其店铺数据特点、时间不连续等，仍需要处理，该数据更接近生产数据)；
 - 2019-12-26: Recruit Restaurant Visitor Forecasting(手动填充缺失日期row，训练并提交第一版)、技法-04(技法目前看起来有压力，先从西瓜书的线性模型章节开始补一下基础知识)；
+- 2019-12-27: 3Blue1Brown的微积分课程；
