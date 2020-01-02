@@ -63,14 +63,14 @@ cycle time: from `2019-11-05` to `2019-11-30`;
         1. deathline: `2019-12-15`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Store-Item-Demand-Forecasting-Challenge)
         3. [notebook](https://www.kaggle.com/holoong9291/store-item-demand-predict)
-    - ![icon](https://img.shields.io/badge/doing|A-5%25-green)[Recruit Restaurant Visitor Forecasting](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
-        1. deathline: `2019-12-31`;
+    - ![icon](https://img.shields.io/badge/doing|A-50%25-green)[Recruit Restaurant Visitor Forecasting](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
+        1. deathline: `2020-01-05`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Recruit-Restaurant-Visitor-Forecasting)
-        3. [notebook](xxxx)
-    - ![icon](https://img.shields.io/badge/doing|A-5%25-green)[Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
+        3. [notebook](https://www.kaggle.com/holoong9291/recruit-restaurant-visitor-forecasting)
+    - ![icon](https://img.shields.io/badge/doing|A-1%25-green)[Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
         1. deathline: `2019-01-15`;
         2. [github project link](xxxx)
-        3. [notebook](xxxx)
+        3. [notebook](https://www.kaggle.com/holoong9291/web-traffic-time-series-forecasting)
 3. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
     1. deathline: `2019-12-20`;
     2. target: can throw into the introduction;
@@ -97,6 +97,7 @@ cycle time: from `2019-12-01` to `2019-12-31`;
     7. [数学基础](https://www.jiqizhixin.com/articles/2018-04-12-4)：
         1. ![icon](https://img.shields.io/badge/doing|S-0%25-green) 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
             - [微积分到底是什么](https://zhuanlan.zhihu.com/p/94592123)
+            - 普林斯顿微积分读本：30章，每章10~30页，预计工作日2~3天一章，休息日1天两章；
         2. 线性代数：https://www.bilibili.com/video/av6731067
         3. [另一篇文章](https://zhuanlan.zhihu.com/p/36357540):微积分、线代、概率论、最优化；
         4. 矩阵求导
@@ -148,6 +149,8 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-25: Store-Item-Demand(暂停)、Recruit Restaurant Visitor Forecasting(EDA+FE，由于其店铺数据特点、时间不连续等，仍需要处理，该数据更接近生产数据)；
 - 2019-12-26: Recruit Restaurant Visitor Forecasting(手动填充缺失日期row，训练并提交第一版)、技法-04(技法目前看起来有压力，先从西瓜书的线性模型章节开始补一下基础知识)；
 - 2019-12-27: Store-Item-Demand(修复验证数据集大小问题、调整划分方式为通过与固定datetime比对、运行提交)、Recruit Restaurant Visitor Forecasting(整理运行提交)；
-- 2019-01-01: 微积分(1-1~1-6)；
+- 2019-01-01: 微积分(第一章)；
 - 2019-01-02: 微积分(完成第一章)、Recruit Restaurant Visitor Forecast(目前得分很低，分析原因，修复问题)；
-- 2019-01-03: 微积分(完成第二章)、Recruit Restaurant Visitor Forecast、Web Traffic Forecast(启动)；
+- 2019-01-03: 微积分(第二章)、Recruit Restaurant Visitor Forecast、Web Traffic Forecast(启动)；
+- 2019-01-04: 微积分(完成第二、三、四章)
+- 2019-01-05: 微积分(完成第五、六章)
