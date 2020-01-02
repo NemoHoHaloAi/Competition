@@ -147,6 +147,7 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-23: Store-Item-Demand(过拟合debug，数据污染问题关注)、Recruit Restaurant Visitor Forecasting(开始，提交初版)；
 - 2019-12-25: Store-Item-Demand(暂停)、Recruit Restaurant Visitor Forecasting(EDA+FE，由于其店铺数据特点、时间不连续等，仍需要处理，该数据更接近生产数据)；
 - 2019-12-26: Recruit Restaurant Visitor Forecasting(手动填充缺失日期row，训练并提交第一版)、技法-04(技法目前看起来有压力，先从西瓜书的线性模型章节开始补一下基础知识)；
-- 2019-12-27: Store-Item-Demand(修复验证数据集大小问题、调整划分方式为通过与固定datetime比对、运行提交)、Recruit Restaurant Visitor Forecasting(整理运行提交)、3Blue1Brown的微积分课程；
+- 2019-12-27: Store-Item-Demand(修复验证数据集大小问题、调整划分方式为通过与固定datetime比对、运行提交)、Recruit Restaurant Visitor Forecasting(整理运行提交)；
 - 2019-01-01: 微积分(1-1~1-6)；
-- 2019-01-02: 微积分(完成第一章)、Recruit Restaurant Visitor Forecasting(目前得分很低，分析原因，修复问题)；
+- 2019-01-02: 微积分(完成第一章)、Recruit Restaurant Visitor Forecast(目前得分很低，分析原因，修复问题)；
+- 2019-01-03: Web Traffic Forecast(启动)；
