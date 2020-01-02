@@ -150,4 +150,4 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-27: Store-Item-Demand(修复验证数据集大小问题、调整划分方式为通过与固定datetime比对、运行提交)、Recruit Restaurant Visitor Forecasting(整理运行提交)；
 - 2019-01-01: 微积分(1-1~1-6)；
 - 2019-01-02: 微积分(完成第一章)、Recruit Restaurant Visitor Forecast(目前得分很低，分析原因，修复问题)；
-- 2019-01-03: Web Traffic Forecast(启动)；
+- 2019-01-03: 微积分(完成第二章)、Recruit Restaurant Visitor Forecast、Web Traffic Forecast(启动)；
