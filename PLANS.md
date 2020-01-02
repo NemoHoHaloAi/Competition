@@ -97,7 +97,8 @@ cycle time: from `2019-12-01` to `2019-12-31`;
     7. [数学基础](https://www.jiqizhixin.com/articles/2018-04-12-4)：
         1. ![icon](https://img.shields.io/badge/doing|S-0%25-green) 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
             - [微积分到底是什么](https://zhuanlan.zhihu.com/p/94592123)
-            - 普林斯顿微积分读本：30章，每章10~30页，预计工作日2~3天一章，休息日1天两章；
+            - 普林斯顿微积分读本：30章，每章10\~30页，预计工作日2\~3天1章，休息日1天1章，即一周4\~5章，完成需要大约6周；
+            - deathline: `2020-02-15`；
         2. 线性代数：https://www.bilibili.com/video/av6731067
         3. [另一篇文章](https://zhuanlan.zhihu.com/p/36357540):微积分、线代、概率论、最优化；
         4. 矩阵求导
