@@ -67,9 +67,9 @@ cycle time: from `2019-11-05` to `2019-11-30`;
         1. deathline: `2019-12-31`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Recruit-Restaurant-Visitor-Forecasting)
         3. [notebook](xxxx)
-    - ![icon](https://img.shields.io/badge/todo|B-5%25-orange)[Online product sales](https://www.kaggle.com/c/online-sales/data)
-        1. deathline: `2019-12-31`;
-        2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Online-Product-Sales)
+    - ![icon](https://img.shields.io/badge/doing|A-5%25-green)[Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
+        1. deathline: `2019-01-15`;
+        2. [github project link](xxxx)
         3. [notebook](xxxx)
 3. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
     1. deathline: `2019-12-20`;
@@ -148,3 +148,5 @@ cycle time: from `2019-12-01` to `2019-12-31`;
 - 2019-12-25: Store-Item-Demand(暂停)、Recruit Restaurant Visitor Forecasting(EDA+FE，由于其店铺数据特点、时间不连续等，仍需要处理，该数据更接近生产数据)；
 - 2019-12-26: Recruit Restaurant Visitor Forecasting(手动填充缺失日期row，训练并提交第一版)、技法-04(技法目前看起来有压力，先从西瓜书的线性模型章节开始补一下基础知识)；
 - 2019-12-27: Store-Item-Demand(修复验证数据集大小问题、调整划分方式为通过与固定datetime比对、运行提交)、Recruit Restaurant Visitor Forecasting(整理运行提交)、3Blue1Brown的微积分课程；
+- 2019-01-01: 微积分(1-1~1-6)；
+- 2019-01-02: 微积分(完成第一章)、Recruit Restaurant Visitor Forecasting(目前得分很低，分析原因，修复问题)；
