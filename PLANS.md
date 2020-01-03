@@ -39,17 +39,17 @@ When you waiting for the code run, you best to do something else, like learn fro
 
 cycle time: from `2019-11-05` to `2019-11-30`;
 
-0. ![icon](https://img.shields.io/badge/doing|A-90%25-green) finish [future-price-predict project](https://www.kaggle.com/holoong9291/predict-future-sales) with the good kernel
+1. ![icon](https://img.shields.io/badge/doing|A-90%25-green) finish [future-price-predict project](https://www.kaggle.com/holoong9291/predict-future-sales) with the good kernel
     1. deathline: `2019-11-10`;
     2. now: fix and update with [the good kernel](https://www.kaggle.com/dlarionov/feature-engineering-xgboost);
     3. and: model stack, correct factor;
     4. last: up to Top10%;
-1. ![icon](https://img.shields.io/badge/done-100%25-lightgrey) learn how to work with time series with TS kernels
+2. ![icon](https://img.shields.io/badge/done-100%25-lightgrey) learn how to work with time series with TS kernels
     1. deathline: `2019-11-17`;
     2. now: start with https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle ;
     3. first(common): https://www.kaggle.com/thebrownviking20/everything-you-can-do-with-a-time-series ;
     4. second(ARIMA): https://www.kaggle.com/myonin/bitcoin-price-prediction-by-arima ;
-2. another competitions
+3. another competitions
     - ![icon](https://img.shields.io/badge/done|A-100%25-lightgrey)[NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data)
         1. deathline: `2019-11-28`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-NFL-Big-Data-Bowl)
@@ -71,14 +71,16 @@ cycle time: from `2019-11-05` to `2019-11-30`;
         1. deathline: `2019-01-15`;
         2. [github project link](xxxx)
         3. [notebook](https://www.kaggle.com/holoong9291/web-traffic-time-series-forecasting)
-3. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
+4. Build a notebook call time-series common workflow, and publish.
+    1. deathline: `2019-01-20`
+5. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
     1. deathline: `2019-12-20`;
     2. target: can throw into the introduction;
-4. ![icon](https://img.shields.io/badge/done-100%25-lightgrey) summary of time-series kernels(Time-Series projects)
+6. ![icon](https://img.shields.io/badge/done-100%25-lightgrey) summary of time-series kernels(Time-Series projects)
     1. deathline: `2019-11-20`;
-5. ![icon](https://img.shields.io/badge/todo-0%25-orange) summary of time-series(All about Time-Series)
+7. ![icon](https://img.shields.io/badge/todo-0%25-orange) summary of time-series(All about Time-Series)
     1. deathline: `2019-12-25`;
-4. ![icon](https://img.shields.io/badge/todo-0%25-orange) update introduction with some project, and add detail in project
+8. ![icon](https://img.shields.io/badge/todo-0%25-orange) update introduction with some project, and add detail in project
     1. deathline: `2019-12-31`;
     2. target: can give it to the interviewers and show my Time-Series skills;
 
@@ -86,25 +88,24 @@ cycle time: from `2019-11-05` to `2019-11-30`;
 
 cycle time: from `2019-12-01` to `2019-12-31`;
 
-0. [autoML](https://www.kaggle.com/practical-model-evaluation?utm_medium=email&utm_source=intercom&utm_campaign=model-evaluation-workshop)
-1. Learn theoretical knowledge about ML
-    1. ![icon](https://img.shields.io/badge/todo-0%25-orange) 李航《统计学习方法》+[code](https://github.com/WenDesi/lihang_book_algorithm)：建议边看书边手推公式然后对着GitHub一边敲代码;
-    2. ![icon](https://img.shields.io/badge/done|A-100%25-lightgrey) 林轩田《机器学习基石》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
-    3. ![icon](https://img.shields.io/badge/todo|A-5%25-orange) 林轩田《机器学习技法》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
-    4. ![icon](https://img.shields.io/badge/todo-0%25-orange) [线性代数和微积分](https://github.com/NemoHoHaloAi/OpenCourseCatalog);
-    5. ![icon](https://img.shields.io/badge/todo-0%25-orange) [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
-    6. ![icon](https://img.shields.io/badge/todo|A-1%25-orange) 西瓜书;
-    7. [数学基础](https://www.jiqizhixin.com/articles/2018-04-12-4)：
-        1. ![icon](https://img.shields.io/badge/doing|S-0%25-green) 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
-            - [微积分到底是什么](https://zhuanlan.zhihu.com/p/94592123)
-            - 普林斯顿微积分读本：30章，每章10\~30页，预计工作日2\~3天1章，休息日1天1章，即一周4\~5章，完成需要大约6周；
-            - deathline: `2020-02-15`；
-        2. 线性代数：https://www.bilibili.com/video/av6731067
-        3. [另一篇文章](https://zhuanlan.zhihu.com/p/36357540):微积分、线代、概率论、最优化；
-        4. 矩阵求导
-        5. 概率论+统计：陈希儒的概率论与数理统计
-        6. 线性规划+凸优化
-        7. 数值计算、数值线代
+Learn theoretical knowledge about ML:
+1. ![icon](https://img.shields.io/badge/todo-0%25-orange) 李航《统计学习方法》+[code](https://github.com/WenDesi/lihang_book_algorithm)：建议边看书边手推公式然后对着GitHub一边敲代码;
+2. ![icon](https://img.shields.io/badge/done|A-100%25-lightgrey) 林轩田《机器学习基石》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Foundations);
+3. ![icon](https://img.shields.io/badge/todo|A-5%25-orange) 林轩田《机器学习技法》+[video+link+note](https://github.com/NemoHoHaloAi/NTU-HsuanTienLin-MachineLearning/tree/master/Machine%20Learning%20Techniques);
+4. ![icon](https://img.shields.io/badge/todo-0%25-orange) [线性代数和微积分](https://github.com/NemoHoHaloAi/OpenCourseCatalog);
+5. ![icon](https://img.shields.io/badge/todo-0%25-orange) [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
+6. ![icon](https://img.shields.io/badge/todo|A-1%25-orange) 西瓜书;
+7. [数学基础](https://www.jiqizhixin.com/articles/2018-04-12-4)：
+    1. ![icon](https://img.shields.io/badge/doing|S-0%25-green) 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
+        - [微积分到底是什么](https://zhuanlan.zhihu.com/p/94592123)
+        - 普林斯顿微积分读本：30章，每章10\~30页，预计工作日2\~3天1章，休息日1天1章，即一周4\~5章，完成需要大约6周；
+        - deathline: `2020-02-15`；
+    2. 线性代数：https://www.bilibili.com/video/av6731067
+    3. [另一篇文章](https://zhuanlan.zhihu.com/p/36357540):微积分、线代、概率论、最优化；
+    4. 矩阵求导
+    5. 概率论+统计：陈希儒的概率论与数理统计
+    6. 线性规划+凸优化
+    7. 数值计算、数值线代
 
 ## DAILY MEMO
 
