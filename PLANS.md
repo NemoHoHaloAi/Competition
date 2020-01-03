@@ -71,20 +71,20 @@ cycle time: from `2019-11-05` to `2019-11-30`;
         1. deathline: `2019-01-15`;
         2. [github project link](xxxx)
         3. [notebook](https://www.kaggle.com/holoong9291/web-traffic-time-series-forecasting)
-4. Build a notebook call time-series common workflow, and publish.
+4. ![icon](https://img.shields.io/badge/todo|B-0%25-orange) Build a notebook call time-series common workflow, and publish.
     1. deathline: `2019-01-20`
 5. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
     1. deathline: `2019-12-20`;
     2. target: can throw into the introduction;
-6. ![icon](https://img.shields.io/badge/done-100%25-lightgrey) summary of time-series kernels(Time-Series projects)
+6. ![icon](https://img.shields.io/badge/done|B-100%25-lightgrey) summary of time-series kernels(Time-Series projects)
     1. deathline: `2019-11-20`;
-7. ![icon](https://img.shields.io/badge/todo-0%25-orange) summary of time-series(All about Time-Series)
+7. ![icon](https://img.shields.io/badge/todo|B-0%25-orange) summary of time-series(All about Time-Series)
     1. deathline: `2019-12-25`;
-8. ![icon](https://img.shields.io/badge/todo-0%25-orange) update introduction with some project, and add detail in project
+8. ![icon](https://img.shields.io/badge/todo|S-0%25-orange) update introduction with some project, and add detail in project
     1. deathline: `2019-12-31`;
     2. target: can give it to the interviewers and show my Time-Series skills;
 
-## PLAN-jaguar ![icon](https://img.shields.io/badge/doing-15%25-green)
+## PLAN-jaguar ![icon](https://img.shields.io/badge/doing|A-15%25-green)
 
 cycle time: from `2019-12-01` to `2019-12-31`;
 
