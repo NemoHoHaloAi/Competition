@@ -35,7 +35,7 @@ Get a job about `Time-Series`, `Sale-Predict` and `Machine Learning`.
 
 When you waiting for the code run, you best to do something else, like learn from kernels, read book, watch video, write note, etc.
 
-## PLAN-corgi ![icon](https://img.shields.io/badge/doing-70%25-green)
+## PLAN-corgi ![icon](https://img.shields.io/badge/doing-35%25-green)
 
 cycle time: from `2019-11-05` to `2019-11-30`;
 
@@ -96,7 +96,7 @@ Learn theoretical knowledge about ML:
 5. ![icon](https://img.shields.io/badge/todo-0%25-orange) [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
 6. ![icon](https://img.shields.io/badge/todo|A-1%25-orange) 西瓜书;
 7. [数学基础](https://www.jiqizhixin.com/articles/2018-04-12-4)：
-    1. ![icon](https://img.shields.io/badge/doing|S-0%25-green) 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
+    1. ![icon](https://img.shields.io/badge/doing|S-3%25-green) 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
         - [微积分到底是什么](https://zhuanlan.zhihu.com/p/94592123)
         - 普林斯顿微积分读本：30章，每章10\~30页，预计工作日2\~3天1章，休息日1天1章，即一周4\~5章，完成需要大约6周；
         - deathline: `2020-02-15`；
@@ -154,5 +154,5 @@ Learn theoretical knowledge about ML:
 - 2019-01-01: 微积分(第一章)；
 - 2019-01-02: 微积分(完成第一章、第二章)、Recruit Restaurant Visitor Forecast(目前得分很低，分析原因，修复问题)；
 - 2019-01-03: 微积分(完成第二章)、Recruit Restaurant Visitor Forecast、Web Traffic Forecast(启动)；
-- 2019-01-04: 微积分(完成第三、四章)
-- 2019-01-05: 微积分(完成第五、六章)
+- 2019-01-04: 微积分(完成第三、四章)；
+- 2019-01-05: 微积分(完成第五、六章)、发布Wechat+到[HelloGithub](https://hellogithub.com/)；
