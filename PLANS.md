@@ -153,6 +153,7 @@ Learn theoretical knowledge about ML:
 - 2019-12-27: Store-Item-Demand(修复验证数据集大小问题、调整划分方式为通过与固定datetime比对、运行提交)、Recruit Restaurant Visitor Forecasting(整理运行提交)；
 - 2019-01-01: 微积分(第一章)；
 - 2019-01-02: 微积分(完成第一章、第二章)、Recruit Restaurant Visitor Forecast(目前得分很低，分析原因，修复问题)；
-- 2019-01-03: 微积分(完成第二章)、Recruit Restaurant Visitor Forecast、Web Traffic Forecast(启动)；
-- 2019-01-04: 微积分(完成第三、四章)；
-- 2019-01-05: 微积分(完成第五、六章)、发布Wechat+到[HelloGithub](https://hellogithub.com/)；
+- 2019-01-03: 微积分(完成第二章)；
+- 2019-01-06: 微积分(完成第三章)、Recruit Restaurant Visitor Forecast(继续分析问题)、Web Traffic Forecast(启动)；
+- 2019-01-07: 微积分(完成第四章)、发布Wechat+到[HelloGithub](https://hellogithub.com/)；
+- 2019-01-08: 微积分(完成第五章)；
