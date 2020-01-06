@@ -154,6 +154,6 @@ Learn theoretical knowledge about ML:
 - 2019-01-01: 微积分(第一章)；
 - 2019-01-02: 微积分(完成第一章、第二章)、Recruit Restaurant Visitor Forecast(目前得分很低，分析原因，修复问题)；
 - 2019-01-03: 微积分(完成第二章)；
-- 2019-01-06: 微积分(完成第三章)、Recruit Restaurant Visitor Forecast(继续分析问题)、Web Traffic Forecast(启动)；
+- 2019-01-06: 微积分(完成第三章)、Recruit Restaurant Visitor Forecast(1.对比训练集和测试集数据，观察是否有明显差异，结论是不同的store数据集有较大差异，导致在训练集上很有效的特征无法作用于测试集，去除与store相关特征看效果，2.对去除部分做恢复，一致的特征恢复回来，比如dayofweek系列)、Web Traffic Forecast(启动)；
 - 2019-01-07: 微积分(完成第四章)、发布Wechat+到[HelloGithub](https://hellogithub.com/)；
 - 2019-01-08: 微积分(完成第五章)；
