@@ -155,5 +155,5 @@ Learn theoretical knowledge about ML:
 - 2019-01-02: 微积分(完成第一章、第二章)、Recruit Restaurant Visitor Forecast(目前得分很低，分析原因，修复问题)；
 - 2019-01-03: 微积分(完成第二章)；
 - 2019-01-06: Recruit Restaurant Visitor Forecast(1.对比训练集和测试集数据，观察是否有明显差异，结论是不同的store数据集有较大差异，导致在训练集上很有效的特征无法作用于测试集，去除与store相关特征看效果，得分1.48，降低了很多，但是依然几乎是垫底的分数，继续分析)；
-- 2019-01-08: 微积分(完成第三章)、微积分(完成第四章)、Recruit(1. 去调log1p动作，2.继续分析与valid差异这么大的原因，分析头部特征，3.对去除部分做恢复，一致的特征恢复回来，比如dayofweek系列)、发布Wechat+到[HelloGithub](https://hellogithub.com/)；
+- 2019-01-08: 微积分(完成第三章)、微积分(完成第四章)、Recruit(1. 去调log1p动作，方便对比验证结果和测试结果，2.继续分析与valid差异这么大的原因，分析头部特征，去掉dayofyear_avg_visitors和weekofyear_avg_visitors两个明显差异特征，看看结果3.对去除部分做恢复，一致的特征恢复回来，比如dayofweek系列)、发布Wechat+到cnblog、[HelloGithub](https://hellogithub.com/)；
 - 2019-01-09: 微积分(完成第五章)、Web Traffic Forecast(启动)；
