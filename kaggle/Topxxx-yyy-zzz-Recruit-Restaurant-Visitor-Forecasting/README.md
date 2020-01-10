@@ -134,3 +134,5 @@ air光顾表中air店铺数量：829
 1. 不对reserve数据与visit数据链接，目前看能够直接链接的部分太少了1/6，可能不仅起不到作用，还容易有副作用；
 2. 分别对visit和reserve进行FE处理，方式类似目前的visit，只不过对于reserve，target是reserve_visitors；
 3. 整合，reserve数据量大，visit数据量小，但是visit是直接数据，而reserve是间接，如何整合，最大化发挥作用；
+
+终极目的：预测某一天某家店的顾客数量，开开脑洞，如何用现有的两份数据visit和reserve更好的进行预测，之前只用visit得到0.75；
