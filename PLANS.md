@@ -151,10 +151,11 @@ Learn theoretical knowledge about ML:
 - 2019-12-25: Store-Item-Demand(暂停)、Recruit Restaurant Visitor Forecasting(EDA+FE，由于其店铺数据特点、时间不连续等，仍需要处理，该数据更接近生产数据)；
 - 2019-12-26: Recruit Restaurant Visitor Forecasting(手动填充缺失日期row，训练并提交第一版)、技法-04(技法目前看起来有压力，先从西瓜书的线性模型章节开始补一下基础知识)；
 - 2019-12-27: Store-Item-Demand(修复验证数据集大小问题、调整划分方式为通过与固定datetime比对、运行提交)、Recruit Restaurant Visitor Forecasting(整理运行提交)；
-- 2019-01-01: 微积分(第一章函数)；
-- 2019-01-02: 微积分(完成第一章函数、第二章三角学)、Recruit Restaurant Visitor Forecast(目前得分很低，分析原因，修复问题)；
-- 2019-01-03: 微积分(完成第二章三角学)；
-- 2019-01-06: Recruit Restaurant Visitor Forecast(1.对比训练集和测试集数据，观察是否有明显差异，结论是不同的store数据集有较大差异，导致在训练集上很有效的特征无法作用于测试集，去除与store相关特征看效果，得分1.48，降低了很多，但是依然几乎是垫底的分数，继续分析)；
-- 2019-01-08: 微积分(完成第三章极限)、Recruit(1. 去调log1p动作，方便对比验证结果和测试结果，2.继续分析与valid差异这么大的原因，分析头部特征，去掉dayofyear_avg_visitors和weekofyear_avg_visitors两个明显差异特征，目前结果是public=0.75，已经不存在不一致问题)、发布Wechat+到cnblog、[HelloGithub](https://hellogithub.com/)；
-- 2019-01-09: 微积分(完成第四章多项式极限)、Recruit(特征恢复：dayblock&store无法恢复，颗粒度太小，没有意义，xxx_store_avg_visitors除month外做了恢复，看看效果，目前看效果更差了，应该还是因为增加了store维度后数据分布不均衡导致，去掉。开始考虑从reserve下手进行数据特征融合)；
-- 2019-01-10: 微积分(第五章连续性和可导性)、Web Traffic Forecast(启动)、Recruit(注意注意，reserve数据还没用呢。。。)；
+- 2020-01-01: 微积分(第一章函数)；
+- 2020-01-02: 微积分(完成第一章函数、第二章三角学)、Recruit Restaurant Visitor Forecast(目前得分很低，分析原因，修复问题)；
+- 2020-01-03: 微积分(完成第二章三角学)；
+- 2020-01-06: Recruit Restaurant Visitor Forecast(1.对比训练集和测试集数据，观察是否有明显差异，结论是不同的store数据集有较大差异，导致在训练集上很有效的特征无法作用于测试集，去除与store相关特征看效果，得分1.48，降低了很多，但是依然几乎是垫底的分数，继续分析)；
+- 2020-01-08: 微积分(完成第三章极限)、Recruit(1. 去调log1p动作，方便对比验证结果和测试结果，2.继续分析与valid差异这么大的原因，分析头部特征，去掉dayofyear_avg_visitors和weekofyear_avg_visitors两个明显差异特征，目前结果是public=0.75，已经不存在不一致问题)、发布Wechat+到cnblog、[HelloGithub](https://hellogithub.com/)；
+- 2020-01-09: Recruit(特征恢复：dayblock&store无法恢复，颗粒度太小，没有意义，xxx_store_avg_visitors除month外做了恢复，看看效果，目前看效果更差了，应该还是因为增加了store维度后数据分布不均衡导致，去掉)；
+- 2020-01-10: 微积分(完成第四章多项式极限)、Web Traffic Forecast(启动)、Recruit(开始考虑从reserve下手进行数据特征融合)；
+- 2020-01-11: 微积分(完成第五章连续性和可导性)；
