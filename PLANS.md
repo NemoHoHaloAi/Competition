@@ -159,5 +159,5 @@ Learn theoretical knowledge about ML:
 - 2020-01-09: Recruit(特征恢复：dayblock&store无法恢复，颗粒度太小，没有意义，xxx_store_avg_visitors除month外做了恢复，看看效果，目前看效果更差了，应该还是因为增加了store维度后数据分布不均衡导致，去掉)；
 - 2020-01-10: 微积分(完成第四章多项式极限)、Recruit(开始考虑从reserve下手进行数据特征融合)；
 - 2020-01-11: 微积分(第五章连续性和可导性)；
-- 2020-01-12: Recruit(如何分别对visit和reserve进行fe后，再进行整合，要考虑清楚)、微积分(完成第五章连续性和可导性)；
+- 2020-01-12: Recruit(如何分别对visit和reserve进行fe后，再进行整合，要考虑清楚)、微积分(完成第五章连续性和可导性)、微积分(求解微分问题)；
 - 2020-01-13: Web Traffic Forecast(启动)；
