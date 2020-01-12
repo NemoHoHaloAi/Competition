@@ -157,5 +157,7 @@ Learn theoretical knowledge about ML:
 - 2020-01-06: Recruit Restaurant Visitor Forecast(1.对比训练集和测试集数据，观察是否有明显差异，结论是不同的store数据集有较大差异，导致在训练集上很有效的特征无法作用于测试集，去除与store相关特征看效果，得分1.48，降低了很多，但是依然几乎是垫底的分数，继续分析)；
 - 2020-01-08: 微积分(完成第三章极限)、Recruit(1. 去调log1p动作，方便对比验证结果和测试结果，2.继续分析与valid差异这么大的原因，分析头部特征，去掉dayofyear_avg_visitors和weekofyear_avg_visitors两个明显差异特征，目前结果是public=0.75，已经不存在不一致问题)、发布Wechat+到cnblog、[HelloGithub](https://hellogithub.com/)；
 - 2020-01-09: Recruit(特征恢复：dayblock&store无法恢复，颗粒度太小，没有意义，xxx_store_avg_visitors除month外做了恢复，看看效果，目前看效果更差了，应该还是因为增加了store维度后数据分布不均衡导致，去掉)；
-- 2020-01-10: 微积分(完成第四章多项式极限)、Web Traffic Forecast(启动)、Recruit(开始考虑从reserve下手进行数据特征融合)；
-- 2020-01-11: 微积分(完成第五章连续性和可导性)；
+- 2020-01-10: 微积分(完成第四章多项式极限)、Recruit(开始考虑从reserve下手进行数据特征融合)；
+- 2020-01-11: 微积分(第五章连续性和可导性)；
+- 2020-01-12: Recruit(如何分别对visit和reserve进行fe后，再进行整合，要考虑清楚)、微积分(第五章连续性和可导性)；
+- 2020-01-13: Web Traffic Forecast(启动)；
