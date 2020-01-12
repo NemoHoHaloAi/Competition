@@ -96,7 +96,7 @@ Learn theoretical knowledge about ML:
 5. ![icon](https://img.shields.io/badge/todo-0%25-orange) [Spark in Python](http://spark.apache.org/docs/latest/api/python/index.html);
 6. ![icon](https://img.shields.io/badge/todo|A-1%25-orange) 西瓜书;
 7. [数学基础](https://www.jiqizhixin.com/articles/2018-04-12-4)：
-    1. ![icon](https://img.shields.io/badge/doing|S-3%25-green) 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
+    1. ![icon](https://img.shields.io/badge/doing|S-18%25-green) 微积分：https://space.bilibili.com/88461692/channel/detail?cid=13407
         - [微积分到底是什么](https://zhuanlan.zhihu.com/p/94592123)
         - 普林斯顿微积分读本：30章，每章10\~30页，预计工作日2\~3天1章，休息日1天1章，即一周4\~5章，完成需要大约6周；
         - deathline: `2020-02-15`；
@@ -159,5 +159,5 @@ Learn theoretical knowledge about ML:
 - 2020-01-09: Recruit(特征恢复：dayblock&store无法恢复，颗粒度太小，没有意义，xxx_store_avg_visitors除month外做了恢复，看看效果，目前看效果更差了，应该还是因为增加了store维度后数据分布不均衡导致，去掉)；
 - 2020-01-10: 微积分(完成第四章多项式极限)、Recruit(开始考虑从reserve下手进行数据特征融合)；
 - 2020-01-11: 微积分(第五章连续性和可导性)；
-- 2020-01-12: Recruit(如何分别对visit和reserve进行fe后，再进行整合，要考虑清楚)、微积分(完成第五章连续性和可导性)、微积分(求解微分问题)；
+- 2020-01-12: Recruit(如何分别对visit和reserve进行fe后，再进行整合，要考虑清楚)、微积分(完成第五章连续性和可导性)、微积分(完成求解微分问题)；
 - 2020-01-13: Web Traffic Forecast(启动)；
