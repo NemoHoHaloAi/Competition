@@ -146,3 +146,6 @@ air光顾表中air店铺数量：829
 
 不再通过store&date链接visit和reserve，因为同样的store太少，如果通过date和店铺周围距离来链接，即对于visit中店铺A在日期2月3号的数据链接2在店铺A周围N米内的店铺(可能包含自身)在2月3号的各项reserve特征的统计值，比如count、mean等，这里计算量应该很大，需要考虑优化，在store数据最初，即计算在自己100米内的店铺的id，逗号拼接作为一个单独的特征，该特征传递到reserve中，在reserve中根据date分组后，每一组的每个store都可以找到自己100米内的店铺，取出来并在当前group中看有哪些store在自己100米内，取出，计算count、mean等数据，主要应该是count；
 
+1. visit中所有数据都链接到near_100的店铺信息；
+2. visit缺失填充时，near_100应该怎么填充，前向填充；
+3. 填充后可以通过这一信息以visit_date分组构建visit中每条数据对应的reserve信息；
