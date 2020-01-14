@@ -17,3 +17,8 @@
             - test：2017年9月13日至2017年11月13日，12号前提交，所以这部分是真实的未来数据
 - 结果：由key可以生成，其中Id对应submission的Id，后面的Page中包含了所需预测的日期，需要拆分出来；
 - [start with](https://www.kaggle.com/headsortails/wiki-traffic-forecast-exploration-wtf-eda)
+
+## 备注
+
+- 名称需要分割；
+- 考虑用传统模型对数据缺失进行填充：传统模型不依赖过多特征过多数据，传统模型都是针对某一个物品进行预测，也适合这里分别对各个文章进行填充的需求；
