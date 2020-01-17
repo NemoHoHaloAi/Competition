@@ -165,4 +165,4 @@ Learn theoretical knowledge about ML:
 - 2020-01-15: Recruit(就用1000，没有就定为0，先把整体流程跑起来)、Web Traffic(完成缺失填充部分，尽快提交第一版)；
 - 2020-01-16: Recruit(优化速度，现在预约信息部分耗时太长，想办法缩短，优化部分代码，目前可以执行，效果)；
 - 2020-01-17: 微积分(第七章三角函数的极限和导数)、WebTraffic(继续跟进)；
-- 2020-01-19: Recruit(完成)、WebTraffic(提交)、NFL(博客整理发出)；
+- 2020-01-19: Recruit(完成)、WebTraffic(提交)、NFL(博客整理发出)、微积分(第八、九、十章)；
