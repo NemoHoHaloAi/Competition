@@ -7,7 +7,7 @@
     
     解决方案：concat前统一类型即可；
     ```
-- category列concat后变为object
+- [category列concat后变为object](https://www.cnblogs.com/zry-yt/p/11803892.html#_label3_5)
     ```python
     blood_type1 = pd.Categorical(["A", "AB"]) 
     blood_type2 = pd.Categorical(["B", "O"]) 
