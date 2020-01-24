@@ -63,14 +63,19 @@ cycle time: from `2019-11-05` to `2019-11-30`;
         1. deathline: `2019-12-15`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Store-Item-Demand-Forecasting-Challenge)
         3. [notebook](https://www.kaggle.com/holoong9291/store-item-demand-predict)
-    - ![icon](https://img.shields.io/badge/doing|A-50%25-green)[Recruit Restaurant Visitor Forecasting](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
+    - ![icon](https://img.shields.io/badge/doing|A-70%25-green)[Recruit Restaurant Visitor Forecasting](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
         1. deathline: `2020-01-05`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Recruit-Restaurant-Visitor-Forecasting)
         3. [notebook](https://www.kaggle.com/holoong9291/recruit-restaurant-visitor-forecasting)
-    - ![icon](https://img.shields.io/badge/doing|A-1%25-green)[Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
+    - ![icon](https://img.shields.io/badge/doing|A-20%25-green)[Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
         1. deathline: `2019-01-15`;
         2. [github project link](xxxx)
         3. [notebook](https://www.kaggle.com/holoong9291/web-traffic-time-series-forecasting)
+    - ![icon](https://img.shields.io/badge/todo|A-0%25-orange)Walmart Recruiting one&two
+        1. [one](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/notebooks),[two](https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather/overview)
+    - ![icon](https://img.shields.io/badge/todo|A-0%25-orange)[Online Product Sales](https://www.kaggle.com/c/online-sales/overview)
+    - ![icon](https://img.shields.io/badge/todo|A-0%25-orange)Tourism Forecasting part one&two
+        1. [one](https://www.kaggle.com/c/tourism1/data),[two](https://www.kaggle.com/c/tourism2/leaderboard)
 4. ![icon](https://img.shields.io/badge/todo|B-0%25-orange) Build a notebook call time-series common workflow, and publish.
     1. deathline: `2019-01-20`
 5. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
