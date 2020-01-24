@@ -15,10 +15,77 @@ EDA输出：
 
 ![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-28-1.png)
 
-EDA原因：我们要预测的是2017年4月最后一周加5月，因此对2016年这段时间做可视化非常有意义，时序数据通常都存在周期相似性，尤其是对于黄金周等特殊时间段的理解格外有用；
+EDA原因：我们要预测的是2017年4月最后一周加5月，因此对2016年这段时间做可视化非常有意义，时序数据通常都存在周期相似性，尤其是对于黄金周等特殊时间段的理解格外有用，同样对更短的时间段做可视化也有助于我们确认周期性的最短时长；
 
 EDA输出：
 1. 这部分是2016年的4月最后一周加上5月；
 2. 从更光滑的蓝色线看出，按照一周的周期确实存在；
 3. 在4月29号到5月5号，这种周期性有些变化，这里对应着前面概述中的日本黄金周(连续一周时间内连续休息)，所以这里的周期性看起来被打乱；
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-29-1.png)
+
+EDA原因：预约数据的数据量非常大，但是无法直接用于训练，一定的可视化有助于我们了解预约和到店之间的关系，以及预约自身的数据特点；
+
+EDA输出：
+1. 对于air reserve数据，2016年前三季度预约数量很少，甚至一度为0(这里不清楚是因为什么)，第四季度开始提升，2017年保持较高的预约数，数据最后又**下降**；
+2. 预约用餐时间主要是晚上；
+3. 很有意思的是预约与到店的时间差有一个很特别的24小时周期性，大概意思可以这样理解，人们通常倾向于预约N\*24+1/2小时，例如预约1小时后，2小时候，25小时后，49小时后等等，恩恩，这倒是没想到；
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-31-1.png)
+
+EDA原因：跟上面可视化一样，不过这里是hpg reserve的数据；
+
+EDA输出(此处主要关注与air reserve的差异)：
+1. 没有一段连续为0的预约数据，这说明air reserve中那一段应该是因为某种原因，而不是正常为0；
+2. 同样在16年第四季度有提升，17年预约量比16年大，但是提升没有air那么明显；
+3. 数据的周期性更明显和整齐；
+4. 预约与到店时间差上看，24小时的周期性依然存在，但是能看到更长的时间差的量比air要多，也就是说hpg上人们更倾向于提前较长时间预约，而air上人们倾向于短时间内的预约；
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-35-1.png)
+
+EDA原因：店铺信息是一种分类的维度，可以有效的观察数据在该维度上是否平衡等，以及数据的偏向；
+
+EDA输出：
+1. 饭店类型分布上很不平衡，基本Top10占据了接近95%+的数据量；
+2. 饭店区域上类似；
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-36-1.png)
+
+EDA原因：放假(这里的holiday不包括周六周末)信息对预约、到店的影响都是显而易见的，上面已经看出周六周末比平时顾客要多；
+
+EDA输出：
+1. 假期时间占总时间的7%；
+2. 16年与17年在假期上是一致的，说明该信息可以多加利用，且对应17年的test的时间段，16年那一段的预约、到店信息需要深度使用；
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-38-1.png)
+
+EDA原因：展示训练与测试数据在时间维度上的前后关系；
+
+EDA输出：
+1. 训练数据总长度一年三个半月左右，从2016年1月开始，到2017年4月第3周；
+2. 测试数据为2017年4月最后一周，以及5月；
+3. 测试数据在2017年中的部分对应在2016年的部分是包含在训练集中的；
+4. 测试数据包含日本的黄金周连续假期，即2017年4月28到5月5号；
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-39-1.png)
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-40-1.png)
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-41-1.png)
+
+FE原因：查看holiday对visitors的直接影响；
+
+FE输出：
+1. 整体上看箱行图，影响不大，这可能是需要再增加维度，挖掘更细致的细节；
+2. 增加了周几作为维度后看到，假期的visitors总是大于非假期，除了周六这一天，最明显的是周一和周二；
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-42-1.png)
+
+FE原因：air饭店类型&区域的数量，观察这一对组合的数据分布情况在两个维度上；
+
+FE输出：有些区域有多种类型饭店，有些区域则只有部分类型，甚至一两个类型的饭店，对于饭店类型情况类似，有些饭店，例如caffe，到处都有，但是有些，例如asian则只有一个区域有两家，hpg与此类似；
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-44-1.png)
+
+![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-47-1.png)
 
