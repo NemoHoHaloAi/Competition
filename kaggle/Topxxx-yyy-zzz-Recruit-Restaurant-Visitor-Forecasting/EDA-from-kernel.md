@@ -1,6 +1,6 @@
 # EDA
 
-从这里也开始总结整理以下关于EDA的流程，最重要的是需要产出什么，来有效的服务于后续的特征工程、建模等部分；
+从这里开始总结整理关于EDA的流程，最重要的是需要产出什么，来有效的服务于后续的特征工程、建模等部分；
 
 ![](https://www.kaggleusercontent.com/kf/14193052/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-JztzEtAABmyrkm56lGsWg.cIKIED8Ln1JaLHHEWknw0JM4vGOytkPMsQMQDCRaA2PDHkRWqOJA6QKtxml72pXKwsz688RchbdQom-WjsdqycEGVS7UAHl9n2e-foL726CM4QnRwpVfJSQauuin4ltnWkubAbG0vYxYPOjZvwgFJOlDib4I598gvuE62X8O1e0.0I0BKd_aJNPzWLZfKKtVwg/__results___files/figure-html/unnamed-chunk-27-1.png)
 
