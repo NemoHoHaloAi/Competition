@@ -1,11 +1,5 @@
 # Kaggle
 
-整理5个Kaggle项目，进行总结归纳，尤其是数据分析、特征工程、工作流框架设计等部分；
-
-[AI研习社的kaggle相关文章](https://ai.yanxishe.com/page/search)
-[研习社文章](https://ai.yanxishe.com/page/blogDetail/7702)
-[冠军分享](https://ai.yanxishe.com/page/blogDetail/7716)
-
 一个项目流程：
 1. 完成Kaggle项目；
 2. 分享至Kaggle Kernel；
@@ -63,8 +57,8 @@ Kaggle 有一个非常厉害的功能：参与者可以提交 kernel，即用于
 但是，排名低真的没什么关系。没人会因此贬低你，因为他们曾经某个时候也是初学者。
 
 ## 目标
-1. 提交一个超越基准解决方案的方案 - [Titanic](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Top84%25-0.76555-zzz-Titanic):排名Top84%，[NFL Big Bowl](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Top61%25-0.01404-zzz-NFL-Big-Data-Bowl):排名Top61%；
-2. 在一场竞赛中进入排名前 50% - [House Price](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Top40%25-0.12847-zzz-House-Prices):Top40%，[Future Predict](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Top37%25-0.95-zzz-Future-Sales-Predict):Top37%；
+1. 提交一个超越基准解决方案的方案；
+2. 在一场竞赛中进入排名前 50%；
 3. 在一场竞赛中进入排名前 25%；
 4. 在三场竞赛中进入排名前 25%；
 5. 在一场竞赛中进入排名前 10%；
