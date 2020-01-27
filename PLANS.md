@@ -67,7 +67,7 @@ cycle time: from `2019-11-05` to `2019-11-30`;
         1. deathline: `2020-01-05`;
         2. [github project link](https://github.com/NemoHoHaloAi/Competition/tree/master/kaggle/Topxxx-yyy-zzz-Recruit-Restaurant-Visitor-Forecasting)
         3. [notebook](https://www.kaggle.com/holoong9291/recruit-restaurant-visitor-forecasting)
-    - ![icon](https://img.shields.io/badge/doing|A-20%25-green)[Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
+    - ![icon](https://img.shields.io/badge/doing|A-50%25-green)[Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
         1. deathline: `2019-01-15`;
         2. [github project link](xxxx)
         3. [notebook](https://www.kaggle.com/holoong9291/web-traffic-time-series-forecasting)
@@ -78,12 +78,12 @@ cycle time: from `2019-11-05` to `2019-11-30`;
         1. [one](https://www.kaggle.com/c/tourism1/data),[two](https://www.kaggle.com/c/tourism2/leaderboard)
 4. ![icon](https://img.shields.io/badge/todo|B-0%25-orange) Build a notebook call time-series common workflow, and publish.
     1. deathline: `2019-01-20`
-5. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales)
+5. ![icon](https://img.shields.io/badge/todo|B-33%25-green) [summary](https://github.com/NemoHoHaloAi/Competition/tree/master/memo/Time-Series) of time-series projects(House-Price, Rossmann, Predict-Future-Sales, etc.)
     1. deathline: `2019-12-20`;
     2. target: can throw into the introduction;
 6. ![icon](https://img.shields.io/badge/done|B-100%25-lightgrey) summary of time-series kernels(Time-Series projects)
     1. deathline: `2019-11-20`;
-7. ![icon](https://img.shields.io/badge/todo|B-0%25-orange) summary of time-series(All about Time-Series)
+7. ![icon](https://img.shields.io/badge/doing|B-0%25-green) summary of time-series(All about Time-Series)
     1. deathline: `2019-12-25`;
 8. ![icon](https://img.shields.io/badge/todo|S-0%25-orange) update introduction with some project, and add detail in project
     1. deathline: `2019-12-31`;
@@ -117,7 +117,7 @@ Learn theoretical knowledge about ML:
 目前最需要的是什么？
 1. 拿得出手的项目；
 2. 实际项目中遇到的问题、解决方案、各项技能知识；
-3. 基础知识；
+3. 理论知识；
 
 同时进行的事：NFL、KernelLearn、基石课程；
 
@@ -178,4 +178,4 @@ Learn theoretical knowledge about ML:
 - 2020-01-25: 微积分(第九章)、Recruit(在现有scripy基础上优化，观察特征重要性，尝试对date_int、part1的融合方法做改变，效果都不如原来)、用数据讲故事(60%)；
 - 2020-01-26: 实现武汉新型冠状病毒实时动态项目(目前beta1.0完成，先收集一段时间数据再来完善后续的)、Recruit(特征分析，结合EDA kernel、对script的fe进行分析，重点是EDA对FE的影响)；
 - 2020-01-27: Recruit(更新下competition仓库各种score、时间点等信息)、ASHRAE(跑出第一个分数)、计划接下来关于项目的安排、用数据讲故事(完成，写一篇总结文章，流水账形式，发布到博客园)；
-- 2020-01-28: 微积分(完成第九章，第十章)；
+- 2020-01-28: 整理一篇关于EDA和FE的文章(暂定基于Recruit项目)、时序项目问题总结、微积分(完成第九章，第十章)；
