@@ -4,7 +4,7 @@
 
 - 个人项目总结；
 - 理论知识博客、书、视频、文章；
-- [Data Science Glossary Session 7]()https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle
+- [Data Science Glossary Session 7](https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle)
 
 ## 总结内容概述
 
