@@ -18,5 +18,17 @@
     7. Pipeline
     8. Missing Values
 2. Dimentionality Reduction
+    1. Dataset Decomposition
+    2. PCA
+    3. Tsne
+    4. SVD
 3. Modelling
+    1. Cross Validation
+    2. Model Selection
+    3. Model Tuning
+    4. Grid Search
 4. Ensemblling
+    1. Ensembling
+    2. Stacking
+    3. Bagging
+    4. Blending
