@@ -182,5 +182,5 @@ Learn theoretical knowledge about ML:
 - 2020-01-31: 整理了EDA、FE以及EDA到FE的过程的kernel，对二者的分工、关系有更清晰的认识，之前的做法中有很多穿插的情况持续，明天后天两天会基于[TalkingData](https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection)欺诈检测项目做这一阶段的复习整理，算是学以致用；
 - 2020-02-01: TalkingData(开始项目，重点在EDA以及FE部分)
 - 2020-02-02: TalkingData(希望做的过程中对整个ML流程做一遍梳理，梳理可以基于Glossary的session 7)；
-- 2020-02-03: 整理时序项目问题总结；
+- 2020-02-03: 为每个项目的README增加项目简介说明部分、整理时序项目问题总结；
 - 2020-02-04: 微积分(完成第九章，第十章)；
