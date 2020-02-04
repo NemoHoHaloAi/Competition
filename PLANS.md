@@ -88,7 +88,9 @@ cycle time: from `2019-11-05` to `2019-11-30`;
 8. ![icon](https://img.shields.io/badge/todo|S-0%25-orange) update introduction with some project, and add detail in project
     1. deathline: `2019-12-31`;
     2. target: can give it to the interviewers and show my Time-Series skills;
-9. Kaggle micro-courses 翻译计划
+9. [Kaggle micro-courses](https://www.kaggle.com/learn/overview?utm_medium=email&utm_source=intercom&utm_campaign=nlp-course-launch)
+    1. introduction about machine learning 100%;
+    2. Intermediate Machine Learning 57%;
 
 ## PLAN-jaguar ![icon](https://img.shields.io/badge/doing|A-15%25-green)
 
@@ -184,5 +186,5 @@ Learn theoretical knowledge about ML:
 - 2020-02-01: NFL(EDA)
 - 2020-02-02: NFL(EDA完成基础部分)；
 - 2020-02-03: NFL(EDA完成单变量分析、缺失异常处理、部分变量挖掘)；
-- 2020-02-04: NFL(EDA深度挖掘，包括对于球队控制力热图部分)、kaggle练习；
+- 2020-02-04: NFL(EDA深度挖掘，包括对于球队控制力热图部分)、kaggle练习(基础介绍10%、中间57%)；
 - 2020-02-05: 微积分；
