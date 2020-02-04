@@ -88,6 +88,7 @@ cycle time: from `2019-11-05` to `2019-11-30`;
 8. ![icon](https://img.shields.io/badge/todo|S-0%25-orange) update introduction with some project, and add detail in project
     1. deathline: `2019-12-31`;
     2. target: can give it to the interviewers and show my Time-Series skills;
+9. Kaggle micro-courses 翻译计划
 
 ## PLAN-jaguar ![icon](https://img.shields.io/badge/doing|A-15%25-green)
 
