@@ -90,7 +90,8 @@ cycle time: from `2019-11-05` to `2019-11-30`;
     2. target: can give it to the interviewers and show my Time-Series skills;
 9. [Kaggle micro-courses](https://www.kaggle.com/learn/overview?utm_medium=email&utm_source=intercom&utm_campaign=nlp-course-launch)
     1. introduction about machine learning 100%;
-    2. Intermediate Machine Learning 57%;
+    2. Intermediate Machine Learning 100%;
+    3. Feature Engineering 100%;
 10. [武汉冠状病毒EDA](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)
     1. [notebook](https://www.kaggle.com/holoong9291/eda-and-pray-for-wuhan)
 
@@ -189,4 +190,4 @@ Learn theoretical knowledge about ML:
 - 2020-02-02: NFL(EDA完成基础部分)；
 - 2020-02-03: NFL(EDA完成单变量分析、缺失异常处理、部分变量挖掘)；
 - 2020-02-04: NFL(EDA深度挖掘，包括对于球队控制力热图部分)、kaggle练习(基础10%、中级57%)；
-- 2020-02-05: 武汉冠状病毒EDA(初版完成)、武汉冠状病毒(第二版数据采集完成)、NFL(控制力部分特征挖掘)、kaggle练习(中级)；
+- 2020-02-05: 武汉冠状病毒EDA(初版完成)、武汉冠状病毒(第二版数据采集完成)、NFL(控制力部分特征挖掘)、kaggle练习(中级100%、特征工程100%)；
