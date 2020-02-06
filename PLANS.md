@@ -186,8 +186,9 @@ Learn theoretical knowledge about ML:
 - 2020-01-27: Recruit(更新下competition仓库各种score、时间点等信息)、ASHRAE(跑出第一个分数)、计划接下来关于项目的安排、用数据讲故事(完成)；
 - 2020-01-29: 沿着Glossary的Session 7将各个部分总结复习一遍，总共4个小结，一个一个来，每一个都要有对应在summary下的产出；
 - 2020-01-31: 整理了EDA、FE以及EDA到FE的过程的kernel，对二者的分工、关系有更清晰的认识，之前的做法中有很多穿插的情况持续，明天后天两天会基于[TalkingData](https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection)欺诈检测项目做这一阶段的复习整理，算是学以致用；
-- 2020-02-01: NFL(EDA)
+- 2020-02-01: NFL(EDA)；
 - 2020-02-02: NFL(EDA完成基础部分)；
 - 2020-02-03: NFL(EDA完成单变量分析、缺失异常处理、部分变量挖掘)；
 - 2020-02-04: NFL(EDA深度挖掘，包括对于球队控制力热图部分)、kaggle练习(基础10%、中级57%)；
-- 2020-02-05: 武汉冠状病毒EDA(初版完成)、武汉冠状病毒(第二版数据采集完成)、NFL(控制力部分特征挖掘)、kaggle练习(中级100%、特征工程100%)；
+- 2020-02-05: 武汉冠状病毒EDA(初版完成)、武汉冠状病毒(第二版数据采集完成)、NFL(控制力部分特征挖掘)、kaggle练习(中级100%、特征工程90%)；
+- 2020-02-06: kaggle练习(特征工程100%)、项目README整理、Glossary；
