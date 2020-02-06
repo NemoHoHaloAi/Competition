@@ -92,7 +92,11 @@ cycle time: from `2019-11-05` to `2019-11-30`;
     1. introduction about machine learning 100%;
     2. Intermediate Machine Learning 100%;
     3. Feature Engineering 100%;
-10. [武汉冠状病毒EDA](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)
+10. [glossary](https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle)
+    1. EDA、EDA-FE；
+    2. FE；
+    3. Feature Selection；
+11. [武汉冠状病毒EDA](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)
     1. [notebook](https://www.kaggle.com/holoong9291/eda-and-pray-for-wuhan)
 
 ## PLAN-jaguar ![icon](https://img.shields.io/badge/doing|A-15%25-green)
@@ -191,4 +195,4 @@ Learn theoretical knowledge about ML:
 - 2020-02-03: NFL(EDA完成单变量分析、缺失异常处理、部分变量挖掘)；
 - 2020-02-04: NFL(EDA深度挖掘，包括对于球队控制力热图部分)、kaggle练习(基础10%、中级57%)；
 - 2020-02-05: 武汉冠状病毒EDA(初版完成)、武汉冠状病毒(第二版数据采集完成)、NFL(控制力部分特征挖掘)、kaggle练习(中级100%、特征工程90%)；
-- 2020-02-06: kaggle练习(特征工程100%)、项目README整理、Glossary；
+- 2020-02-06: kaggle练习(特征工程100%，数据可视化100%)、项目README整理、Glossary（完成特征选择部分）；
