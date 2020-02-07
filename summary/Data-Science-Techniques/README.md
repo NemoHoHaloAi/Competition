@@ -32,7 +32,4 @@
     2. Stacking
     3. Bagging
     4. Blending
-
-## 高级
-
-1. Time Series:
+5. Time Series:
