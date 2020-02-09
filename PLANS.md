@@ -197,4 +197,4 @@ Learn theoretical knowledge about ML:
 - 2020-02-05: 武汉冠状病毒EDA(初版完成)、武汉冠状病毒(第二版数据采集完成)、NFL(控制力部分特征挖掘)、kaggle练习(中级100%、特征工程90%)；
 - 2020-02-06: kaggle练习(特征工程100%)、Glossary（完成特征选择部分）；
 - 2020-02-07: kaggle练习(micro-competition100%)；
-- 2020-02-09: 项目README整理、武汉冠状病毒预测；
+- 2020-02-09: 项目README整理、武汉冠状病毒预测(prophet完成，博客分享到cnblog)；
