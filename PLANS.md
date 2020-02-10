@@ -198,4 +198,4 @@ Learn theoretical knowledge about ML:
 - 2020-02-06: kaggle练习(特征工程100%)、Glossary（完成特征选择部分）；
 - 2020-02-07: kaggle练习(micro-competition100%)；
 - 2020-02-09: 项目README整理、武汉冠状病毒预测(prophet完成，博客分享到cnblog)；
-- 2020-02-10: 做什么()；
+- 2020-02-10: 分享数据集到kaggle、()；
