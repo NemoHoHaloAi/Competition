@@ -88,16 +88,23 @@ cycle time: from `2019-11-05` to `2019-11-30`;
 8. ![icon](https://img.shields.io/badge/todo|S-0%25-orange) update introduction with some project, and add detail in project
     1. deathline: `2019-12-31`;
     2. target: can give it to the interviewers and show my Time-Series skills;
-9. [Kaggle micro-courses](https://www.kaggle.com/learn/overview?utm_medium=email&utm_source=intercom&utm_campaign=nlp-course-launch)
+
+## PLAN-panda ![icon](https://img.shields.io/badge/doing|S-30%25-green)
+1. [Kaggle micro-courses](https://www.kaggle.com/learn/overview?utm_medium=email&utm_source=intercom&utm_campaign=nlp-course-launch)
     1. introduction about machine learning 100%;
     2. Intermediate Machine Learning 100%;
     3. Feature Engineering 100%;
-10. [glossary](https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle)
+2. [glossary](https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle)
     1. EDA、EDA-FE；
     2. FE；
     3. Feature Selection；
-11. [武汉冠状病毒EDA](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)
+3. [武汉冠状病毒EDA](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)
     1. [notebook](https://www.kaggle.com/holoong9291/eda-and-pray-for-wuhan)
+    2. 分享已经分享到[博客园](https://www.cnblogs.com/helongBlog/p/12287637.html)
+    3. 数据分享到kaggle，目前上传失败；
+4. [2019数据科学碗](https://www.kaggle.com/c/data-science-bowl-2019)
+    1. [Github项目地址]()
+    2. [notebook地址]()
 
 ## PLAN-jaguar ![icon](https://img.shields.io/badge/doing|A-15%25-green)
 
@@ -198,5 +205,5 @@ Learn theoretical knowledge about ML:
 - 2020-02-06: kaggle练习(特征工程100%)、Glossary（完成特征选择部分）；
 - 2020-02-07: kaggle练习(micro-competition100%)；
 - 2020-02-09: 项目README整理、武汉冠状病毒预测(prophet完成，博客分享到cnblog)；
-- 2020-02-10: 分享数据集到kaggle(移到[新仓](https://github.com/NemoHoHaloAi/Wuhan-Novel-Corona-Virus-2019)，发布失败，求助中)、拖延心理学(完成第一部分：拖延vs行为，进入第二部分：拖延vs心理)、后续计划(kaggle机器学习与数据科学调查分析)；
-- 2020-02-11: kaggle机器学习与数据科学调查分析()；
+- 2020-02-10: 分享数据集到kaggle(移到[新仓](https://github.com/NemoHoHaloAi/Wuhan-Novel-Corona-Virus-2019)，发布失败，求助中)、拖延心理学(完成第一部分：拖延vs行为，进入第二部分：拖延vs心理)、后续计划(2019数据科学碗)；
+- 2020-02-11: 2019数据科学碗(Go)；
