@@ -4,7 +4,7 @@
 
 ## Chapter 2 - 随机森林
 
-## Chapter 3 - Lightgbm
+## Chapter 3 - LightGBM
 
 ## Chapter 4 - GBDT
 
