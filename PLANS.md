@@ -208,4 +208,4 @@ Learn theoretical knowledge about ML:
 - 2020-02-10: 分享数据集到kaggle(移到[新仓](https://github.com/NemoHoHaloAi/Wuhan-Novel-Corona-Virus-2019)，发布失败，求助中)、拖延心理学(完成第一部分：拖延vs行为，进入第二部分：拖延vs心理)、后续计划(2019数据科学碗)；
 - 2020-02-12: 基于Glossary的算法整理；
 - 2020-02-14: 在线离线的简历整理；
-- 2020-02-15: 武汉冠状病毒数据上传kaggle；
+- 2020-02-15: 武汉冠状病毒数据上传kaggle、NCAA疯狂三月EDA；
