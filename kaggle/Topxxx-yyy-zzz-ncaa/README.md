@@ -12,7 +12,7 @@
 
 1. 18年女子组的raddar的分享是第一名的主要基础；
 2. 运气对结果印象很大，模型选择上偏保守，利用了一些首轮信息；
-3. 原来的raddar的模型中对于种子的策略，即1~4号种子，百分百击败13~16号种子，该kernel没有采用这种规则，他认为这在男子组中会出现较多意外情况，即黑马；
+3. 原来的raddar的模型中对于种子的策略，即1,2,3,4号种子，百分百击败13,14,15,16号种子，该kernel没有采用这种规则，他认为这在男子组中会出现较多意外情况，即黑马；
 4. 最终结果中，对于3场首轮比赛，选择指定某只球队100%会赢的方式，使得排名大幅提供，最终夺冠，而作者也说明了，同样方式，在女子比赛中完全不适用，说明这个trick要小心使用；
 5. [ncaa2019第一名的R脚本](https://github.com/salmatfq/KaggleMarchMadnessFirstPlace/blob/master/win_ncaa_men.R)
 6. [raddar的nacc2018](https://www.kaggle.com/raddar/paris-madness)
