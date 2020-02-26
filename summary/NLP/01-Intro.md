@@ -23,3 +23,5 @@
 2. 向其中add需要识别的短语模式。
 3. 对文本进行识别。
 4. 返回结果为三部分：vocad id，匹配位置的开始和结束。
+
+## [练习](https://www.kaggle.com/holoong9291/exercise-intro-to-nlp)
