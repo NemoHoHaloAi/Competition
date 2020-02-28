@@ -19,4 +19,4 @@ notebook：https://www.kaggle.com/holoong9291/eda-ion-switching
 0. 考虑使用ARIMA模型进行预测：
     1. 计算数据自相关与偏自相关；
 1. 不同的batch应该分开考虑设计特征：
-    1. batch内部的signal统计信息丰富化，目前baseline中主要是window相关，这里我们可以做lag相关、整体平均值等等；
+    1. batch内部的signal统计信息丰富化，目前baseline中主要是window相关，这里我们可以做lag相关、batch平均值中位数等等；
