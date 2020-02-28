@@ -21,3 +21,9 @@ notebook：https://www.kaggle.com/holoong9291/eda-ion-switching
 1. 不同的batch应该分开考虑设计特征：
     1. batch内部的signal统计信息丰富化，目前baseline中主要是window相关，这里我们可以做lag相关、batch平均值中位数等等；
 2. window操作同样放到每个batch中进行，目前的做法是统一进行的，我认为这会为这一系列特征引入噪声，因为计算的基础中有来自不同的batch的原始数据；
+
+## 版本
+
+- baseline：保持不变。
+- B：增加signal的统计特征(signal_mean 	signal_median 	signal_std 	signal_var 	signal_min 	signal_max)。
+- C：window处理分batch进行。
