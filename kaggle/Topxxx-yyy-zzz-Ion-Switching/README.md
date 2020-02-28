@@ -27,4 +27,4 @@ notebook：https://www.kaggle.com/holoong9291/eda-ion-switching
 - baseline：保持不变。
 - B：增加signal的统计特征(signal_mean 	signal_median 	signal_std 	signal_var 	signal_min 	signal_max)。
 - C：window处理分batch进行。
-- D：考虑对nan的填充方式进行完善，之前是0，感觉填充0在业务意义上不合理，可以考虑mean。
+- D：调整window size，考虑对nan的填充方式进行完善，之前是0，感觉填充0在业务意义上不合理，可以考虑mean。
