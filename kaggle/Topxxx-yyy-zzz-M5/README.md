@@ -23,6 +23,8 @@ submission：每一行有29列，第一项表示商品&商店，其余项每一�
 
 ### EDA+baseline
 
-1. baseline with prophet
+0. EDA 中英文
+1. [baseline with prophet 中英文](https://www.kaggle.com/holoong9291/simple-baseline-with-prophet-en)
+2. baseline with ml 中英文
 
 ## 不确定分布预测
