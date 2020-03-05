@@ -23,8 +23,43 @@ submission：每一行有29列，第一项表示商品&商店，其余项每一�
 
 ### EDA+baseline
 
-0. EDA 中英文
+0. [EDA 中英文](https://www.kaggle.com/holoong9291/eda-for-m5-en)
 1. [baseline with prophet 中英文](https://www.kaggle.com/holoong9291/simple-baseline-with-prophet-en)
-2. baseline with ml 中英文
+2. [baseline with ml](https://www.kaggle.com/holoong9291/baseline-with-ml)
+
+### BASELINE 分析
+
+#### Base on Prophet
+
+目前没有进行参数调优，仅针对不同的数据集大小进行训练，包括最近一年、全部、最近两年(训练中)；
+
+#### Base on ML
+
+Base on 一个public的kernel，LB为0.84918，目前开放kernel中最好的分数；
+
+流程整理：
+1. 数据整理：
+    1. 数据加载；
+    2. 数据结构调整及合并，同时进行数据大小压缩；
+    3. 最终结构：31681090 rows and 18 columns；
+2. 转换：
+    1. 以“unknown”填充事件相关4个字段的缺失；
+    2. copy id字段，并label encode处理；
+    3. 所有id和event字段做label处理；
+3. FE:
+    1. 需求的lag、rolling特征；
+    2. 价格的rolling、lag、change特征；
+    3. 基础的时间数据提取；
+4. 训练模型：
+    1. 模型选择lgb；
+    2. round 2500, early stop 50；
+5. 预测并生成结果文件；
+
+优化：
+1. FE部分：
+    1. 平均编码特征，例如每天平均商品销量，结合各个维度，例如商店、州、其他id等；
+    2. 趋势特征，包括商品销量趋势以及价格趋势；
+    3. 第一次、上一次售出时间长度；
+    4. xxxxx；
 
 ## 不确定分布预测
